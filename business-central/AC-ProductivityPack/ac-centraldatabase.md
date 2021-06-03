@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, additional functions
 ms.author: v-makune
 ---
-# Centrální číselníky
+# Central database
 
-**Viz také**
+**See Also**
 
-[Centrální číselníky - nastavení](ac-centraldatabase-setup.md)  
+[Central database - Serup](ac-centraldatabase-setup.md)  
 [Productivity Pack](ac-productivity-pack.md)

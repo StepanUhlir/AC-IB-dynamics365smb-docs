@@ -67,75 +67,29 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="ac---slovak-legislative-pack">AC - Slovak Legislative Pack</h1>
+<h1 id="export-účetní-zavěrky---sk---nastavení">Export účetní zavěrky - SK - nastavení</h1>
 
-<p>The Slovak Localization module complements the Dynamics 365 Business Central CZ system with functionalities to support Slovak legislation. For the most part, the Czech functionality also covers Slovak legislative requirements. This module then complements only the differential functionalities, to cover the specific requirements of Slovak legislation.</p>
-<table>
-<thead>
-<tr>
-<th>See</th>
-<th>also</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Export of Statutory Statements - Balance Sheet and Profit and Loss Statement</td>
-<td><a href="ac-sk-balance-sheet-income-statement.html">Balance Sheet and Profit and Loss Statement</a></td>
-</tr>
-<tr>
-<td>Statutory Statement Export Settings - Balance Sheet and Profit and Loss Statement.</td>
-<td><a href="ac-sk-balance-sheet-income-statement-setup.html">Statutory Statements - Settings</a></td>
-</tr>
-<tr>
-<td>Processing and Exporting a VAT Statement.</td>
-<td><a href="ac-sk-vat-statement-export.html">VAT Statement</a></td>
-</tr>
-<tr>
-<td>VAT Report Settings.</td>
-<td><a href="ac-sk-vat-statement-setup.html">VAT Report Settings</a></td>
-</tr>
-<tr>
-<td>Processing and exporting VAT Control Report.</td>
-<td><a href="ac-sk-vat-check-report-export.html">VAT Control Report</a></td>
-</tr>
-<tr>
-<td>VAT Control Report Settings</td>
-<td><a href="ac-sk-vat-check-report-setup.html">VAT Control Report Settings</a></td>
-</tr>
-<tr>
-<td>Intrastat export</td>
-<td><a href="ac-sk-intrastat.html">Intrastat</a></td>
-</tr>
-<tr>
-<td>Export of the Summary Report.</td>
-<td><a href="ac-sk-vies.html">VIES</a></td>
-</tr>
-<tr>
-<td>SEPA payment settings.</td>
-<td><a href="ac-sk-sepa.html">SEPA payments</a></td>
-</tr>
-<tr>
-<td>Setting the ECB exchange rate shift date.</td>
-<td><a href="ac-sk-ECB.html">ECB</a></td>
-</tr>
-<tr>
-<td>Import of data for business entities for which there were grounds for deregistration of value added tax payer.</td>
-<td><a href="ac-sk-unreability-payer.html">Institute of unreliability of the payer</a></td>
-</tr>
-<tr>
-<td>Reconciliation of customer and vendor balance</td>
-<td><a href="ac-sk-balance-reconciliation.html">Reconciliation of the balance</a></td>
-</tr>
-<tr>
-<td>Application of tax depreciation according to the number of calendar months according to the Income Tax Act.</td>
-<td><a href="ac-sk-tax-depreciation.html">Tax depreciation</a></td>
-</tr>
-</tbody>
-</table>
+<p>Pro definování statutárních výkazů slovenské legislativy (Rozvahy a Výkazu zisků a ztrát) je v systému D365 BC využívána standartní funkčnost účetních schémat doplněná o úpravy, které umožňují import účetní závěrky na portál Finanční správy SR prostřednictvím .xml souboru.</p>
+<p>Pro zajištění exportu účetní závěrky je potřeba nastavit několik níže uvedených oblastí.</p>
+<h2 id="rozlišení-schémat-pro-vybranou-zemi">Rozlišení schémat pro vybranou zemi</h2>
+<p>Pole <strong>Přiřazeno legislativě</strong> v přehledu účetních schémat slouží pro rozlišení českých a slovenských statutárních výkazů.</p>
+<ol>
+<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Účetní schémata</strong> a poté vyberte související odkaz.</li>
+<li>Ve sloupci <strong>Přiřazeno legislativě</strong> vyberte <strong>SK</strong> pro slovenské statutární výkazy.</li>
+</ol>
+<h2 id="mapování-souborů-účetních-schémat">Mapování souborů účetních schémat</h2>
+<p>Pro jednotlivé buňky účetního schématu je potřeba nastavit příslušné hodnoty elementů xml souboru dle pokynů technické dokumentace. Pro každý řádek výkazu je nutné nastavit mapování běžného i minulého období.</p>
+<ol>
+<li>Vyberte ikonu <img src="media/ui-search/search_small.png" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong>Účetní schémata</strong> a poté vyberte související odkaz.</li>
+<li>Na kartě <strong>Účetní schémata</strong> zvolte akci <strong>Proces</strong> a funkci <strong>Upravit účetní schéma</strong>.</li>
+<li>Na kartě vybraného <strong>Účetního schématu</strong> zvolte tlačítko <strong>Akce</strong> a poté v sekci <strong>Další</strong> vyberte funkci <strong>Mapování souborů</strong>.</li>
+<li>Na kartě <strong>Mapování souborů účetního schématu</strong> v poli <strong>Typ mapování</strong> vyberte hodnotu Xml. Do polí účetního schématu zadejte odpovídající hodnoty elementů podle technických požadavků šablony xml.</li>
+<li>Po úpravách kartu zavřete.</li>
+</ol>
 <h2 id="see-also">See also</h2>
-<p><a href="../index.html">AUTOCONT Solution</a><br>
-<a href="../AC-FinancialPack/ac-finance-pack.html">Financial Pack</a><br>
-<a href="../AC-ProductivityPack/ac-productivity-pack.html">Productivity Pack</a></p>
+<p><a href="../index.html">AUTOCONT Řešení</a><br>
+<a href="ac-sk-legislative-pack.html">SK Legislativní balíček</a><br>
+<a href="ac-sk-balance-sheet-income-statement.html">Export účetní závěrky - SK</a></p>
 </article>
           </div>
           
@@ -144,7 +98,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-SK/ac-sk-legislative-pack.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-SK/ac-sk-balance-sheet-income-statement-setup.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
                   </li>
                 </ul>
               </div>

@@ -26,7 +26,7 @@ Pole **Přiřazeno legislativě** v přehledu účetních schémat slouží pro 
 
 ## Mapování souborů účetních schémat
 
- Pro jednotlivé buňky účetního schématu je potřeba nastavit příslušné hodnoty elementů xml souboru dle pokynů technické dokumentace. Pro každý řádek výkazu je nutné nastavit mapování běžného i minulého období.
+Pro jednotlivé buňky účetního schématu je potřeba nastavit příslušné hodnoty elementů xml souboru dle pokynů technické dokumentace. Pro každý řádek výkazu je nutné nastavit mapování běžného i minulého období.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Účetní schémata** a poté vyberte související odkaz.
 2. Na kartě **Účetní schémata** zvolte akci **Proces** a funkci **Upravit účetní schéma**.
@@ -34,7 +34,7 @@ Pole **Přiřazeno legislativě** v přehledu účetních schémat slouží pro 
 4. Na kartě **Mapování souborů účetního schématu** v poli **Typ mapování** vyberte hodnotu Xml. Do polí účetního schématu zadejte odpovídající hodnoty elementů podle technických požadavků šablony xml.
 5. Po úpravách kartu zavřete.
 
-## Viz také
+## See also
 
 [AUTOCONT Řešení](../index.md)  
 [SK Legislativní balíček](ac-sk-legislative-pack.md)  

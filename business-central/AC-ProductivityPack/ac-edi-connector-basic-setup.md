@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, EDI Connector, additional functions
 ms.author: v-makune
 ---
-# EDI Connector - Setup
+# EDI konektor základ - nastavení
 
-**See Also**
+**See also**
 
-[EDI Connector](ac-edi-connector-basic.md)  
+[EDI konektor základ](ac-edi-connector-basic.md)  
 [Productivity Pack](ac-productivity-pack.md)

@@ -11,10 +11,20 @@ ms.search.keywords: klicova slova,
 ms.date: 01/31/2020
 ms.author: AC MartinKunes
 ---
-# Pack Tracking - Return Packing - Setup
+# Evidence vratných obalů (Vratné obaly) - Nastavení
 
 
-## See Also  
+Jednoduchý popis vybrané kapitoly tématu.
 
-[Pack Tracking - Return Packing](ac-pack-tracking-return-packing.md)  
-[Financial Pack](ac-finance-pack.md)  
+## Podkapitola tématu
+
+Detailní popis podkapitol. Může zde být i postup nastavení nebo použití. Také se nadpisy kde se nachází jeden # se přenáší do náhledové tabulky "In this article"
+
+### Detail podkapitoly
+
+Určeno pro detailní informace, pokud by se exitovala ještě hlubší podkapitola.
+
+**See also**
+
+[Evidence vratných obalů (Vratné obaly)](ac-pack-tracking-return-packing.md)  
+[Financial Pack](ac-finance-pack.md)

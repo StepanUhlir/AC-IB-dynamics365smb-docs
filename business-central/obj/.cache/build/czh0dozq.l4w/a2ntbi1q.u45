@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>HelpDesk </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="HelpDesk ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="helpdesk" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="10">HelpDesk</h1>
+
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="12">Modul Helpdesk slouží k centralizovanému zadávání, evidenci, zpracování a vyhodnocování různých požadavků uživatelů v systému Microsoft Dynamics 365 Business Central. Uživatelé zde mohou zadávat požadavky na servisní úkony, na poskytnutí podpory, úpravu nebo doplnění funkcionality, evidovat reklamace a podobně. Umožňuje také kategorizaci požadavků, nastavení priorit a řízené zpracování přiřazenými řešiteli. K dispozici je i historie uzavřených požadavků HelpDesku.</p>
+<h2 id="založení-požadavku" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="14">Založení požadavku</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="16">Po provedení potřebných nastavení lze zadávat požadavky HelpDesku. Požadavky lze zadávat ručně nebo prostřednictvím Průvodce vytvořením požadavku. Povinnost použití průvodce lze definovat v <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="16">Nastavení helpdesku</strong> zaškrtnutím políčka <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="16">Nový helpdesk pomocí průvodce</strong>. Pro více informací o nastavení HelpDesku navštivte <a href="ac-helpdesk-setup.html" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="16">HelpDesk - Nastavení</a>.</p>
+<h3 id="založení-požadavku-pomocí-průvodce-vytvořením-požadavku" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="18">Založení požadavku pomocí Průvodce vytvořením požadavku</h3>
+<ol sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="19">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="19">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="19" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="19">Nový požadavek</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="20">Prvním krokem v průvodci je určení <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="20">Kódu zadavatele</strong> a <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="20">Priority požadavku</strong>. (Obě pole jsou povinná - nelze pokračovat bez vyplnění obou hodnot.)</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="21">Dalším krokem je zadání <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="21">stručného popisu požadavku</strong> (nadpis) a <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="21">popisu požadavku</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="22">Pak je možné zvolit nastavení do předem definovaných kategorií (1-3). Po vhodném výběru klikněte na možnost <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="22">Dalsí</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="23">V dalším kroku průvodce se nachází volba <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="23">Publikovat dokumenty</strong>. Po výběre této možnosti se automaticky spustí průvodce publikováním. Publikování dokumentu vyžaduje modul <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="23">Publikování SharePoint</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="24">Posledím krokem je tlačítko <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="24">Dokončit</strong>, pomocí kterého vytvoříte zadaný požadavek.</li>
+</ol>
+<h2 id="požadavky-helpdesku" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="26">Požadavky Helpdesku</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="27">Přehled helpdesk požadavků lze zobrazit následovně:</p>
+<ol sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="29">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="29">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="29" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="29">Seznam helpdesk požadavků</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="30">Pokud klikněte na Číslo požadavku v seznamu požadavků, zobrazí se příslušná karta požadavku.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="32">Karta helpdesk požadavku zobrazuje relevantní informace vztahující se ke zvolenému požadavku. Údaje v bílých polích lze editovat (např. je možné doplnit prioritu dispečera, upravit data odezvy či řešení, event. změnit zařazení do kategorií na záložce Kategorie).</p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Požadavek lze také přidělit k určitému projektu. Pokud příslušný projekt ještě neexistuje je možné jej vytvořit přímo z karty požadavku na záložce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Akce</strong> pomocí tlačítka <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Vytvoř projekt</strong>. Touto operací je založen nový projekt se stejným kódem jako je číslo požadavku (i se stejným popisem) a tento kód se automaticky doplní do pole <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Číslo projektu</strong>. Kartu přiřazeného projektu a jeho položky lze pak zobrazit pomocí funkce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Karta projektu</strong> v záložce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Navigace</strong> pomocí možnosti <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="34">Helpdesk požadavek</strong>.</p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="36">Na záložce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="36">Řádky</strong> se po založení požadavku objeví nový záznam s výchozím stavem podle definice v šabloně workflow pro helpdesk. Při každé další změně stavu workflow požadavku se, v případě že máte pro tento stav nastavenu <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="36">Akci Workflow logování</strong> (52068291 WriteStatusChangeHlpDesk), vygeneruje další řádek s odpovídajícími hodnotami (viz podrobnější popis níže u zpracování požadavku).</p>
+<h3 id="poznámky-k-požadavku" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="38">Poznámky k požadavku</h3>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="40">Ke každému vytvořenému požadavku je možné doplnit poznámky. První vstup do poznámek je možný už při vytváření požadavku v Průvodci, jak bylo popsáno výše.
+Uživatelé mohou využívat 2 formy poznámek:</p>
+<ul sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="42">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="42">řádkové poznámky dostupné na záložce Řádky poznámek – tyto strukturované poznámky obsahují pole Datum, Poznámka (100 znaků) a Kód.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="43">volné poznámky dostupné na záložce Detailní údaje – tyto poznámky umožňují zadávat libovolný text, který může být navíc zobrazen v informačním okně v záložce Detaily.</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="45">(media/ui-search/search_small.png &quot;Řekněte mi, co chcete dělat&quot;)</p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="47">Je na rozhodnutí správce, která forma poznámek bude v rámci celé firmy využívána.</p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="49"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="49">Dokumenty</strong></p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="51">Pokud je instalován modul Publikování SharePoint, pak je možné u každého požadavku v Přehledu helpdesk požadavků na záložce Akce pomocí tlačítka Publikovat publikovat dokument a pomocí tlačítka Zobrazit zobrazit publikovaný dokument. Podrobnější popis postupu nastavení a práce při publikování a zobrazování dokumentů je v manuálu k modulu Publikování SharePoint.</p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="53"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="53">Tisk</strong></p>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="55">Pomocí tlačítka Tisk v Přehledu helpdesk požadavků se spustí sestava Helpdesk požadavky (do vstupního filtru se nabídne číslo aktuálně zobrazeného požadavku, rozsah tisku lze pak blíže specifikovat prostřednictvím filtrů a parametrů.</p>
+<h2 id="zpracování-požadavku" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="57">Zpracování požadavku</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="59">Po vytvoření požadavku je možné jej dále zpracovávat. K tomu se na Kartě helpdesk požadavku využívá především záložka <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="59">Řešení</strong>.</p>
+<ol sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="61">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="61">Otevřít kartu požadavku.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="62">Rozbalit/otevřít záložku <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="62">Řešení</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="63">Vyplnit potřebné údaje:
+<ul sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="64">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="64"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="64">Kód řešení</strong> (vybírá se z předdefinované tabulky možných způsobů řešení)</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="65"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="65">Trvání</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="66"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="66">Popis řešení</strong> (max. 250 znaků)</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="67"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="67">Kód dalšího řešitele</strong></li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="68">Po zadání dat je potřeba změnit stav požadavku pomocí funkce** Změna stavu** v ribbonu.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="69">Po změně na vybrat daný <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="69">stav workflow</strong> (viz. definice stavu WF)</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="70">Dokončit potvrzením OK.
+Pokud uživatel chce, může vygenerovat požadavky do PDF. Tento soubor lze později připojit jako přílohu e-mailu.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="72">Na kartě požadavku v ribbonu sekci Akce použít funkci <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="72">Export PDF a mail</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="73">Zavřít kartu pomocí OK.</li>
+</ol>
+<h2 id="pult-dispečera" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="75">Pult dispečera</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="77">Pult dispečera umožňuje souhrnný pohled na zadané požadavky. Tato volba HelpDesku nabízí přehledové zobrazení požadavků s přednastavenými volitelnými filtry v záhlaví pro snadnější vyhledávání a orientaci. Požadavky lze filtrovat např. podle stavu, podle uživatele, zadavatele, řešitele či podle kategorií. Zobrazený přehled požadavků je možno navíc seřadit podle různých klíčů, zvl. podle čísla, priority, stavu workflow nebo kategorií.</p>
+<ol sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="79">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="79">Pomocí vyhledávací funkce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="79">Řekněte mi, co chcete udělat (Alt + Q)</strong> vyhledejte <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="79">Pult dispečera helpdesku</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="80">Vybrat daný požadavek</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="81">Otevřít se karta požadavku</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="82">Zavřít pomocí OK</li>
+</ol>
+<h2 id="priorita-požadavku" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="84">Priorita požadavku</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="86">Jedním z nejdůležitějších kritérií pro rozhodování o plánování a  koordinaci kapacit na řešení požadavků je stupeň naléhavosti, s jakou je nutno se tím kterým požadavkem zabývat. Významnou pomůckou dispečera v tomto procesu může být ukazatel celkové priority požadavku, jak byl vypočítán programem na základě vstupních parametrů:</p>
+<ul sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="87">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="87">Váha oprávněné osoby, tj. zadavatele požadavku</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="88">Priorita požadavku stanovená zadavatelem při vytváření</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="89">Priorita požadavku stanovená dispečerem helpdesku při event. následném přehodnocení důležitosti požadavku.</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="91"><strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="91">Celková priorita je vypočtena jako</strong>:</p>
+<ul sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="92">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="92">součin hodnot Váha zadavatele (hodnota na kartě příslušné oprávněné osoby) a Priorita požadavku stanovené zadavatelem pokud dispečer nestanoví jinou prioritu (tj. priorita dispečera je nevyplněna)</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="93">součin hodnot Váha zadavatele a Priorita požadavku stanovené dispečerem (tj. priorita dispečera je vyplněna)</li>
+</ul>
+<h2 id="sestavy" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="95">Sestavy</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="97">Nabídka tiskových sestav přiřazených modulu HelpDesk.</p>
+<ol sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="98">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="98">Pomocí vyhledávací funkce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="98">Řekněte mi, co chcete udělat (Alt + Q)</strong> vyhledejte <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="98">Helpdesk - Sestavy a Analýzy</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="99">Podle zadaných filtrů se vytisknou jednotlivé karty požadavků, zpožděné požadavky a seznam helpdesk požadavků.</li>
+</ol>
+<h2 id="export-helpdesk-požadavků" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="101">Export HelpDesk požadavků</h2>
+<ol sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="103">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="103">Pomocí vyhledávací funkce <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="103">Řekněte mi, co chcete udělat (Alt + Q)</strong> vyhledejte <strong sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="103">Export helpdesk požadavků</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="104">Vyplnit vstupní filtry reportu.
+<ul sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="105">
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="105">Číslo, Nový požadavek, Uzavřený požadavek</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="106">Potvrďte pomocí OK.</li>
+</ol>
+<h2 id="see-also" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="108">See also</h2>
+<p sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="109"><a href="ac-helpdesk-setup.html" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="109">HelpDesk - nastavení</a><br>
+<a href="ac-productivity-pack.html" sourcefile="AC-ProductivityPack/ac-helpdesk.md" sourcestartlinenumber="110">AC Productivity Pack</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-helpdesk.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </div></div></body>
+</html>

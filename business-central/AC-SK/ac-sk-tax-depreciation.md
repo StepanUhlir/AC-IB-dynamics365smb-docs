@@ -25,13 +25,13 @@ Podle Zákona o dani z príjmov č. 595/2003 Z. z  může daňovník uplatnit ro
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **SK výpočet odpisů** a poté vyberte související odkaz.
 2. Do polí zobrazeného okna zadejte parametry pro odepisování.
-Neaktivujte pole **Použít počet dní platnosti** a nezadávejte hodnotu do pole **Počet dní platnosti**.
+   Neaktivujte pole **Použít počet dní platnosti** a nezadávejte hodnotu do pole **Počet dní platnosti**.
 3. Potvrďte pomocí **OK**.
 
 > [!NOTE]
 > Na **Kartě DM** v daňové **Knize odpisů DM** zadejte do pole **Počáteční datum odepisování** vždy první den v měsíci.
 
-## Viz také
+## See also
 
 [AUTOCONT Řešení](../index.md)  
 [SK Legislativní balíček](ac-sk-legislative-pack.md)

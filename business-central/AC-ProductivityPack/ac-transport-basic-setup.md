@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, Transport basic setup, additional functions
 ms.author: v-makune
 ---
-# Transport Basic - Setup
+# Doprava základ - Nastavení
 
-## See Also
+**See also**
 
-[Transport - Basic](ac-transport-basic.md)  
+[Doprava - základ](ac-transport-basic.md)  
 [Productivity Pack](ac-productivity-pack.md)

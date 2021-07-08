@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, Sharepoint publisher setup , additional functions
 ms.author: v-makune
 ---
-# Sharepoint publisher - Setup
+# Publikování SharePoint - Nastavení
 
-## See Also
+**See also**
 
-[SharePoint Publisher](ac-sharepoint-publisher.md)  
+[Publikování SharePoint](ac-sharepoint-publisher.md)  
 [Productivity Pack](ac-productivity-pack.md)

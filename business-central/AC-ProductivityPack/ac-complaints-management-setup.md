@@ -1,6 +1,6 @@
 ---
 title: Complaints | Microsoft Docs
-description: Complaints Management
+description: Complaints documents
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: Czech, Complaints, additional functions
 ms.author: v-makune
 ---
 
-# Complaints Management - Setup
+# Reklamace - Nastavení
 
-## See Also
+**See also**
 
-[Complaints Management](ac-complaints-management.md)  
+[Reklamace](ac-complaints-management.md)  
 [Productivity Pack](ac-productivity-pack.md)
 

@@ -11,11 +11,11 @@ ms.search.keywords: Multiple payments, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Multiple Payments - Setup
+# Více úhrad - nastavení
 
 
 
-## See Also
+**See also**
 
-[Multiple Payments](ac-multiple-payments.md)  
-[Financial Pack](ac-finance-pack.md)  
+[Více úhad](ac-multiple-payments.md)  
+[Financial Pack](ac-finance-pack.md)

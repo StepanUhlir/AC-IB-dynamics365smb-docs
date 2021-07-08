@@ -34,7 +34,7 @@ Do XML schémat naimportujte aktuální šablonu XML schématu dle následujíc�
 3. Otevře se vám okno pro import, kde vyberete příslušný XML soubor.
 4. Po importu se na kartě **XML schémata** objeví nový řádek.
 5. V příslušném řádku pro každé XML vyberte správné číslo ve sloupci SML portID.
-Pro Výkaz DPH od roku 2018 to je **52068861**, pro Výkaz DPH do roku 2017 to je **52068860**, pro Kontrolní výkaz DPH **52068903** a pro Souhrnný Výkaz to je **52068870**.
+   Pro Výkaz DPH od roku 2018 to je **52068861**, pro Výkaz DPH do roku 2017 to je **52068860**, pro Kontrolní výkaz DPH **52068903** a pro Souhrnný Výkaz to je **52068870**.
 6. V poli **Přiřazeno legislativě** vyberte hodnotu **SK**.
 7. Potvrďte pomocí tlačítka **OK**.
 
@@ -95,7 +95,7 @@ V Nastavení financí a Nastavení účtování DPH je možné aktivovat systém
 2. Na kartě **Nastavení účtování DPH** můžete nastavit kontroly pro tuzemské samozdanění na jednotlivých kombinacích DPH účtoskupin v poli **Kontrola PDP**.
 3. Potvrďte pomocí tlačítka **OK**.
 
-## Viz také
+## See also
 
 [AUTOCONT Řešení](../index.md)  
 [SK Legislativní balíček](ac-sk-legislative-pack.md)   

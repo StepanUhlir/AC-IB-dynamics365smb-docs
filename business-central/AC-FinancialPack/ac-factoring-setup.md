@@ -11,10 +11,10 @@ ms.search.keywords: Factoring, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Factoring - Setup
+# Factoring - Nastavení
 
 
-## See Also
+**See also**
 
-[Factoring](ac-factoring.md)  
-[Financial Pack](ac-finance-pack.md)  
+[Faktoring](ac-factoring.md)  
+[Financial Pack](ac-finance-pack.md)

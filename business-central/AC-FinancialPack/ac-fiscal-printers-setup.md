@@ -11,10 +11,10 @@ ms.search.keywords: Fiscal printers, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Fiscal Printers - Setup
+# Fiskální tiskárny - Nastavení
 
 
-## See Also
+**See also**
 
-[Setup - Fiscal Printers](ac-fiscal-printers.md)  
-[Financial Pack](ac-finance-pack.md)  
+[Fiskální tiskárny](ac-fiscal-printers.md)  
+[Financial Pack](ac-finance-pack.md)

@@ -12,7 +12,7 @@ ms.author: v-makune
 ---
 # Productivity Extension - Nastavení
 
-**Viz také**
+**See also**
 
 [Productivity Extension](ac-productivity-extension.md)  
 [Productivity Pack](ac-productivity-pack.md)

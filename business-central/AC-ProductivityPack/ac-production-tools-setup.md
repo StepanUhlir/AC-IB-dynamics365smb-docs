@@ -12,7 +12,7 @@ ms.author: v-makune
 ---
 # Evidence nářadí a pomůcek - Nastavení
 
-**Viz také**
+**See also**
 
 [Evidence nářadí a pomůcek](ac-production-tools.md)  
 [Productivity Pack](ac-productivity-pack.md)

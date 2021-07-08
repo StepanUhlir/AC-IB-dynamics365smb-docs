@@ -11,10 +11,10 @@ ms.search.keywords: Insolvence register, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Insolvence Register - Setup
+# Insolvenční rejstřík - Nastavení
 
 
-##See Also
+**See also**
 
-[Insolvence Register](ac-insolvence-register.md)  
-[Financial Pack](ac-finance-pack.md)  
+[Insolvenční rejstřík](ac-insolvence-register.md)  
+[Financial Pack](ac-finance-pack.md)

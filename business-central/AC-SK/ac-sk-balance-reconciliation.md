@@ -21,7 +21,7 @@ Pro tyto účely mohou být použity sestavy „Odsouhlasení salda dodavatele�
 1. Pro spuštění sestavy otevřete přehled Dodavatelů nebo Kartu dodavatele a zvolte **Sestava** a poté **Odsouhlasení salda**.
 2. Vyplňte Datum vrácení a Datum odsouhlasení.
 
- Volitelně můžete:
+Volitelně můžete:
 
 - Zahrnout dluhy zákazníka – výši závazku upraví o dluhy zákazníka
 - Tisk detailů – vytiskne přílohu se seznamem dokladů
@@ -34,7 +34,7 @@ Pro tyto účely mohou být použity sestavy „Odsouhlasení salda dodavatele�
 1. Pro spuštění sestavy otevřete přehled Zákazníků nebo Kartu zákazníka a zvolte **Sestava** a poté **Odsouhlasení salda**.
 2. Vyplňte Datum vrácení a Datum odsouhlasení.
 
- Volitelně můžete:
+Volitelně můžete:
 
 - Zahrnout dluhy dodavatele – výši pohledávky upraví o dluhy dodavatele
 - Tisk detailů – vytiskne přílohu se seznamem dokladů
@@ -42,7 +42,7 @@ Pro tyto účely mohou být použity sestavy „Odsouhlasení salda dodavatele�
 - Vytisknout částky v měně – vytiskne částky v měně zaúčtovaných dokladů
 - Filtrovat podle Zákazníka
 
-## Viz také
+## See also
 
 [AUTOCONT Řešení](../index.md)  
 [SK Legislativní balíček](ac-sk-legislative-pack.md)

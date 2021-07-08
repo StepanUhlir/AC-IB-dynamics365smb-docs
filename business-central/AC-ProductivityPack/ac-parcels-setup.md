@@ -12,7 +12,7 @@ ms.date: 06/24/2020
 ms.author: v-makune
 ---
 
-# Parcels - Setup
+# Nastavení Balíkobotu
 
 Pro správné fungování addonu Zásilek je zapotřebí nastavit několik oblastí:
 
@@ -31,23 +31,23 @@ Ostatní číselníky (Služby přepravce, Manipulační jednotky a Pobočky př
 
 ## Expediční místa
 
-Expediční místo je místo Vašeho skladu odkud jsou expedovány zásilky. Uživatel může mít několik expedičních míst. Pro každé expediční místo je nutné jiné API, dále je expediční místo spojeno s jednou lokací Vaší společnosti. 
+Expediční místo je místo Vašeho skladu odkud jsou expedovány zásilky. Uživatel může mít několik expedičních míst. Pro každé expediční místo je nutné jiné API, dále je expediční místo spojeno s jednou lokací Vaší společnosti.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Expediční místa** a poté vyberte související odkaz. 
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Expediční místa** a poté vyberte související odkaz.
 2. Na přehledu vyhrat funci **Nový**
 3. Zadat **Kód** pro expediční místo, popis, adresu a **Název uživatele a heslo** k Vašemu API.
 4. Zavřít přehled expedičních míst pomocí OK
-![Nastavení Balíkobotu](media/BB_exp_pl.png)
+   ![Nastavení Balíkobotu](media/BB_exp_pl.png)
 
 ## Nastavení lokací
 Na kartě dané lokace je potřeba vybrat expediční místo, které je spjaté s daným API. Pokud bude více lokací, je nutné na každé nastavit příslušné expediční místo. Toto slouží k omezení chybovosti uživatelů, aby nemohli spojit do zásilky doklady s různými expedičními místy.
 
-Pro přiřazení expedičního místa lokaci je zapotřebí nastavit **Kód Expedičního místa**. 
+Pro přiřazení expedičního místa lokaci je zapotřebí nastavit **Kód Expedičního místa**.
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Lokace** a poté vyberte související odkaz.
 2. Otevřít kartu požadované lokace
 3. Vyplnit pole **Kód expedičního místa** v záložce Obecné
-![Nastavení Balíkobotu](media/BB_lokace.png)
+   ![Nastavení Balíkobotu](media/BB_lokace.png)
 ## Nastavení Balíkobotu
 Základní nastavení Balíkobotu je nutné provést na stránce **Nastavení Balíkobotu**
 ![Nastavení Balíkobotu](media/nast_bb.png)
@@ -61,7 +61,7 @@ Okno nastavení Balíkobotu obsahuje:
 - **Povolena synchronizace master dat** - Povolení stahování číselníků z Balíkobotu
 - **Poslední synchronizace master dat** - Datum a čas poslední aktualizace číselníků z Balíkobotu
 - **Povoleno** - Zapnutí a vypnutí funkcí Balíkobotu
-Funkce nad oknem Nastavení Balíkobotu
+   Funkce nad oknem Nastavení Balíkobotu
 - **Test spojení** - Otestuje spojení se službou Balíkobotu
 - **Resynchronizace master dat** - Aktualizace číselníků z Balíkobotu
 - **Protokol aktivity** - Log obsahující data o aktivitě
@@ -102,7 +102,7 @@ Na přehledu **Přepravci** v rámci addonu přibyly nová pole a funkce.
 ### Funkce nad přepravci:
 
 - **Služby přepravců** - Tabulka služeb jednotlivých přepravců
-- **Pobočky přepravců** - Tabulka lokalit, kde si mohou zákazníci zboží od přepravce převzít 
+- **Pobočky přepravců** - Tabulka lokalit, kde si mohou zákazníci zboží od přepravce převzít
 - **Manipulační jednotky** - Tabulka manipulačních jednotek paletové přepravy
 
 ## Nastavení služeb přepravců
@@ -111,17 +111,17 @@ Služby přepravců se stahují automaticky pomocí API Balíkobotu. Je možné 
 1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Přepravci** a poté vyberte související odkaz.
 2. V seznamu vyberte požadovaného přepravce a zvolte funkci **Služby přepravce**
 3. Na následující stránce vyplňte pole dle pořeby:
-    - **Povoleno pro Balíkobot** - Službu je možné používat (ve výchozím stavu povoleno)
-    - **Vynutit hmotnost zásilky**
-    - **Vynutit objem zásilky**
-    - **Vynutit cenu zásilky**
-    - **Vynutit dobírku zásilky**
-    - **Vynutit variabilní symbol zásilky**
-    - **Hmotnost na řádku** - Hmotnost musí být vyplěna v řádku zásilky 
-    - **Služby ČP** – Pouze pro Českou poštu - dlouhý textový řetězec služeb pošty nad danou zásilkou
-o	https://www.balikobot.cz/dokumentace/cp_ciselnik_sluzeb.pdf
+   - **Povoleno pro Balíkobot** - Službu je možné používat (ve výchozím stavu povoleno)
+   - **Vynutit hmotnost zásilky**
+   - **Vynutit objem zásilky**
+   - **Vynutit cenu zásilky**
+   - **Vynutit dobírku zásilky**
+   - **Vynutit variabilní symbol zásilky**
+   - **Hmotnost na řádku** - Hmotnost musí být vyplěna v řádku zásilky
+   - **Služby ČP** – Pouze pro Českou poštu - dlouhý textový řetězec služeb pošty nad danou zásilkou
+      o	https://www.balikobot.cz/dokumentace/cp_ciselnik_sluzeb.pdf
 
-      
+
 
 
 
@@ -133,10 +133,10 @@ Parametry pro jednotlivé přepravce nejsou stahovány z API balíkobotu a je po
 
 Pro nastavení a používání funkce zásilka na dobírku je zapotřebí nastavit na způsobu platby booeal **Dobírka**
 
-1.  Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **způsob platby** a poté vyberte související odkaz.  
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **způsob platby** a poté vyberte související odkaz.
 2. V přehledu vybrat na daný způsob platby boolean **Dobírka**
 3. Zavřít přehled způsobu platby
- ## Nastavení tisku
+## Nastavení tisku
 ### Výběr formátu tisku – klientská zóna
 Základním krokem nastavení tisku štítků je definice jakým způsobem se budou generovat PDF se štítky ze strany Balíkobotu. V klientské zóně (https://client.balikobot.cz/) uživatel musí nastavit, zda se bude tisknout ve formátu na celou stránku nebo dle pozic na papíru velikosti A4. Vše záleží na tom, na jaké tiskárně se bude tisknout. Pro tisk na tiskárně pro štítky se nemusí vybírat pozice tisku štítku.
 ### PDF reader
@@ -145,17 +145,17 @@ Pro tisk štítků je zapotřebí mít nainstalovaný PDF reader. Pro práci se 
 Základním krokem nastavení tisku štítků je definice jakým způsobem se budou generovat PDF se štítky ze strany Balíkobotu. V klientské zóně (https://client.balikobot.cz/) uživatel musí nastavit, zda se bude tisknout ve formátu na celou stránku nebo dle pozic na papíru velikosti A4. Vše záleží na tom, na jaké tiskárně se bude tisknout. Pro tisk na tiskárně pro štítky se nemusí vybírat pozice tisku štítku.
 
 ### Výběr tiskárny
- Pro nastavení tisku štítku je potřeba nastavit ID sestavy a přidělit uživateli tiskárnu. Funkce tisk štítků je nastavená, aby tiskla na definové tiskárně.
+Pro nastavení tisku štítku je potřeba nastavit ID sestavy a přidělit uživateli tiskárnu. Funkce tisk štítků je nastavená, aby tiskla na definové tiskárně.
 
 Pro definice tiskárny je nutné:
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Výběry tiskáren** a poté vyberte související odkaz. 
+1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Výběry tiskáren** a poté vyberte související odkaz.
 2. Zvolit **Nový**
 3. Vybrat ID uživatele, ID sestavy 52068430 a Název tiskárny
 
 Tisk předávacího protokolu se tiskne automaticky po objednání svozu. Pokud uživatel nechce automatický tisk, stačí v Nastavení Balíkobotu vypnout Boolean - Tisk předávacích protokolů svozu. Tisk se provádí z Výchozí tiskárny dle Vašeho zařízení. Případně pokud máte nastavenou výchozí tiskárnu ve **Výběry tiskáren** jako zbytek Vašich tiskových sestav.
 
 
-## See Also
-[Parcels](ac-parcels.md)  
+## See also
+[Zásilky](ac-parcels.md)  
 [AC Productivity Pack](ac-productivity-pack.md)  
 [AUTOCONT řešení](../index.md)

@@ -11,11 +11,11 @@ ms.search.keywords: Controling basic, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Controling Basic - Setup
+# Controling Basic - Settings
 
 
 
-## See Also
+**See also**
 
 [Controling Basic](ac-controling-basic.md)  
-[Financial Pack](ac-finance-pack.md)  
+[Financial Pack](ac-finance-pack.md)

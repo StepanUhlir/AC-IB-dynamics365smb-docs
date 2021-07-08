@@ -10,10 +10,10 @@ ms.workload: na
 ms.search.keywords: Czech, Workflow linker tables setup, additional functions
 ms.author: v-makune
 ---
-# Workflow linker tables - Setup
+# WorkFlow - kontrolované tabulky - Nastavení
 
-## See Also
+**See also**
 
-[Workflow linker tables](ac-workflow-linker-tables.md)  
+[WorkFlow - kontrolované tabulky](ac-workflow-linker-tables.md)  
 [Productivity Pack](ac-productivity-pack.md)
 

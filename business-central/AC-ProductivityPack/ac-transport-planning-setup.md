@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, Transport planning setup, additional functions
 ms.author: v-makune
 ---
-# Transport - Planning - Setup
+# Doprava Plánování - Nastavení
 
-## See Also
+**See also**
 
-[Transport - Planning](ac-transport-planning.md)  
+[Doprava - plánování](ac-transport-planning.md)  
 [Productivity Pack](ac-productivity-pack.md)

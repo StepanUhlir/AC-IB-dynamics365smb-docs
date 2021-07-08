@@ -12,7 +12,7 @@ ms.author: v-makune
 ---
 # Elektronická fakturace -  PDFXChange - Nastavení
 
-**Viz také**
+**See also**
 
 [Elektronická fakturace ISDOC](ac-elektronic-dokuments-isdoc.md)  
 [Elektronická fakturace](ac-elektronic-dokuments.md)   

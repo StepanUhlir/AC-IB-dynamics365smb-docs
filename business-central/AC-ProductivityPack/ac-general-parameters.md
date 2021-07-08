@@ -12,7 +12,11 @@ ms.author: v-makune
 ---
 # General parameters
 
-## See Also
+Add-on modul Obecné parametry umožňuje přidat ke kartám v systému Dynamics 365 Business Central neomezené množství nových parametrů pro účely podrobného třídění a filtrování. Parametry lze dle účelu seskupovat do šablon. Modul obsahuje průvodce pro snadné zadávání hodnot parametrů ručním zadáním nebo výběrem z připravených číselníků.
 
-[General parameters - Setup](ac-general-parameters-setup.md)  
+![Obecné parametry](media/general_parameters.png "Obecné parametry")
+
+**See also**
+
+[Obecné parametry - nastavení](ac-general-parameters-setup.md)  
 [Productivity Pack](ac-productivity-pack.md)

@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, Electronic documents setup, additional functions
 ms.author: v-makune
 ---
-# Electronic documents - Setup]
+# Elektronická fakturace - Nastavení
 
-## See Also
+**See also**
 
-[Electronic documents - Setup](ac-elektronic-dokuments.md)  
+[Elektronická fakturace](ac-elektronic-dokuments.md)  
 [Productivity Pack](ac-productivity-pack.md)

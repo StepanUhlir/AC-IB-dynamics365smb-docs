@@ -10,10 +10,12 @@ ms.workload: na
 ms.search.keywords: Czech, Electronic documents, additional functions
 ms.author: v-makune
 ---
-# Electronic documents ISDOC
+# Elektronická fakturace ISDOC
 
-## See Also
+Viz. popis Elektronická fakturace – rozdíl pouze v tom, jak se faktura odešle.
 
-[Electronic documents - Setup](ac-elektronic-dokuments-setup.md)  
-[Electronic documents ISDOC - Setup](ac-elektronic-dokuments-isdoc-setup.md)  
+**See also**
+
+[Elektronická fakturace - Nastavení](ac-elektronic-dokuments-setup.md)  
+[Elektronická fakturace ISDOC - Nastavení](ac-elektronic-dokuments-isdoc-setup.md)  
 [Productivity Pack](ac-productivity-pack.md)

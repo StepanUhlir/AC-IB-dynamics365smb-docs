@@ -34,11 +34,11 @@ Do XML schémat naimportujte aktuální šablonu XML schématu dle následujíc�
 3. Otevře se vám okno pro import, kde vyberete příslušný XML soubor.
 4. Po importu se na kartě **XML schémata** objeví nový řádek.
 5. V příslušném řádku pro každé XML vyberte správné číslo ve sloupci SML portID.
-Souhrnný Výkaz to je **52068870**.
+   Souhrnný Výkaz to je **52068870**.
 6. V poli **Přiřazeno legislativě** vyberte hodnotu **SK**.
 7. Potvrďte pomocí tlačítka **OK**.
 
-## Viz také
+## See also
 
 [AUTOCONT Řešení](../index.md)  
 [SK Legislativní balíček](ac-sk-legislative-pack.md)

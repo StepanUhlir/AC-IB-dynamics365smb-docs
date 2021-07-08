@@ -10,10 +10,10 @@ ms.workload: na
 ms.search.keywords: Czech, Electronic documents, additional functions
 ms.author: v-makune
 ---
-# Electronic documents ISDOC - Setup
+# Elektronická fakturace ISDOC - nastavení
 
-**See Also**
+**See also**
 
-[Electronic documents - Setup](ac-elektronic-dokuments-setup.md)  
-[Electronic documents ISDOC](ac-elektronic-dokuments-isdoc.md)  
+[Elektronická fakturace - Nastavení](ac-elektronic-dokuments-setup.md)  
+[Elektronická fakturace ISDOC](ac-elektronic-dokuments-isdoc.md)  
 [Productivity Pack](ac-productivity-pack.md)

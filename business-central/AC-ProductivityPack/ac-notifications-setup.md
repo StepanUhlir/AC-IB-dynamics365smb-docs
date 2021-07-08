@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, Notification setup, additional functions
 ms.author: v-makune
 ---
-# Notification - Setup
+# Správa upozornění - Nastavení
 
-## See Also
+**See also**
 
 [Správa upozornění](ac-notifications.md)  
 [Productivity Pack](ac-productivity-pack.md)

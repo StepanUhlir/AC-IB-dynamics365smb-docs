@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, General parameters, additional functions
 ms.author: v-makune
 ---
-# General parameters - Setup
+# Obecné parametry - Nastavení
 
-## See Also
+**See also**
 
-[General parameters](ac-general-parameters.md)  
+[Obecné parametry](ac-general-parameters.md)  
 [Productivity Pack](ac-productivity-pack.md)

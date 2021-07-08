@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/kunes/Documents/GitHub/MK/AC-IB-dynamics365smb-docs-pr.cs-cz/business-central",
+  "source_base_path": "C:/Users/kunes/Documents/GitHub/2021/AC-IB-dynamics365smb-docs/business-central",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/TOC.html",
-          "hash": "PcMQ9AP4cuw+thfGuNhhjg=="
+          "hash": "y5AHPItBmNZLKq+G//P8gg=="
         }
       },
       "is_incremental": false,
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-controling-basic-setup.html",
-          "hash": "ouESeA13Ephj0lCegAFqEw=="
+          "hash": "xDJ4JhAbPzD9xjLiDsHLLw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-controling-basic.html",
-          "hash": "uqsBQfGoU4vgjkDtjRib9g=="
+          "hash": "F4+n5DxHt5hskgX5K3p4ow=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-factoring-setup.html",
-          "hash": "wCqjufujvJ0U+CrhAhjD2A=="
+          "hash": "iE5BXnc4Wvg3mnfmptnqSA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-factoring.html",
-          "hash": "LZrWWNhZA3iehac/IX+pwg=="
+          "hash": "yzqSLMHQ8+z4BiZ5UEI+RA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-finance-pack.html",
-          "hash": "TbT6A0lwXkNqPAYUix5nZg=="
+          "hash": "w2BnzhAf6y7C2z5CriIvuQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-fiscal-printers-setup.html",
-          "hash": "89grcwBvJ77odjBiCPgCYg=="
+          "hash": "wQZlKj0UsFgosrnddapNIA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-fiscal-printers.html",
-          "hash": "05xpFglTsFoL3/v1GDLwuw=="
+          "hash": "aNBDjWMgTXrDc6oAct3aJg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-insolvence-register-setup.html",
-          "hash": "s4YavbsQ7OVwATMrHb23dQ=="
+          "hash": "jxEAQDzTY8EMD/x027KweQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-insolvence-register.html",
-          "hash": "1+i+qTXEdkC7Np3NEQ790g=="
+          "hash": "SXYf5D/9iGgwDSYS3sU0fg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-multiple-payments-setup.html",
-          "hash": "gPxqPWJLuECom/oX5KVJ0Q=="
+          "hash": "nAkfj58OEnu7+sSFpld6Rw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-multiple-payments.html",
-          "hash": "Mi+/3ZDqNQaBw4c8y9vjfQ=="
+          "hash": "5OPL0OkmzvFccZkFSojafw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-pack-tracking-basic-setup.html",
-          "hash": "PMf2uolWzczhVgZzaHcuLQ=="
+          "hash": "DOeskU+xgSMCOE58RnfqjA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-pack-tracking-basic.html",
-          "hash": "0oTS3kjnWp19sHAlUk5XEg=="
+          "hash": "uI6Ois/Jkc68vuwxeJIOVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-pack-tracking-return-packing-setup.html",
-          "hash": "5ReKyl5bQcHFSKDxmOLX9Q=="
+          "hash": "Mcj4xZfjuRYBhWVkRiuV/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,65 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-pack-tracking-return-packing.html",
-          "hash": "VUlz0MYlCoM7O98/0B792A=="
+          "hash": "S1PiucOixun5y8xWJcyDjA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/Insolvence_register.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/Insolvence_register.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/factoring.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/factoring.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/fiscal_printers.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/fiscal_printers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/multiple_payment.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/multiple_payment.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/pack_tracking_return_packing.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/pack_tracking_return_packing.png"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -218,396 +273,12 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-LDS-request.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-LDS-request.html",
-          "hash": "JmIa/SyNIrX+0DsypD5gHA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-accessory-text.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-accessory-text.html",
-          "hash": "hZxZaN/mdYzlLwA20w/E+Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-cards.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-cards.html",
-          "hash": "h8eN24ajUR47MoplNCaeSw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-claim.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-claim.html",
-          "hash": "UbauNSvkL5iIGfUsR2S9gw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-commodities.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-commodities.html",
-          "hash": "8q65hBlKGSoslxE5v1VlPg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-contracts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-contracts.html",
-          "hash": "WnUS1evHqWlzzvPKoNDCFw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-data-rights.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-data-rights.html",
-          "hash": "TPTmlXEXFv96dtaNijhFfA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-dispatcher.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-dispatcher.html",
-          "hash": "gOj5T4dbEcAJLdzaK67t4A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-distribution-place.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-distribution-place.html",
-          "hash": "b3IVg/ywv5m4KmZOTTYt/A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-driver-rating.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-driver-rating.html",
-          "hash": "6ZXpQl/kOqcycUB5w1f3KQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-drivers.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-drivers.html",
-          "hash": "iWZO0XHzS6mwu9fngPDywQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-external-integration.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-external-integration.html",
-          "hash": "SBnbpDiBmel/dg6CL1PskA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-general-description.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-general-description.html",
-          "hash": "Afzex3CFLSPMc36hMAFviQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-general-texts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-general-texts.html",
-          "hash": "c8/OYJjRcS/2lVa14nulkw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-geographic-point.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-geographic-point.html",
-          "hash": "L66QIXVVh13X3ofklIPMoA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-insurance.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-insurance.html",
-          "hash": "tRSsobQ9df2X6dM5mkNnCA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-journey-statement.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-journey-statement.html",
-          "hash": "8F7J/Au6M5ZeS8XPTfttdg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-mg.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-mg.html",
-          "hash": "GXche3axQh/u6SS0/7sVYw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-plantour.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-plantour.html",
-          "hash": "0FVk2+nteh21Lh6/z2ue1Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-promis.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-promis.html",
-          "hash": "c3+y2fFQ9t0ojaMglXyWYw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-returnable-packaging.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-returnable-packaging.html",
-          "hash": "4rJsW597R7IRMp8U13ek+Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-routing-itinerary.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-routing-itinerary.html",
-          "hash": "EXpyKKk36QTNbvRi22RXSw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-sales-invoicing.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-sales-invoicing.html",
-          "hash": "W9tuhTKCa0Dq38nYxpBShQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-service.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-service.html",
-          "hash": "1UMx4KbugWdQijQoggA2KQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-shipment-invoice.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-shipment-invoice.html",
-          "hash": "2jKUoqPwM3DwS0YmeYKP8g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-shipment-quote.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-shipment-quote.html",
-          "hash": "lujCc4qGXCzJ2mkFbd1eCg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-traffic-records.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-traffic-records.html",
-          "hash": "kzROthtqZ+y2l94HWRVWtg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-transics.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-transics.html",
-          "hash": "7w/zc/CxPZjInKR6kcox4g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-transportation.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-transportation.html",
-          "hash": "kcNFLQSisaD/5zO/nYSWwg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-trucks.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-trucks.html",
-          "hash": "LgzCKViP+XI/F+a5+fxSxw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-pm-vehicles.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-pm-vehicles.html",
-          "hash": "wfo20k+pEo009TJlBNZlMQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-ProMIS/ac-promis.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-ProMIS/ac-promis.html",
-          "hash": "WH+UlGFAZRIyUR3r5cksig=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "AC-ProductivityPack/TOC.md",
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/TOC.html",
-          "hash": "M9b3h2p4JbYgmu7jbzKAvA=="
+          "hash": "2P0SwhCJzJAXdIvdg+LmCw=="
         }
       },
       "is_incremental": false,
@@ -619,10 +290,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-centraldatabase-setup.html",
-          "hash": "lgDzpTVI1ISS35F67t8byQ=="
+          "hash": "oJb8BzsY39sK0TP5/Nn6tg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -631,10 +302,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-centraldatabase.html",
-          "hash": "ZEB575Era7CyU76xxdFtPw=="
+          "hash": "qdBde9cIDatmqY8DFns+SQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -643,10 +314,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-complaints-management-setup.html",
-          "hash": "FoPBarm50cevGeaL/tCvzA=="
+          "hash": "sShrxFSBaj4KHCfugUTTzA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -655,10 +326,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-complaints-management.html",
-          "hash": "3MJAzFmTxJLHQCjN4ET/nA=="
+          "hash": "15EL+yvRr85bsq5W9ql6Dg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -667,10 +338,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-data-boxes-setup.html",
-          "hash": "SZHz6WLa8y3G7jyRqBZXPA=="
+          "hash": "ZvHygKsRrcpb2gG57dBQSA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -679,10 +350,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-data-boxes.html",
-          "hash": "AhFbgt+mdtTwRUcW32W8VQ=="
+          "hash": "D9RNFHvS187til5hHxsDUA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -691,10 +362,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-edi-connector-basic-setup.html",
-          "hash": "PCL6nqwldzWchqDbCx4O7w=="
+          "hash": "r/ITwQJTl9+JrvXirKvq3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -703,10 +374,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-edi-connector-basic.html",
-          "hash": "7XMo/246pmvDlsub8H3FCQ=="
+          "hash": "RgMfqZyC1BnMLTnLH44nCQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -715,10 +386,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-elektronic-dokuments-isdoc-setup.html",
-          "hash": "8fkreLRXbXWpSH3fGkHHkw=="
+          "hash": "agFh3DciITBQBhP52Bb14Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -727,10 +398,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-elektronic-dokuments-isdoc.html",
-          "hash": "R0nfErfhpBwbG9SLUs3G+A=="
+          "hash": "pwmAurDKoSzGAFrvqk85VQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -739,10 +410,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-elektronic-dokuments-pdfxchange-setup.html",
-          "hash": "JTN2FbP8c61d92PC4PaTXQ=="
+          "hash": "acjy/1cjvPtWU0+vUA+Xww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -751,10 +422,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-elektronic-dokuments-pdfxchange.html",
-          "hash": "ErtWmiEAHezJ3r7YVIuZ/Q=="
+          "hash": "HSYPpiSF+u3PE7gIWe4SDw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -763,10 +434,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-elektronic-dokuments-setup.html",
-          "hash": "C0h8VDvFXa4kwZBww8Zvqg=="
+          "hash": "oQ90zihGx2WcY/s6zluOPw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -775,10 +446,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-elektronic-dokuments.html",
-          "hash": "Uw2QEq+KPvx6iEvaYJfNgQ=="
+          "hash": "x83Me66s2EMzQDngeyTCdg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -787,10 +458,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-general-parameters-setup.html",
-          "hash": "j64K7vqT3RmpNiXqR/ntrA=="
+          "hash": "fbMkewyllceYHR/ZtRTVGA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -799,10 +470,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-general-parameters.html",
-          "hash": "N2nFry5OcGzGXsgRZz3MwA=="
+          "hash": "1nVKbRaQ6Si9TV+6VU7AFQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -811,10 +482,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-helpdesk-setup.html",
-          "hash": "2fnukJ73imOg/RuRW3m6rA=="
+          "hash": "QRYBM7Q5GCmZVR9RYSa0ig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -823,10 +494,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-helpdesk.html",
-          "hash": "itwwCN2pzP7rR0RwMhh25g=="
+          "hash": "2WpDdkxd4FIPysxnbEQMXQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -835,10 +506,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-incoming-mail-setup.html",
-          "hash": "OEzNxlp1oHeGnywrFQBjAQ=="
+          "hash": "OkDPq2h0cNyzhrobAgBKvQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -847,10 +518,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-incoming-mail.html",
-          "hash": "u4HVlriA4bIpLMUVCqhhiA=="
+          "hash": "s21bavDDIU5gYRPDOqPbIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -859,10 +530,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-job-queue-extension-setup.html",
-          "hash": "TBJL7RE/KccjhzNzV/6UHA=="
+          "hash": "sEtqfIZZfNB9vrjpd58a1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -871,10 +542,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-job-queue-extension.html",
-          "hash": "Z/6D6lmZDS9lUYI+KIo1Gg=="
+          "hash": "G1tGH7LV8d/nz/gENnIS4g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -883,10 +554,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-notifications-setup.html",
-          "hash": "TOZAiA/wjBFfKIWCDec5Zg=="
+          "hash": "fjwG5P4SK7YqSi4x+nrSdQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -895,10 +566,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-notifications.html",
-          "hash": "6IZD2H7IaWlLcVf7h66xBg=="
+          "hash": "T0l7tIn7Bfw3x6GBR6KQVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -907,10 +578,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-parcels-setup.html",
-          "hash": "cr5QMpprAVAb0lz/tuF4jQ=="
+          "hash": "o5TXs8ff8RO0rRBg3Y+1/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -919,10 +590,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-parcels.html",
-          "hash": "//Fov+xk713/ZQxpxD9XQA=="
+          "hash": "4HLNESCAuwRXrcHEa6tYiQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -931,10 +602,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-production-tools-setup.html",
-          "hash": "kGEkbK7kPIRTyH+4dLZvHQ=="
+          "hash": "zVOrZhBBMxO2y4O7gxA7PQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -943,10 +614,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-production-tools.html",
-          "hash": "PxaH9V8SU1+vKzgj8ZchEw=="
+          "hash": "zNYefNYjbK356NaI9D41qw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -955,10 +626,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-productivity-extension-setup.html",
-          "hash": "AbBqbGBhzxiHsUWxssr/Mw=="
+          "hash": "epgd/CVfcLqfxuQd3RS1TQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -967,10 +638,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-productivity-extension.html",
-          "hash": "pMXWot7vtAAeVU7Yp+3Img=="
+          "hash": "iQrNpP0e/AMVZDrzfrjwHA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -979,10 +650,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-productivity-pack.html",
-          "hash": "EtBUe4WFSTdJo4UW9vWGDA=="
+          "hash": "db9NcxLSWECJ22F6zSu/UA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -991,10 +662,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-publication-tasks-setup.html",
-          "hash": "sO2u/8pllRH8WbWw359nqA=="
+          "hash": "FsU15KGDg6lSWHQjLgi7dQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1003,10 +674,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-publication-tasks.html",
-          "hash": "EGsg8f71Ws8VvGXCRH+sWg=="
+          "hash": "my8DCubJIDq94vGi2ukzZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1015,10 +686,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-publication-template-setup.html",
-          "hash": "2NzcLPp5fbJKjVn9+3Jdmg=="
+          "hash": "keifO7zz+XXJB6THa5CQVw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1027,10 +698,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-publication-template.html",
-          "hash": "r6+79fu8yLkMGEdrdHf5qA=="
+          "hash": "XhdeUMOhI3+lMYYEVNqkJQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1039,10 +710,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-sharepoint-publisher-setup.html",
-          "hash": "Ppg+4y7jVHdQDgSAOaiqcg=="
+          "hash": "gTL0hOFUjPj4qzf251hcRA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1051,10 +722,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-sharepoint-publisher.html",
-          "hash": "Y3D6o4hs2l75upqAJBO0gQ=="
+          "hash": "DkAw43z0b7mdyH8ASoEtIw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1063,10 +734,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-spooler-setup.html",
-          "hash": "N5gxhSL0UY7mzBfK+MOb/w=="
+          "hash": "pOXpsQrodNdPAUfUWbLVNw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1075,10 +746,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-spooler.html",
-          "hash": "WqFR2yVia5VyoxK2gxcQjg=="
+          "hash": "Vvm1oaUeuPl56Wi+UYigaw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1087,10 +758,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-transport-basic-setup.html",
-          "hash": "CmqHdkOzlPQ3qwu8w2dtgA=="
+          "hash": "S0O+ZL0lVKpVCWs4FIQidw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1099,10 +770,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-transport-basic.html",
-          "hash": "syagRrvIWdsrREgoJ1yXfw=="
+          "hash": "uazqGCjoG188L3jY5uWb1g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1111,10 +782,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-transport-planning-setup.html",
-          "hash": "qlH1MCGhOHyeu8RVH5spOg=="
+          "hash": "J19RwHLjBmzOcmA5RA2krQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1123,10 +794,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-transport-planning.html",
-          "hash": "IvmGxeUyoWfbnaNzifMwPw=="
+          "hash": "Qkl/khtaPozygSxB+758FA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1135,10 +806,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-workflow-linker-tables-setup.html",
-          "hash": "GeUvC71AxiM6XA4rMZu5UQ=="
+          "hash": "ffnOIWQXIBTS1MoL2ZJZvg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1147,10 +818,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-workflow-linker-tables.html",
-          "hash": "o/e3hBFZMr6E01y1cOMU2w=="
+          "hash": "O+tspgWr+Jr/rCwOTHvRdA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1159,10 +830,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-workflow-status-management-setup.html",
-          "hash": "EV3v+SvcAZpIlwT7c2Jwrg=="
+          "hash": "yqNOuHWfHc8c/DPRMmn6qQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1171,10 +842,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-workflow-status-management.html",
-          "hash": "WBlkLuIISeYLzqgUc1hqnA=="
+          "hash": "QstWLwvTlPDMmi7HF1KqPA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1212,10 +883,164 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-interaction-template-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-interaction-template-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-interaction-templates.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-interaction-templates.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-mail-mgt-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-mail-mgt-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-mail-records.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-mail-records.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-no-series.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-no-series.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/IM-status-mgt-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/IM-status-mgt-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/complaints.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/complaints.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/data_boxes.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/data_boxes.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/electronic_documents.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/electronic_documents.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/general_parameters.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/general_parameters.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/incoming_mail.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/incoming_mail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/job_queue.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/job_queue.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "AC-ProductivityPack/media/nast_bb.png",
       "output": {
         "resource": {
           "relative_path": "AC-ProductivityPack/media/nast_bb.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/notification.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/notification.png"
         }
       },
       "is_incremental": false,
@@ -1227,10 +1052,65 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/media/readme.html",
-          "hash": "ucWNIdEf1Ts+79saJs0m2g=="
+          "hash": "Ku/9uEvlOuJtRnMttoUGxQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/sharepoint.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/sharepoint.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/spooler-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/spooler-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/tools.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/tools.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/transport_basic.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/transport_basic.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/transport_planing.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/transport_planing.png"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1256,12 +1136,34 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/workflow_status.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/workflow_status.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/workflow_tables.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/workflow_tables.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "AC-SK/TOC.md",
       "output": {
         ".html": {
           "relative_path": "AC-SK/TOC.html",
-          "hash": "YEwIkeuuE87pJ89ngxmCog=="
+          "hash": "yBQm1Kngv1NWFHGQ5n/ndA=="
         }
       },
       "is_incremental": false,
@@ -1273,10 +1175,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-ECB.html",
-          "hash": "2Lp9srAjiYA5oJ6UlPtytQ=="
+          "hash": "5RkM0LThuVBG7m+l7V21iw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1285,10 +1187,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-balance-reconciliation.html",
-          "hash": "R1LrNmHlz3IHPskVmPnwPg=="
+          "hash": "8woegCUA/4dbiojtkJrwZw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1297,10 +1199,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-balance-sheet-income-statement-setup.html",
-          "hash": "YWhewHTEBwiPH6m08dcZOg=="
+          "hash": "ipWdglWIbdWl+3YvH1JcsA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1309,10 +1211,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-balance-sheet-income-statement.html",
-          "hash": "tsYU4ic+R05eGjZcdF586w=="
+          "hash": "rrcUB07GeZTbwVjZzJyDbg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1321,10 +1223,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-intrastat.html",
-          "hash": "I+2dZ1F/iBGDENWNoQI6Xw=="
+          "hash": "KeDzOyUpG/bHFVa7dCz8Hw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1333,10 +1235,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-legislative-pack.html",
-          "hash": "nvrhvSKhsXhMpZM0I10FRA=="
+          "hash": "NKoQLXJjMVEqE65gPOXa6w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1345,10 +1247,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-sepa.html",
-          "hash": "Z4dVjOoCLjL476h8Tqoz6Q=="
+          "hash": "ZHIa8OCFmI5//DxkJ0OzvA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1357,10 +1259,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-tax-depreciation.html",
-          "hash": "EXcmXAUVJd2ysQDVO0wywg=="
+          "hash": "s+nj3oR/0xlE2PzSlIEP8w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1369,10 +1271,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-unreability-payer.html",
-          "hash": "dhc0bnRJA1EVInA8bsAa+g=="
+          "hash": "S4y7KV5I8RZhTLefMEeXSA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1381,10 +1283,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-vat-check-report-export.html",
-          "hash": "EzWEuOuHB/33EmL/p5FLrg=="
+          "hash": "fu3EUKuYFdwrKvJSXSQZoA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1393,10 +1295,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-vat-check-report-setup.html",
-          "hash": "7bacxzccqwN+C7AxRMSmmQ=="
+          "hash": "qUoKcqCyLdyX5wtWoEP4xw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1405,10 +1307,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-vat-statement-export.html",
-          "hash": "sxU7mGuNsLM4WHdDu5183A=="
+          "hash": "wwC+/TjcVzLkRylQ9FfIYg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1417,10 +1319,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-vat-statement-setup.html",
-          "hash": "zP/gZPlthuGvTfv6fkPZLA=="
+          "hash": "D+oJpLnuqBhZNjY1VwJOGA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1429,10 +1331,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-vies.html",
-          "hash": "SCtvoivTDP1pzGqIOiegZw=="
+          "hash": "ySL0VSQa754E1/DjVwfkaA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1458,2028 +1360,12 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-HIF-expertises.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-HIF-expertises.html",
-          "hash": "XbhXor9mA1s5sy9ey4WTYg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-HIF-medical-operations.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-HIF-medical-operations.html",
-          "hash": "AVZmY5AalAmnxP8U2esxag=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-HIF-point-rates.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-HIF-point-rates.html",
-          "hash": "wK9+SwI3SOTeFDatuEpiXQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-acc-capacity-blocking.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-acc-capacity-blocking.html",
-          "hash": "BMUhvG7gLzC7sDQq15Kwng=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-acc-services-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-acc-services-setup.html",
-          "hash": "AbgMfnhB7nyxbPw05O3ZKw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-accommodation-capacity.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-accommodation-capacity.html",
-          "hash": "UgDuQ6LoZZZ1ZOhw42fdxQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-accommodation-chart-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-accommodation-chart-setup.html",
-          "hash": "6GlWnpPD4lJlTexecIJgsw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-accommodation-chart.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-accommodation-chart.html",
-          "hash": "CJ/7mD17my2Mwn10tCQ3xg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-accommodation-clases.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-accommodation-clases.html",
-          "hash": "BWmVXbsR+kSx0PNVYehmfg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-advance-stay-type-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-advance-stay-type-setup.html",
-          "hash": "ReymMTiJYMtwiuGEhULxqg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-age-bracket-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-age-bracket-setup.html",
-          "hash": "qMj512zfsK5JmEnvJ13ypg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-allergens.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-allergens.html",
-          "hash": "hO0xGCzany04zwqsggKxzA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-allowed-indications.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-allowed-indications.html",
-          "hash": "yScIWNXlJ2ljjy54mPeWYQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-bill-to-of-services-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-bill-to-of-services-setup.html",
-          "hash": "OV1hmM5JS6II3HQoEGo6Rw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-bill-to-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-bill-to-types.html",
-          "hash": "/PFl4bkGXRu2a62ropDi4Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-cat-type-foods.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-cat-type-foods.html",
-          "hash": "aGZclcDsLk5k1F8xUfHXrw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-catering-diets.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-catering-diets.html",
-          "hash": "vqAjX4KXg1UU6WsJHUvjFA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-catering-raw-material.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-catering-raw-material.html",
-          "hash": "9FEAJ2+17JkYUlGB/elM4A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-catering-services-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-catering-services-setup.html",
-          "hash": "ocXs24rznubcJr99ocpCnw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-catering-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-catering-types.html",
-          "hash": "4qSWOcZUnUOx9T39eFoMVg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-causes.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-causes.html",
-          "hash": "/lh72rP6RigsduSZtjVYjQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-accommodation.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-accommodation.html",
-          "hash": "9P04yg3wZd4Xok81kHGOJQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-account-disc-entries.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-account-disc-entries.html",
-          "hash": "h3liuwdnXWMebRX5JOPZpg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-account-entries.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-account-entries.html",
-          "hash": "3BxliMMovWV2wpm/xIILMg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-data-history.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-data-history.html",
-          "hash": "UVpCpBVlUbKlBYQHXiEutg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-group-stay.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-group-stay.html",
-          "hash": "v1ZKvmsfY8SzuJAprWGpFw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-stay-commissions.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-stay-commissions.html",
-          "hash": "FCz+Ny7Eh+i8aYKMtFHjTw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-stay-discount.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-stay-discount.html",
-          "hash": "DrbU51f7ksaUyVf9X945fQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-stay-fees.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-stay-fees.html",
-          "hash": "OqYWy1Xk4Mmc6+iYeWa2uQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-stay-line.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-stay-line.html",
-          "hash": "DNF169/bHhaWqgJWRIxfHA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-stay.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-stay.html",
-          "hash": "apINaHM9v9Fo2jjIlamnUw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-types.html",
-          "hash": "PVTiupRzD9ZAlXcbLGzATg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client-wizard.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client-wizard.html",
-          "hash": "ZEM2s/BCI6U/OLRPWPMRWA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-client.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-client.html",
-          "hash": "7L5vfQXCsyuBf0IEvI+ztw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-clients-relationship.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-clients-relationship.html",
-          "hash": "/JlwrjBOUNsnStWXGA6PaA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-commission-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-commission-setup.html",
-          "hash": "JC1ObQ8iWPRfpaXCQ5M1Zg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-company-expertises.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-company-expertises.html",
-          "hash": "5m34GLg/5eVR5Urf2VJ3pA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-create-stay-lines-from-group.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-create-stay-lines-from-group.html",
-          "hash": "kBeHsCjiWQHZgVY1EMlASg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-dependencies.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-dependencies.html",
-          "hash": "5fvF2Oi+Rpk1UJdpPSgmIA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-description-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-description-setup.html",
-          "hash": "oKU/2TgT+ur40IOkD3sYWg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-diagnosis.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-diagnosis.html",
-          "hash": "OCumchmd5C1Ry5RECDSHOg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-expertises.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-expertises.html",
-          "hash": "xHbkK4PjSpMde+vbGD//sw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-external-doctors.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-external-doctors.html",
-          "hash": "4pFZ4t1VD6Mx72x47FNTfQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-foods.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-foods.html",
-          "hash": "Fbr5A5MFQshjT+II85x8Rw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-foreign-police.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-foreign-police.html",
-          "hash": "DvEKpeBcJENyMDqpW+L4Xg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-gift-voucher-links.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-gift-voucher-links.html",
-          "hash": "+mU4AEh30sV3tha90v1BsQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-gift-voucher-set-type.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-gift-voucher-set-type.html",
-          "hash": "BtGY4044i+rznj1FYiD4Lg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-gift-voucher-set.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-gift-voucher-set.html",
-          "hash": "eC4xIimzCbOKnYFLbtOG/w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-gift-voucher-type-services.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-gift-voucher-type-services.html",
-          "hash": "T8VefLe1WriHWiTrMYv+/g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-gift-voucher-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-gift-voucher-types.html",
-          "hash": "4LGkRWFarzR4WWoUs+gQvw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-gift-voucher.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-gift-voucher.html",
-          "hash": "+W2nS7+ngeLBUjVgWXAxAA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-group-stay-request-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-group-stay-request-types.html",
-          "hash": "oTB9/LKHDOKq+LV6cU6OHg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-group-stay-request.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-group-stay-request.html",
-          "hash": "829yvqZrR0gDrW43YBVgBw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-health-insurance-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-health-insurance-setup.html",
-          "hash": "OHl41kd2kl92felPm1booA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-hif-accomodation-classes.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-hif-accomodation-classes.html",
-          "hash": "+1TdwaQpLPV6J5jVIXJB1Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-hif.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-hif.html",
-          "hash": "apfz23gHNd42LjUZPcobAw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-indications.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-indications.html",
-          "hash": "+Ql1WoSB2G9PLO+bTu5XVA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-insurance-contract-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-insurance-contract-types.html",
-          "hash": "0AaJ9CHpSPmMBVAj0N8qLw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-internal-acc-classes.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-internal-acc-classes.html",
-          "hash": "AIQbsPJCITz7q9aunuPM+w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-internal-phones.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-internal-phones.html",
-          "hash": "AFm9atT9HptuOmbgSel8hw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-item-catering-raw-material.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-item-catering-raw-material.html",
-          "hash": "PG7avd00BgItaz79shcYmA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-item-conversion-factor.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-item-conversion-factor.html",
-          "hash": "s9ws4fL614KiNXl5omAZ7Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-manual-service-entry.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-manual-service-entry.html",
-          "hash": "GU2OXJZi8thrE64ffsOSRw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-meal-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-meal-types.html",
-          "hash": "LMR5wjsVnn9zSfRj4XdAVw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-meals.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-meals.html",
-          "hash": "eFpgkFujemmlCPhq3vUBLg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medical-facilities.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medical-facilities.html",
-          "hash": "+jbWD/boMEzXMcJxsdGzFA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medical-operation-points.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medical-operation-points.html",
-          "hash": "gwRdLNOVty8eB8WtsCHZ0A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medical-operation-sets.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medical-operation-sets.html",
-          "hash": "8ZJ3rTxknvATuVvz7aaHSw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medical-operations.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medical-operations.html",
-          "hash": "lOM+f260PEpkdnr3/PIv5g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medical-staff-person.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medical-staff-person.html",
-          "hash": "MoVfFfsn/3X2Pcs1UufWpQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medical-staff-relationship.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medical-staff-relationship.html",
-          "hash": "w0Uc61qLyPM0D/H7/GG87w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-medicaments.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-medicaments.html",
-          "hash": "3TFgPjEzKyhswF17MExDQg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-mobilities.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-mobilities.html",
-          "hash": "qot5iPA1iswRd6Wz2MnZ6Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-moving-wizard.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-moving-wizard.html",
-          "hash": "zqiUA3P1DWdUSaUkbjdYxA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-parking-sites.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-parking-sites.html",
-          "hash": "qMm317tME2LC7V9f1doDLw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-patient-categories.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-patient-categories.html",
-          "hash": "lOwwesdrLpn42YCI8aVKWg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-price-level-sets.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-price-level-sets.html",
-          "hash": "SFYY9Kj3HtaBIkrS2MSaaA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-price-level-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-price-level-setup.html",
-          "hash": "YVr0nhsAtKb3cITw9Ft5LQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-price-levels.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-price-levels.html",
-          "hash": "cMi4HkNPHOcAJQ/2I9XVPA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-quota.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-quota.html",
-          "hash": "Yrb+dP92/Oe8AKPZbbfDEQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-role-center.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-role-center.html",
-          "hash": "iSAWkXMbp8dG6aLsHJ7nBA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-rooms.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-rooms.html",
-          "hash": "gSI4vO7qYLi3dQUXvfUYjA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-schedule-groups.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-schedule-groups.html",
-          "hash": "/K+NVdFHi8d8RCLR1U2UMQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-service-charging-traits.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-service-charging-traits.html",
-          "hash": "ZH86+ENy8oieFa1GT6sz3w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-service-groups.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-service-groups.html",
-          "hash": "Wsl5DPEMm4vmqBRO1fJ07g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-solution.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-solution.html",
-          "hash": "QK+52JYNEaKlKPZBPnWUbA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-base-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-base-setup.html",
-          "hash": "+I/ySPHvfJEaVtLV0n5qcg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-building-expertises.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-building-expertises.html",
-          "hash": "yh+QECYiRmwm7IutuA1xdw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-buildings.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-buildings.html",
-          "hash": "fvDLyxBaZItbOFdqDo9R/A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-dimension-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-dimension-setup.html",
-          "hash": "HGcr6Xn6bl07v0g34YAf6Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-fee-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-fee-setup.html",
-          "hash": "AFSr6T9nJtsmIFAzqF+xpw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-financial-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-financial-setup.html",
-          "hash": "djvkOWt7ROnjewvqe4nbFA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-service-categories.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-service-categories.html",
-          "hash": "B6pBqnyrSK4XpKKVUbrJ7A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-service-discount-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-service-discount-setup.html",
-          "hash": "f5ConeHpbjzixkmQLToNgA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-service-discounts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-service-discounts.html",
-          "hash": "4HxOUa+Q0Tkv54etrtJLWg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-service-price-adjustments.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-service-price-adjustments.html",
-          "hash": "0jx+YoIYhYwmnDKH7U/Q/A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-service-price.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-service-price.html",
-          "hash": "FDNe6Iq3+MyVLNiadKFbWw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spa-service.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spa-service.html",
-          "hash": "VrckpyPKSch399To5DlmZA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-spas.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-spas.html",
-          "hash": "XeCafjmX4EJibaXHbD4a2A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-campaign.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-campaign.html",
-          "hash": "o1LlkwC7CjGa1jsrs2JOLA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-person.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-person.html",
-          "hash": "a1XAwjFyyPsnciAsFYFjZw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-purposes.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-purposes.html",
-          "hash": "29mddNHkDUTPrt9E/XZ7YA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-specifications.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-specifications.html",
-          "hash": "jOjV0AuLtEiyQeqwRgVDug=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-transfer-wizard.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-transfer-wizard.html",
-          "hash": "gQuUwMK/rHRNmAJcTgxOpQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-type-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-type-setup.html",
-          "hash": "PwXJaDJWwOsm9LFfIpZQ3g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-stay-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-stay-types.html",
-          "hash": "x159FIo1KviPl69dp9u3Qg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-till-document.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-till-document.html",
-          "hash": "Y+9yFtupFPrQ63Ivv4Ivdg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-treat-services-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-treat-services-setup.html",
-          "hash": "yEXhU6VUr7htjykBcQC6sg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-treatment-proposal.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-treatment-proposal.html",
-          "hash": "z/d2RQVi8NbghOHlHY7Pkw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-treatment-results.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-treatment-results.html",
-          "hash": "CYO3DxQ2UEn+wGK2NgRh3g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-treatments.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-treatments.html",
-          "hash": "f75BRK/3RqXsNTVJEcNM5g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-variant-codes.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-variant-codes.html",
-          "hash": "IbWRTvCFFzotrVNuAMDsmg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spa-working-states.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spa-working-states.html",
-          "hash": "2pcPy/Dyn4zYHAASmacAQw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-accessory-text-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-accessory-text-setup.html",
-          "hash": "Vlu9SP1v4Wti3qPYkIsUtw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-accessory-texts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-accessory-texts.html",
-          "hash": "teh8hAgTu1gXYUhybLYwnQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-automatic-workflow.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-automatic-workflow.html",
-          "hash": "voXbAqHjnyltnjZcDZTjww=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-bank-administration-extension.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-bank-administration-extension.html",
-          "hash": "qmNY/aIqPpxqhXGmAQPpfg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-bank-statement-import.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-bank-statement-import.html",
-          "hash": "Rfxoo+dXCXOvS73qy7boQw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-calendar-template.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-calendar-template.html",
-          "hash": "CwlFsgb5osy3yHrWFcKwyg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-calendar.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-calendar.html",
-          "hash": "pg2kpwS09mOIOzyCVzLISw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-codes-according-to-computer.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-codes-according-to-computer.html",
-          "hash": "FD8UGiF7X49jeXUr7BQzQQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-company-registr.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-company-registr.html",
-          "hash": "lKRg+CVB9vPvRAzX2R4QqQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-company-sections.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-company-sections.html",
-          "hash": "hVS9eOAJ2B3Bk9fXtiHXOA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-computers.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-computers.html",
-          "hash": "8DxaVXuXhZe83qgGMS/0Ow=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-configuration.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-configuration.html",
-          "hash": "erqmF7FjsO87Ck7ZP93RiA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-contract-disposal-sites.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-contract-disposal-sites.html",
-          "hash": "wrWovLZNmnQVsMqCdxGvjQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-contract-relations.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-contract-relations.html",
-          "hash": "exhvlO1wG80y6kUaly+d6A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-contract-subjects.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-contract-subjects.html",
-          "hash": "OVMVrc5ACtvVs85OlljGLw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-contracts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-contracts.html",
-          "hash": "ubjOwf5m8juZnkJ41CXB7A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-cust-report-selections.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-cust-report-selections.html",
-          "hash": "bRIFlz2I2SkSlcsogTRBAw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-data-rights.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-data-rights.html",
-          "hash": "Wn9Q1Ohrxm5J4Dwd0Boo7Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-divisions.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-divisions.html",
-          "hash": "2hfRmRtSTvEiIzDYnu5n/Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-document-default-values.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-document-default-values.html",
-          "hash": "ADo5qVg+yIDLqhCmeGDI+g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-document-settlement.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-document-settlement.html",
-          "hash": "kWi68Yk+7ySdpsIMsklD6g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-event-recipient-group.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-event-recipient-group.html",
-          "hash": "5op1dplE516+APehHyLtVg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-event-recipient-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-event-recipient-setup.html",
-          "hash": "sgHKiOAFetjEeXKxAs9mTg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-event-types.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-event-types.html",
-          "hash": "IoNRjyj6l2fuekfJ6EPXUw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-events.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-events.html",
-          "hash": "0XDawIHwivwLRXYLwSuBmQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-financial-settlement.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-financial-settlement.html",
-          "hash": "jNqFYfQA5qOFo2yBVAGyWA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-general-description-use.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-general-description-use.html",
-          "hash": "gGR04k+EluOxBciPov398Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-general-descriptions.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-general-descriptions.html",
-          "hash": "hWZ96MBprc/M6sEzMBOZdw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-general-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-general-setup.html",
-          "hash": "Y1I1q5eTz2G3FUBeIxMksw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-general-text-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-general-text-setup.html",
-          "hash": "to4GknqfGUo9s5enRU243A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-general-texts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-general-texts.html",
-          "hash": "OvhWpCgxMOanJazftoucVQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-internal.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-internal.html",
-          "hash": "+etv4A+ILJ+swUg36S6SkQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-item-jnl-templ-setup.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-item-jnl-templ-setup.html",
-          "hash": "PEaOnQ49coGM6rJguZ2iQw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-item-location-places.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-item-location-places.html",
-          "hash": "bEg1ltk8fcaX308MYVSRcg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-location-item.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-location-item.html",
-          "hash": "BMJ3xRMQDNM8vf+0lwBTQg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-mail-record-template.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-mail-record-template.html",
-          "hash": "hFb0B0HJ3BL8cozUGguuOw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-my-events.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-my-events.html",
-          "hash": "HiC62SmrWHRzSMZzcXv65A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-phone-nos.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-phone-nos.html",
-          "hash": "LF0bROfoUNiE/J7+wj9Y6w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-preffered-bank-accounts.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-preffered-bank-accounts.html",
-          "hash": "OfycBhzMNTyxceEFRsuBKg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-profiler.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-profiler.html",
-          "hash": "eqO1ctZWKK0bsyoSdwXZIA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-record-base-report.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-record-base-report.html",
-          "hash": "627Mt2/qRyLtMy1aOv9vuQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-red-letter-days.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-red-letter-days.html",
-          "hash": "UtDCqJWHDCZ7jV5HvTiOVw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-report-definitions.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-report-definitions.html",
-          "hash": "oL/NFMgVnJODNTQ7WBOiew=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-report-factBox.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-report-factBox.html",
-          "hash": "oQ8PxQeFhm6am715j2xCBQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-report-selections.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-report-selections.html",
-          "hash": "ZR2o0LZnvJTWt9vnBPO2nQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-report-usage-relations.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-report-usage-relations.html",
-          "hash": "1YWE2PypKlSUjNkmlhCNPA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-report-usages.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-report-usages.html",
-          "hash": "Uq1l8I2lhkisZIGcuR9WDQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-standard-purchase-lines.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-standard-purchase-lines.html",
-          "hash": "rHwSbHCDYrIJSXepkyCkvQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-standard-sales-lines.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-standard-sales-lines.html",
-          "hash": "KvAlZQZMH1wy7YTXFNKzWg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-statistic-group.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-statistic-group.html",
-          "hash": "j+gk+x4Q7a9Zy1eu/SyFUQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-text-use.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-text-use.html",
-          "hash": "9EaSbPOwtWgriWtwtUkGdw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-till-document-cash-desks.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-till-document-cash-desks.html",
-          "hash": "nP2XmlWA+61eZKRy+pECvg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-time-schedules.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-time-schedules.html",
-          "hash": "SOzQ0Gu5s6bP7mwJGBo/0Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-translations.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-translations.html",
-          "hash": "OrX9EETNwGyWyNssnk6CHw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "AC-SPA/ac-spx-workflow-PH.md",
-      "output": {
-        ".html": {
-          "relative_path": "AC-SPA/ac-spx-workflow-PH.html",
-          "hash": "guANyONW4d5jQrGcFu1U+w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "AC-Solutions/TOC.md",
       "output": {
         ".html": {
           "relative_path": "AC-Solutions/TOC.html",
-          "hash": "t5aUHbXoxVWnE44TZX+OzA=="
+          "hash": "uBaiBMiq18gnqe3sdFSFCA=="
         }
       },
       "is_incremental": false,
@@ -3491,10 +1377,66 @@
       "output": {
         ".html": {
           "relative_path": "AC-Solutions/ac-solutions.html",
-          "hash": "5UJyQz1VHBPJoI6R/cq43g=="
+          "hash": "1YliNaBTAj/ikoV+Bd4fYw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-Solutions/media/ACD365BC_SaaS.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-Solutions/media/ACD365BC_SaaS.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-Solutions/media/ACD365BC_SaaS_1280x720.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-Solutions/media/ACD365BC_SaaS_1280x720.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "AC-Solutions/media/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "AC-Solutions/media/readme.html",
+          "hash": "cJ5jimvQvIxiXe8hypGnZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-Solutions/media/ui-search/search.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-Solutions/media/ui-search/search.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-Solutions/media/ui-search/search_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-Solutions/media/ui-search/search_small.png"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3647,10 +1589,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "F0IDkQDt+gkPXf+zsM+bIg=="
+          "hash": "vl+pdQfH4vryMou6SlPraQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3670,10 +1612,10 @@
       "output": {
         ".html": {
           "relative_path": "media/readme.html",
-          "hash": "iXyWyhR3mS9EYpO0hKJvCQ=="
+          "hash": "YnCh6Wfn0/ETR0cDu1gocg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3691,17 +1633,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 280,
-          "skipped_file_count": 280
+          "total_file_count": 81,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -3721,8 +1665,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

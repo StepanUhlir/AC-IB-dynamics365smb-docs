@@ -12,7 +12,7 @@ ms.author: v-makune
 ---
 # Publikování úkolů - Nastavení
 
-**Viz také**
+**See also**
 
 [Publikování úkolů](ac-publication-tasks.md)  
 [Productivity Pack](ac-productivity-pack.md)

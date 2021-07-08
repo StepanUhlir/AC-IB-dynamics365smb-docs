@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Autocont - Pack Tracking Basic Setup | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Autocont - Pack Tracking Basic Setup | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="evidence-obalů-základ-ekokom---nastavení" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="15">Evidence obalů základ (EKOKOM) - Nastavení</h1>
+
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="16">Pro zajištění fungování add-on modulu <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="16">Evidence obalů základ</strong> je třeba provést nutné kroky nastavení.</p>
+<h2 id="založení-výkazu-obalů" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="18">Založení Výkazu obalů</h2>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="19">V systému lze založit potřebný počet různých Výkazů obalů. Pomocí <img src="media/ui-search/search_small.png" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="19" alt="Žárovka, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat"> vyhledejte <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="19">Výkazy obalů</strong>.</p>
+<div class="NOTE" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="21">
+<h5>Note</h5>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="22">Pokud se chystáte importovat poskytnuté soubory parametrizace EKO-KOM, je nutné založit Výkaz obalů s kódem <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="22">EKO-KOM</strong>.</p>
+</div>
+<h2 id="parametrizace-výkazu-obalů-eko-kom" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="24">Parametrizace Výkazu obalů EKO-KOM</h2>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="25">Součástí dodávky add-on modulu Evidence obalů jsou excelové soubory <em sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="25">ekokom_def.xlsx</em> a <em sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="25">ekokom.xlsx</em> obsahující parametrizaci pro <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="25">Výkaz obalů EKO-KOM</strong>.<br>
+Soubory s parametrizací lze do systému nahrát pomocí služby <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="26">RapidStart</strong>.</p>
+<h2 id="definice-prvků-výkazu-obalů-struktury-výkazu" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="28">Definice prvků Výkazu obalů (struktury výkazu)</h2>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="29">Pro každý založený výkaz je nutno nadefinovat jeho prvky. Pomocí vyhledávací funkce <img src="media/ui-search/search_small.png" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="29" alt="Žárovka, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat"> vyhledejte <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="29">Definice prvků výkazu obalů</strong>.<br>
+Prvky ve výkazu lze seskupovat do pozic na výkazu. Celkem lze definovat 10 pozic (seskupení prvků). Prvky v rámci jedné pozice mají dále přiřazený kód.</p>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="32">Pole formuláře Definice prvků výkazu obalů:</p>
+<table sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="34">
+<thead>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="34">
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="34">Pole</th>
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="34">Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="36">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="36"><strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="36">Kód pro vykazování</strong></td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="36">Kód výkazu založeného v předchozím kroku</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="37">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="37"><strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="37">Pozice</strong></td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="37">Uživatelem určená skupina prvků výkazu</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="38">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="38"><strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="38">Kód</strong></td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="38">Kód prvku v rámci pozice</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="39">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="39"><strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="39">Popis</strong></td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="39">Popis prvku výkazu</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="40">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="40"><strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="40">Umístění ve výkazu</strong></td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="40">Textová popisná informace</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="43">Lze tak například vytvořit tabulku s těmito hodnotami:</p>
+<table sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="45">
+<thead>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="45">
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="45">Kód pro vykazování</th>
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="45">Pozice</th>
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="45">Kód</th>
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="45">Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="47">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="47">EKO-KOM</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="47">P1</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="47">1</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="47">Obaly pro jedno použití</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="48">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="48">EKO-KOM</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="48">P1</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="48">2</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="48">Obaly pro opakované použití</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="49">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="49">EKO-KOM</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="49">P2</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="49">1</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="49">zpoplatněné</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="50">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="50">EKO-KOM</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="50">P2</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="50">2</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="50">předplacené</td>
+</tr>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="51">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="51">EKO-KOM</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="51">P2</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="51">3</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="51">neplacené</td>
+</tr>
+</tbody>
+</table>
+<h2 id="založení-prvků-ve-výkazu-obalů-definice-vlastního-výkazu" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="53">Založení prvků ve Výkazu obalů (definice vlastního výkazu)</h2>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="55">Definice vlastního výkazu se provádí založením prvků Výkazu obalů. Pomocí vyhledávací funkce <img src="media/ui-search/search_small.png" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="55" alt="Žárovka, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat"> vyhledejte <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="55">Prvky výkazu obalů</strong>. Ve formuláři se definují jednotlivé řádky výkazu tak, že se vybírají z dříve definovaných prvků pro jednotlivé pozice výkazu. Pole <em sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="55">Popis</em> je pak systémem doplněno v závislosti na plnění pole na stránce <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="55">Definice prvků vykazu obalů</strong>.</p>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="57">Záznam stránky <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="57">Prvky výkazu obalů</strong> tak může vypadat třeba takto:</p>
+<table sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="59">
+<thead>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="59">
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="59">Kód pro vykazování</th>
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="59">Kód</th>
+<th sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="59">Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="61">
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="61">EKO-KOM</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="61">13</td>
+<td sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="61">Obaly pro jedno použití neplacené</td>
+</tr>
+</tbody>
+</table>
+<h2 id="založení-výjimek-ve-výkazu-obalů" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="63">Založení výjimek ve výkazu obalů</h2>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">V každém založeném <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">Výkazu obalů</strong> lze definovat výjimky, specifikované stavem řádků v Deníku zboží, které nebudou do výkazu zahrnuty. Pomocí vyhledávací funkce <img src="media/ui-search/search_small.png" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65" alt="Žárovka, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat"> vyhledejte <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">Výjimky prvku výkazu obalů</strong>.  Výjimka je definována údaji zadanými do polí <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">Typ pohybu</strong>, <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">ID pole</strong>, <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">Hodnota</strong> a <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">Pozice</strong> (ve výkazu). Pro vytvoření výjimky je nutné specifikovat také <strong sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="65">Kód prvku</strong>.</p>
+<h2 id="see-also" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="67">See also</h2>
+<p sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="68"><a href="ac-pack-tracking-basic.html" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="68">Evidence obalů základ (EKOKOM)</a><br>
+<a href="ac-finance-pack.html" sourcefile="AC-FinancialPack/ac-pack-tracking-basic-setup.md" sourcestartlinenumber="69">Financial Pack</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-FinancialPack/ac-pack-tracking-basic-setup.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </div></div></body>
+</html>

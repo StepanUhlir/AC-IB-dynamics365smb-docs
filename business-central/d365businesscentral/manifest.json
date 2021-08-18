@@ -72,7 +72,7 @@
           "hash": "w2BnzhAf6y7C2z5CriIvuQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -578,10 +578,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-parcels-setup.html",
-          "hash": "o5TXs8ff8RO0rRBg3Y+1/g=="
+          "hash": "y1AgARiyCLBnoBD1FeIWVg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -590,10 +590,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-parcels.html",
-          "hash": "4HLNESCAuwRXrcHEa6tYiQ=="
+          "hash": "0hdFmFc1VFqdnr7twKy1iw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,6 +861,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/BB_Tracking.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/BB_Tracking.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/BB_collect.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/BB_collect.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "AC-ProductivityPack/media/BB_exp_pl.png",
       "output": {
         "resource": {
@@ -876,6 +898,50 @@
       "output": {
         "resource": {
           "relative_path": "AC-ProductivityPack/media/BB_lokace.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/BB_order.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/BB_order.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/BB_parcel_header.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/BB_parcel_header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/BB_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/BB_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/BB_shipping-agents.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/BB_shipping-agents.png"
         }
       },
       "is_incremental": false,
@@ -953,6 +1019,17 @@
       "output": {
         "resource": {
           "relative_path": "AC-ProductivityPack/media/IM-status-mgt-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/bb_parcel_body.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/bb_parcel_body.png"
         }
       },
       "is_incremental": false,
@@ -1178,7 +1255,7 @@
           "hash": "5RkM0LThuVBG7m+l7V21iw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1190,7 +1267,7 @@
           "hash": "8woegCUA/4dbiojtkJrwZw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1202,7 +1279,7 @@
           "hash": "ipWdglWIbdWl+3YvH1JcsA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1214,7 +1291,7 @@
           "hash": "rrcUB07GeZTbwVjZzJyDbg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1226,7 +1303,7 @@
           "hash": "KeDzOyUpG/bHFVa7dCz8Hw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1238,7 +1315,7 @@
           "hash": "62cOW+mZnWjVDbIUKF/dtw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1250,7 +1327,7 @@
           "hash": "ZHIa8OCFmI5//DxkJ0OzvA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1262,7 +1339,7 @@
           "hash": "s+nj3oR/0xlE2PzSlIEP8w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1274,7 +1351,7 @@
           "hash": "S4y7KV5I8RZhTLefMEeXSA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1286,7 +1363,7 @@
           "hash": "fu3EUKuYFdwrKvJSXSQZoA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1298,7 +1375,7 @@
           "hash": "qUoKcqCyLdyX5wtWoEP4xw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1310,7 +1387,7 @@
           "hash": "wwC+/TjcVzLkRylQ9FfIYg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1322,7 +1399,7 @@
           "hash": "D+oJpLnuqBhZNjY1VwJOGA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1334,7 +1411,7 @@
           "hash": "ySL0VSQa754E1/DjVwfkaA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1380,7 +1457,7 @@
           "hash": "1YliNaBTAj/ikoV+Bd4fYw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1541,6 +1618,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_Tracking.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_Tracking.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_collect.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_collect.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_exp_pl.png",
       "output": {
         "resource": {
@@ -1556,6 +1655,50 @@
       "output": {
         "resource": {
           "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_lokace.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_order.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_order.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_parcel_header.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_parcel_header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_shipping-agents.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/BB_shipping-agents.png"
         }
       },
       "is_incremental": false,
@@ -1633,6 +1776,17 @@
       "output": {
         "resource": {
           "relative_path": "d365businesscentral/AC-ProductivityPack/media/IM-status-mgt-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-ProductivityPack/media/bb_parcel_body.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-ProductivityPack/media/bb_parcel_body.png"
         }
       },
       "is_incremental": false,
@@ -1922,7 +2076,7 @@
           "hash": "vl+pdQfH4vryMou6SlPraQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {

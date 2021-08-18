@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AUTOCONT SOLUTIONS - Parcels | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AUTOCONT SOLUTIONS - Parcels | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="parcels" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="15">Parcels</h1>
+
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="17">Addon zásilek slouží k vytvořání zásilek a přímému tisku štítků vybraných dopravců, odesílání dat o zásilkách přepravci a objednání samotného svozu balíků. Pomocí totoho rozšíření je zrychlen proces zpracování a vytváření zásilek posílaných zákazníkům. Tento Addon využívá API služby Balíkobot.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="19">Tento addon je stavěn na základu načítání čárového kódu (čísel) účtovaných dokladů. Zásilky je možno vytvářet z účtovaných prodejních dodávek a faktur. Pokud uživatel bude vytvářet zásilku z účt. prodejní dodávky, zásilka se vytváří bez dobírky a z faktur s dobírkou.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="21">Seznam přepravců:</p>
+<ul sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="22">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="22">Česká pošta s.p.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="23">DHL</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="24">Direct Parcel Distribution CZ s.r.o.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="25">Geis CZ s.r.o.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="26">Gebrüder Weiss</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="27">General Logistics Systems Czech Republic s.r.o.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="28">IN TIME SPEDICE s. r.o.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="29">Messenger</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="30">Pošta bez hranic (Frogman s.r.o.)</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="31">PPL CZ s.r.o.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="32">Slovenská pošta a.s.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="33">TNT</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="34">TOPTRANS EU a.s.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="35">Uloženka s.r.o.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="36">UPS</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="37">Zásilkovna s.r.o.</li>
+</ul>
+<h2 id="vytvoření-prodejní-objednávky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="40">Vytvoření prodejní objednávky</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="41">Základním krokem procesu vytváření zásilek je prodejní objednávka. Data z prodejní objednávky se přenášejí do dalších dokladů, z kterých se vytváří zásilky, proto je nezbytné zadat bezchybně data již na počátku procesu. (Stejně tak se zásilky dají vytvářet z prodejních faktur.)</p>
+<h3 id="nutná-pole-k-zadání-před-vydáním-dokladu" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="42">Nutná pole k zadání před vydáním dokladu</h3>
+<ul sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="43">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="43">Adresa zákazníka</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="44">Kód přepravce, kód služby přepravce případně kód pobočky přepravce</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="45">Zákazníkovo telefonní číslo, e-mail nebo jeden z těchto údajů</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="46">Kód způsobu platby (pokud se jedná o dobírku), variabilní symbol</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="47">Vaše reference (v případě, že Váš zákazník vyžaduje na štítek např.: své číslo objednávky)</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="49">Systém nevydá doklad pokud není vyplněno telefonní číslo a/nebo e-mail! (viz. nastavení kontroly).
+Pokud na objednávce není vybraný žádný přepravce, kontrola na vydání dokladu (telefonní číslo a e-mail je vypnutá).</p>
+<h3 id="volitné-pole-k-zadání-před-vydáním-dokladu" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="51">Volitné pole k zadání před vydáním dokladu</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="52">Uživatel již v prodejní objednávce může zadat volitené parametry zásilky. K zadání slouží infomrační panel <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="52">Parametry zásilky</strong> na kartě prodejní objednávky. Pomocí tlačítka vložit se otevře okno s parametry z nastavení, které je možno doplnit dle potřeby. Může se jednat například o:</p>
+<ul sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="53">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="53">Kontrola věku adresáta.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="54">Kontakt na řidiče.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="55">Donáška do patra.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="56">Dopolední doručenní.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="57">A mnohé další.</li>
+</ul>
+<h2 id="karta-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="59">Karta zásilky</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="60">Karta zásilky se skládá celkem z pěti částí.</p>
+<h3 id="hlavička-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="63">Hlavička zásilky</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="64">V hlavičce dokladu jsou pouze povinné údaje potřebné k založení zásilky, pro zadání dalších údajů jako jsou rozměry nebo vzkaz řidiči je nutné využít podokno Parametry zásilky. Každý přepravce a služba přepravce má své specifické parametry, které v případně neplnosti dat nahlásí zpráva, co zásilce chybí za údaj.</p>
+<h3 id="řádky-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="65">Řádky zásilky</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="66">Pro definici počtu balíků v rámci jedné zásilky existuje pole „Počet balíků“. Pokud se bude jednat o balíkovou přepravu (NE PALETOVOU), po zadání počtu balíků se vytvoří řádky zásilky, ke kterým budou přiřazeny jednotlivé štítky od dopravce. V případě paletové přepravy bude toto pole určovat množství jedné manipulační jednotky (nevytvoří se několik řádků, ale vznikne jeden řádek a vyplní se množství; např.: 3 palety).</p>
+<h3 id="parametry-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="67">Parametry zásilky</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="68">Volitelné parametry zásilky.</p>
+<h3 id="připojené-doklady" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="69">Připojené doklady</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="70">V podookně připojené doklady je možné vidět všechny dodací listy nebo faktury, které byly vloženy do jedné zásilky (funkční pouze, když se zásilka posílá na jednu adresu)</p>
+<h3 id="obsah-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="71">Obsah zásilky</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="72">Obsah zásilky je především pro odesílání mimo EU, kdy je nutné udávat informace o tom co je v zásilce.</p>
+<h2 id="vytvoření-nové-zásilky-z-účtovaného-dokladu" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="73">Vytvoření nové zásilky z účtovaného dokladu</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="75">Po zaúčtování dodání nastává proces vytvoření zásilky pro zákazníka. Jedním ze způsobů je vytvoření zásilky s dodacího listu nebo účtované faktury. Pomocí načítání čísla dokladu se automaticky předvyplní formulář <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="75">Vytvořit zásilku</strong>. Tímto krokem uživatel nemusí ručně vypisovat údaje o zásilce.</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="77">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="77">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="77" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="77">Vytvořit zásilku</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="78">Vložte číslo účtovaného dokladu (účtovaná prodejní dodávka, účtovananá prodejní faktura) do pole <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="78">Číslo dokladu</strong>. Nebo využijte funkci Skenovat kódy (v případě kdy máte čárový kód s číslem dokladu).</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="79">Uživatel má možnost zadat počet balíků v rámci jedné zásilky.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="80">Vyberte funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="80">Vytvořit zásilku a vytisknout štítek</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="81">Zásilka je nyní vytvořena a zároveň je ve stavu <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="81">Ke svozu</strong>, tzn. má již od dopravce přidělené číslo, štítek a data jsou na straně Balíkobotu).</li>
+</ol>
+<h2 id="ruční-vytvoření-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="83">Ruční vytvoření zásilky</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="85">Zásilky lze vytvářet i ručně bez účtovaných dokladů, např.: pro odeslání dopisů, nebo dodatečného balíčku. Na přehledu zásilek se nachází funkce „Nový“, který otevře prázdnou kartu zásilky. Karta Zásilky a karta Vytvořit zásilku jsou skoro stejné. Při ručním vytváření zásilky, se nedá skenovat číslo účtovaného dokladu a údaje se musí vyplnit ručně. Při tomto vytváření je nutné zadat Stav na Nová a přídat jeden řádek. Po nachystání dat pro zásilku funkce „Přidat ke svozu“ zaeviduje zásilku v systému Balíkobotu. Poté je nutné ručně nechat vytisknout štítek.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="87">Pro ruční vytvoření zásilky jsou kroky následující:</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="88">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="88">Na přehledu zásilek zvolit funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="88">Nový</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="89">Naplnit potřebná pole pro daného přepavce a jeho službu</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="90">Funkce <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="90">Přidat ke svozu</strong> (zásilka je ve stavu <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="90">Ke svozu</strong> a je možné tisknout štítek)</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="91">Funkce <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="91">Tisk štítku</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="92">Zásilka je připravena k objednání svozu.</li>
+</ol>
+<h2 id="úprava-zásilky" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="94">Úprava zásilky</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="95">Upravovat zásilky lze pouze pokud jsou ve stavu <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="95">Nová</strong>. Pokud je zásilka ve stavu <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="95">Svozeno</strong> nelze ji již editovat. Pro úpravu/smazání informací zásilky, musí být ve stavu <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="95">Ke svozu</strong>. Pomocí funkce Odebrat ze svozu se změní stav z <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="95">ke svozu</strong> na <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="95">Nová</strong>.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="97">Po tomto kroku je třeba uvědomit přepravce, že zásilku mažete nebo upravujete. V tento okamžik je zásilce odebráno číslo od přepravce a je smazán štítek. Po upravení dat uživatel použije funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="97">Přidat ke svozu</strong> a pro vytištění nového štítků použít funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="97">Tisk štítků</strong>.</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="99">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="99">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="99" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="99">Zásilky</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="100">Postavit se na řádek ze zásilkou a použít funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="100">Odebrat ze svozu</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="101">Otevřít danou zásilku (nyní má stav <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="101">nová</strong>)</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="102">Doplnit údaje/hodnoty o zásilce (Změna přepravce, počet balíků, hmotnost, rozměry...)</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="103">Použít funkce <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="103">Přidat ke svozu</strong> (zásilka je ve stavu <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="103">Ke svozu</strong> a je možné tisknout štítek)</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="104">Dále je nutné použít funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="104">Tisk štítku</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="105">Zásilka je připravena k <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="105">objednání svozu</strong>.</li>
+</ol>
+<h2 id="objednání-svozu" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="107">Objednání svozu</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="108">Objednání svozu slouží k předání informace o Vašich zásilkách dopravci. Samotný proces objednání svozu je jednoduchý, slouží k tomu funkce „Objednat svoz“ na přehledu zásilek.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="110">Funkce zobrazí seznam přepravců s počtem zásilek, které ještě nebyly objednány ke svozu. Uživatel může objednat svoz pouze pro vybraného přepravce nebo pro všechny najednou.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="112">Pro objednání svozu je nutné udělat tyto kroky:</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="113">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="113">Na přehledu zásilek vybrat funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="113">Objednat svoz</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="114">Na kartě objednat svozu zvolit, zda se bude objednávat svoz jednoho přepravce (<strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="114">Objenad svoz</strong>) nebo všech (<strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="114">Objednat všechny svozy</strong>).</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="115">Po spuštění funkce se vytiskne <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="115">Předávací protokol svozu</strong>.</li>
+</ol>
+<h2 id="tisk-předávacího-protokolu-svozu" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="117">Tisk předávacího protokolu svozu</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="118">Předávací protokol je generován ze strany přepravců.
+Tato sestava se může nastavit, aby se tiskla automaticky po objednání svozu. Nastavení automatického tisku je v okně <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="119">Nastavení Balíkobotu</strong>. Pro dodatečný tisk předávacího protokolu vybraného přepravce slouží funkce se stejným názvem na přehledu zásilek, kdy stačí stát na jedné ze zásilek daného přepravce v daný den svozu. Poté se vytiskne soupiska všech zásilek od vybraného přepravce za určený den.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="121">Pro dodatečný tisk předávacího protokolu svozu:</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="122">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="122">Stoupnout si na zásilky z daného svozu a použít funkci <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="122">Tisk předávacího protokolu svozu</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="123">Otevře se PDF soubor, který se následně vytiskne z okna prohližeče.</li>
+</ol>
+<h2 id="sledování-zásilek" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="125">Sledování zásilek</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="126">Na přehledu zásilek lze na první pohled zahlédnout stav přepravy zásilky. Tento stav není strukturován a je pouze informativní bez detailu. Pro aktualizaco toho stavu na řádku zásilky slouží tlačítko <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="126">Aktualizovat stav přepravy</strong>.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="128">Pokud chcete zobrazit jednotlivé stavy od přepravce využijte funkci na přehledu zásilek <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="128">Sledování zásilky</strong>, která otevře stránku s jednotlivými stavy přepravy.</p>
+<h2 id="kontroly-a-omezení" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="131">Kontroly a omezení</h2>
+<ul sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="133">
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="133">Pokud jsou na prodejní objednávce vyplněny pole Kód přepravce a Kód služby přepravce, je nutné zadat telefonní číslo a e-mail příjemce. POkud pole nebudou vyplěny nelze doklad vydat.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="134">Při zadávání dat na kartě zásilky (automaticky pomocí načtení kódů, nebo ručně) je na kartě zásilky funkce <strong sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="134">Ověřit data zásilky</strong>. PO spuštění dostanete informaci, zda jsou předávané informace v pořádku.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="135">Jedno expediční místo může být přiřazeno jedné lokaci. Vzniká vazba 1:1.</li>
+</ul>
+<h2 id="see-also" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="137">See also</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="138"><a href="ac-parcels-setup.html" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="138">Nastavení zásilek</a><br>
+<a href="ac-productivity-pack.html" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="139">AC Productivity Pack</a><br>
+<a href="../index.html" sourcefile="AC-ProductivityPack/ac-parcels.md" sourcestartlinenumber="140">AUTOCONT řešení</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-parcels.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </div></div></body>
+</html>

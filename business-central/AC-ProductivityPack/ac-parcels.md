@@ -12,129 +12,148 @@ ms.date: 06/24/2020
 ms.author: v-makune
 ---
 
-# Parcels
+# AC Parcels - Integrace Balíkobot
 
-Addon zásilek slouží k vytvořání zásilek a přímému tisku štítků vybraných dopravců, odesílání dat o zásilkách přepravci a objednání samotného svozu balíků. Pomocí totoho rozšíření je zrychlen proces zpracování a vytváření zásilek posílaných zákazníkům. Tento Addon využívá API služby Balíkobot.
+The shipments addon is used to create shipments and directly print labels of selected shipping angent, send shipment data to the shipping angent and order the actual parcel collection. With this extension, the process of processing and creating shipments sent to customers is accelerated. This addon uses the API of the Balikobot service.
 
-Tento addon je stavěn na základu načítání čárového kódu (čísel) účtovaných dokladů. Zásilky je možno vytvářet z účtovaných prodejních dodávek a faktur. Pokud uživatel bude vytvářet zásilku z účt. prodejní dodávky, zásilka se vytváří bez dobírky a z faktur s dobírkou.
+This addon is built on the basis of reading barcode (numbers) of charged documents. Shipments can be created from posted sales shipments and invoices. If the user will create a shipment from an invoiced sales delivery, the shipment will be created without COD and from invoices with COD.
 
-Seznam přepravců:
-- Česká pošta s.p.
-- DHL
-- Direct Parcel Distribution CZ s.r.o.
-- Geis CZ s.r.o.
-- Gebrüder Weiss
-- General Logistics Systems Czech Republic s.r.o.
-- IN TIME SPEDICE s. r.o.
-- Messenger
-- Pošta bez hranic (Frogman s.r.o.)
-- PPL CZ s.r.o.
-- Slovenská pošta a.s.
-- TNT
-- TOPTRANS EU a.s.
-- Uloženka s.r.o.
-- UPS
-- Zásilkovna s.r.o.
-
-
-## Vytvoření prodejní objednávky
-Základním krokem procesu vytváření zásilek je prodejní objednávka. Data z prodejní objednávky se přenášejí do dalších dokladů, z kterých se vytváří zásilky, proto je nezbytné zadat bezchybně data již na počátku procesu. (Stejně tak se zásilky dají vytvářet z prodejních faktur.)
-### Nutná pole k zadání před vydáním dokladu
-- Adresa zákazníka
-- Kód přepravce, kód služby přepravce případně kód pobočky přepravce
-- Zákazníkovo telefonní číslo, e-mail nebo jeden z těchto údajů
-- Kód způsobu platby (pokud se jedná o dobírku), variabilní symbol
-- Vaše reference (v případě, že Váš zákazník vyžaduje na štítek např.: své číslo objednávky)
-
-Systém nevydá doklad pokud není vyplněno telefonní číslo a/nebo e-mail! (viz. nastavení kontroly).
-Pokud na objednávce není vybraný žádný přepravce, kontrola na vydání dokladu (telefonní číslo a e-mail je vypnutá).
-### Volitné pole k zadání před vydáním dokladu
-Uživatel již v prodejní objednávce může zadat volitené parametry zásilky. K zadání slouží infomrační panel **Parametry zásilky** na kartě prodejní objednávky. Pomocí tlačítka vložit se otevře okno s parametry z nastavení, které je možno doplnit dle potřeby. Může se jednat například o:
-- Kontrola věku adresáta.
-- Kontakt na řidiče.
-- Donáška do patra.
-- Dopolední doručenní.
-- A mnohé další.
-
-## Karta zásilky
-Karta zásilky se skládá celkem z pěti částí.
+List of shipping angents:
+ - Česká pošta s.p.
+ - DACHER Česká republika
+ - DHL
+ - Direct Parcel Distribution CZ s.r.o.
+ - FEDEX
+ - Fofr
+ - Geis CZ s.r.o.
+ - Gebrüder Weiss
+ - General Logistics Systems Czech Republic s.r.o.
+ - Gebrüder Weiss Česká republika
+ - Gebrüder Weiss Slovenská republika
+ - Messenger
+ - Pošta bez hranic (Frogman s.r.o.)
+ - PPL CZ s.r.o. 
+ - Raben
+ - Spring
+ - Slovenská pošta a.s.
+ - TNT Express
+ - TOPTRANS EU a.s.
+ - WE|DO
+ - WE DO - Uloženka
+ - UPS
+ - Zásilkovna s.r.o.
 
 
-### Hlavička zásilky
-V hlavičce dokladu jsou pouze povinné údaje potřebné k založení zásilky, pro zadání dalších údajů jako jsou rozměry nebo vzkaz řidiči je nutné využít podokno Parametry zásilky. Každý přepravce a služba přepravce má své specifické parametry, které v případně neplnosti dat nahlásí zpráva, co zásilce chybí za údaj.
-### Řádky zásilky
-Pro definici počtu balíků v rámci jedné zásilky existuje pole „Počet balíků“. Pokud se bude jednat o balíkovou přepravu (NE PALETOVOU), po zadání počtu balíků se vytvoří řádky zásilky, ke kterým budou přiřazeny jednotlivé štítky od dopravce. V případě paletové přepravy bude toto pole určovat množství jedné manipulační jednotky (nevytvoří se několik řádků, ale vznikne jeden řádek a vyplní se množství; např.: 3 palety).
-### Parametry zásilky
-Volitelné parametry zásilky.
-### Připojené doklady
-V podookně připojené doklady je možné vidět všechny dodací listy nebo faktury, které byly vloženy do jedné zásilky (funkční pouze, když se zásilka posílá na jednu adresu)
-### Obsah zásilky
-Obsah zásilky je především pro odesílání mimo EU, kdy je nutné udávat informace o tom co je v zásilce.
-## Vytvoření nové zásilky z účtovaného dokladu
+## Creating a sales order
+The basic step of the shipment creation process is the sales order. The data from the sales order is transferred to the other documents from which the shipments are created, so it is essential to enter the data correctly at the beginning of the process. (Similarly, shipments can be created from sales invoices.)
 
-Po zaúčtování dodání nastává proces vytvoření zásilky pro zákazníka. Jedním ze způsobů je vytvoření zásilky s dodacího listu nebo účtované faktury. Pomocí načítání čísla dokladu se automaticky předvyplní formulář **Vytvořit zásilku**. Tímto krokem uživatel nemusí ručně vypisovat údaje o zásilce.
+![Creating of sales order](media/BB_order.png)
+### Required fields to be entered before issuing a document
+- Customer address
+- Shipping Agent Code, Shipping Angent Service Code or Shipping Angent Branch Code.
+- Customer's phone number, email or one of the following.
+- Payment method code (if COD), variable symbol.
+- Your references (if your customer requires a label, e.g.: your order number).
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Vytvořit zásilku** a poté vyberte související odkaz.
-1. Vložte číslo účtovaného dokladu (účtovaná prodejní dodávka, účtovananá prodejní faktura) do pole **Číslo dokladu**. Nebo využijte funkci Skenovat kódy (v případě kdy máte čárový kód s číslem dokladu).
-1. Uživatel má možnost zadat počet balíků v rámci jedné zásilky.
-1. Vyberte funkci **Vytvořit zásilku a vytisknout štítek**.
-1. Zásilka je nyní vytvořena a zároveň je ve stavu **Ke svozu**, tzn. má již od dopravce přidělené číslo, štítek a data jsou na straně Balíkobotu).
+Business Central will not release a receipt if the phone number and/or email is not filled in! (see check settings).
+If no shipping angent is selected on the order, the check to release the document (phone number and email is disabled).
 
-## Ruční vytvoření zásilky
+### Optional field to be entered before the document is released
+The user can already enter optional shipment parameters in the sales order. The **Shipment Parameters** infomation panel on the sales order tab is used to enter them. The insert button opens a window with parameters from the settings, which can be added as required. These can be for example:
+- Check the age of the addressee.
+- Driver contact.
+- Delivery to the floor.
+- Morning delivery.
+- And many more.
 
-Zásilky lze vytvářet i ručně bez účtovaných dokladů, např.: pro odeslání dopisů, nebo dodatečného balíčku. Na přehledu zásilek se nachází funkce „Nový“, který otevře prázdnou kartu zásilky. Karta Zásilky a karta Vytvořit zásilku jsou skoro stejné. Při ručním vytváření zásilky, se nedá skenovat číslo účtovaného dokladu a údaje se musí vyplnit ručně. Při tomto vytváření je nutné zadat Stav na Nová a přídat jeden řádek. Po nachystání dat pro zásilku funkce „Přidat ke svozu“ zaeviduje zásilku v systému Balíkobotu. Poté je nutné ručně nechat vytisknout štítek.
+## Shipment card
+The consignment card consists of a total of five parts.
 
-Pro ruční vytvoření zásilky jsou kroky následující:
-1. Na přehledu zásilek zvolit funkci **Nový**
-2. Naplnit potřebná pole pro daného přepavce a jeho službu
-3. Funkce **Přidat ke svozu** (zásilka je ve stavu **Ke svozu** a je možné tisknout štítek)
-4. Funkce **Tisk štítku**
-5. Zásilka je připravena k objednání svozu.
+![Create order](media/BB_parcel_header.png)
+![Create order](media/BB_parcel_body.png)
 
-## Úprava zásilky
-Upravovat zásilky lze pouze pokud jsou ve stavu **Nová**. Pokud je zásilka ve stavu **Svozeno** nelze ji již editovat. Pro úpravu/smazání informací zásilky, musí být ve stavu **Ke svozu**. Pomocí funkce Odebrat ze svozu se změní stav z **ke svozu** na **Nová**.
+### Parcel header
+The document header contains only the mandatory data needed to create a shipment, to enter other data such as dimensions or a message to the driver, you must use the Shipment Parameters pane. Each shipping angent and shipping angent service has its own specific parameters that will report a message if the data is incomplete, indicating what data is missing from the shipment.
 
-Po tomto kroku je třeba uvědomit přepravce, že zásilku mažete nebo upravujete. V tento okamžik je zásilce odebráno číslo od přepravce a je smazán štítek. Po upravení dat uživatel použije funkci **Přidat ke svozu** a pro vytištění nového štítků použít funkci **Tisk štítků**.
+### Shipment lines
+The "Number of Packages" field exists to define the number of packages within a shipment. If the shipment is a parcel shipment (NOT a PALETTE shipment), once the number of parcels is entered, shipment lines will be created with individual shipping angent labels assigned. In the case of a pallet shipment, this field will specify the quantity of one handling unit (multiple lines will not be created, but one line will be created and the quantity will be filled in; e.g.: 3 pallets).
+### Other parts
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Zásilky** a poté vyberte související odkaz.
-2. Postavit se na řádek ze zásilkou a použít funkci **Odebrat ze svozu**
-3. Otevřít danou zásilku (nyní má stav **nová**)
-4. Doplnit údaje/hodnoty o zásilce (Změna přepravce, počet balíků, hmotnost, rozměry...)
-5. Použít funkce **Přidat ke svozu** (zásilka je ve stavu **Ke svozu** a je možné tisknout štítek)
-6. Dále je nutné použít funkci **Tisk štítku**
-7. Zásilka je připravena k **objednání svozu**.
+|Part|Description|
+|-|-|
+|**Shipment Parameters**|Shipment Parameters Selectable.|
+|**Attached documents**|In the Attached documents subpage it is possible to see all delivery notes or invoices that have been inserted in one shipment (only functional when the shipment is sent to one address) |**Attached documents**|
+|**Contents of shipment**|The contents of a shipment are mainly for shipments outside the EU, where it is necessary to give information about what is in the shipment.
 
-## Objednání svozu
-Objednání svozu slouží k předání informace o Vašich zásilkách dopravci. Samotný proces objednání svozu je jednoduchý, slouží k tomu funkce „Objednat svoz“ na přehledu zásilek.
+## Creating a new shipment from a posted document
 
-Funkce zobrazí seznam přepravců s počtem zásilek, které ještě nebyly objednány ke svozu. Uživatel může objednat svoz pouze pro vybraného přepravce nebo pro všechny najednou.
+After posting the shipment, the process of creating a shipment for the customer begins. One way is to create a shipment from a delivery note or a charged invoice. By retrieving the invoice number, the **Create Shipment** form is automatically pre-populated. This step eliminates the need for the user to manually fill out the shipment information.
 
-Pro objednání svozu je nutné udělat tyto kroky:
-1. Na přehledu zásilek vybrat funkci **Objednat svoz**
-2. Na kartě objednat svozu zvolit, zda se bude objednávat svoz jednoho přepravce (**Objenad svoz**) nebo všech (**Objednat všechny svozy**).
-3. Po spuštění funkce se vytiskne **Předávací protokol svozu**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Parcel**, and then choose the related link.
+1. Enter the number of the document being charged (posted sales shipment, posted sales invoice) in the **Document Number** field. Or use the Scan Codes function (in case you have a barcode with a receipt number).
+1. The user has the option to enter the number of packages within a shipment.
+1. Select the **Create Shipment and Print Label** function.
+1. The shipment is now created and is also in the **For collection** status, i.e. it has already been assigned a number by the shipping agent. The label and data are on the Balikobot side).
 
-## Tisk předávacího protokolu svozu
-Předávací protokol je generován ze strany přepravců.
-Tato sestava se může nastavit, aby se tiskla automaticky po objednání svozu. Nastavení automatického tisku je v okně **Nastavení Balíkobotu**. Pro dodatečný tisk předávacího protokolu vybraného přepravce slouží funkce se stejným názvem na přehledu zásilek, kdy stačí stát na jedné ze zásilek daného přepravce v daný den svozu. Poté se vytiskne soupiska všech zásilek od vybraného přepravce za určený den.
+## Manual shipment creation
 
-Pro dodatečný tisk předávacího protokolu svozu:
-1. Stoupnout si na zásilky z daného svozu a použít funkci **Tisk předávacího protokolu svozu**.
-2. Otevře se PDF soubor, který se následně vytiskne z okna prohližeče.
+You can also create shipments manually without accounting documents, e.g.: for sending letters or an additional package. On the shipment overview there is a "New" function which opens a blank shipment card. The Shipments tab and the Create Shipment tab are almost identical. When manually creating a shipment, the posted document number cannot be scanned and the information must be filled in manually. In this creation, you must enter Status on **New** and add one line. Once the data for the shipment is set up, the "Add to Shipment" function will register the shipment in the Balikobot system. Then you must manually print the label.
 
-## Sledování zásilek
-Na přehledu zásilek lze na první pohled zahlédnout stav přepravy zásilky. Tento stav není strukturován a je pouze informativní bez detailu. Pro aktualizaco toho stavu na řádku zásilky slouží tlačítko **Aktualizovat stav přepravy**.
+To create a shipment manually, the steps are as follows:
+1. Select the **New** function on the shipment overview.
+2. Fill in the necessary fields for the shipper and its service
+3. the **Add to collection** function (the shipment is in the **For collection** status and the label can be printed)
+4. function **Print label**
+5. The shipment is ready to be ordered for collection.
 
-Pokud chcete zobrazit jednotlivé stavy od přepravce využijte funkci na přehledu zásilek **Sledování zásilky**, která otevře stránku s jednotlivými stavy přepravy.
+## Shipment edit
+Shipments can only be edited if they are in **New** status. If a shipment is in **Collected** status, it cannot be edited. In order to edit/delete shipment information, the shipment must be in the **For Collection** status. Use the Remove From Shipment function to change the status from **For Collection** to **New**.
+
+ After this step, you must notify the shipper that you are deleting or editing the shipment. At this point, the shipment number is removed from the carrier and the label is deleted. Once the data has been edited, the user will use the **For Collection** function and use the **Print Labels** function to print the new label.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels**, and then choose the related link.
+2. Choose on the consignment line and use the **Remove from collection** function.
+3. Open the Parcel (it now has a status of **New**)
+4. Add data/values about the shipment (change of carrier, number of packages, weight, dimensions...)
+5. Use the **Add to collection** function (the shipment is in the **For collection** status and the label can be printed)
+6. Next, use the **Print Label** function.
+7. The shipment is ready for **Order Collection**.
+
+## Order Collection
+Order collection is used to pass information about your shipments to the carrier. The process of ordering a collection is simple, it is done using the "Order collection" function on the shipment overview. 
+
+The function will display a list of carriers with the number of shipments that have not yet been ordered for collection. The user can order a collection only for the selected shipper or for all of them at once.
+
+![Order Collection](media/BB_collect.png)
+
+In order to order a collection, the following steps are required:
+1. In the shipment overview, select the **Order Collection** function.
+2. On the Order Pickup tab, select whether to order a pickup from one carrier (**Order Collection**) or all carriers (**Order All Collections**).
+3.  When the function is initiated, the **Handover report** will print.
+
+## Printing the collection report
+The handover report is generated by the haulers.
+This report can be set to print automatically when a collection is ordered. The automatic printing settings are in the **Shipment Settings** window. For additional printing of the handover report of the selected shipper, there is a function with the same name on the shipment report, where you just stand on one of the shipments of that shipper on the day of the collection. A list of all shipments from the selected shipper for the specified day will then be printed.
+
+For an additional printout of the collection handover report:
+1. Stand on the shipments from that collection and use the **Collection Handover Protocol** function.
+2. This will open a PDF file, which will then be printed from the browser window.
+
+## Tracking shipments
+In the shipment overview you can see at a glance the status of the shipment. This status is not structured and is only informative without detail. To update this status on the shipment line, use the **Update Track Status** button. 
+
+If you want to view individual shipment statuses from the shipper, use the **Track Status** function on the shipment overview to open the individual shipment status page.
 
 
-## Kontroly a omezení
+![Trackstatus](media/BB_Tracking.png)
 
-- Pokud jsou na prodejní objednávce vyplněny pole Kód přepravce a Kód služby přepravce, je nutné zadat telefonní číslo a e-mail příjemce. POkud pole nebudou vyplěny nelze doklad vydat.
-- Při zadávání dat na kartě zásilky (automaticky pomocí načtení kódů, nebo ručně) je na kartě zásilky funkce **Ověřit data zásilky**. PO spuštění dostanete informaci, zda jsou předávané informace v pořádku.
-- Jedno expediční místo může být přiřazeno jedné lokaci. Vzniká vazba 1:1.
+## Checks and restrictions
 
-## See also
-[Nastavení zásilek](ac-parcels-setup.md)  
+ - If the Shipping agent Code and Shipping agent Service Code fields are filled out on the sales order, you must enter the recipient's phone number and email. If the fields are not filled in the receipt cannot be released.
+ - When entering data on the shipment card (automatically by retrieving codes or manually) there is a **Check Data** function on the shipment card. After running it, you will be informed if the information transmitted is correct.
+ - One shipping point can be assigned to one location. A 1:1 relationship is created..
+
+## See Also
+[Setup - AC Parcels - Integration Balikobot](ac-parcels-setup.md)  
 [AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT řešení](../index.md)
+[AUTOCONT solutions](../index.md)

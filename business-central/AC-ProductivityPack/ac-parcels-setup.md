@@ -12,7 +12,7 @@ ms.date: 06/24/2020
 ms.author: v-makune
 ---
 
-# Setup - AC Parcels - Integratiom Balikobot
+# Setup - AC Parcels - Integration Balikobot
 
 There are several areas that need to be set up for the AC Parcel addon to work properly. The addon is initially set up using the wizard and then the settings can be changed manually.
 

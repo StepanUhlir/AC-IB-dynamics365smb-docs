@@ -66,7 +66,7 @@ The user can already enter optional shipment parameters in the sales order. The 
 - Morning delivery.
 - And many more.
 
-## Shipment card
+## Create parcel card
 The consignment card consists of a total of five parts.
 
 ![Create order](media/BB_parcel_header.png)
@@ -75,7 +75,7 @@ The consignment card consists of a total of five parts.
 ### Parcel header
 The document header contains only the mandatory data needed to create a shipment, to enter other data such as dimensions or a message to the driver, you must use the Shipment Parameters pane. Each shipping angent and shipping angent service has its own specific parameters that will report a message if the data is incomplete, indicating what data is missing from the shipment.
 
-### Shipment lines
+### Parcel lines
 The "Number of Packages" field exists to define the number of packages within a shipment. If the shipment is a parcel shipment (NOT a PALETTE shipment), once the number of parcels is entered, shipment lines will be created with individual shipping angent labels assigned. In the case of a pallet shipment, this field will specify the quantity of one handling unit (multiple lines will not be created, but one line will be created and the quantity will be filled in; e.g.: 3 pallets).
 ### Other parts
 
@@ -95,7 +95,7 @@ After posting the shipment, the process of creating a shipment for the customer 
 1. Select the **Create Shipment and Print Label** function.
 1. The shipment is now created and is also in the **For collection** status, i.e. it has already been assigned a number by the shipping agent. The label and data are on the Balikobot side).
 
-## Manual shipment creation
+## Manual Parcel creation
 
 You can also create shipments manually without accounting documents, e.g.: for sending letters or an additional package. On the shipment overview there is a "New" function which opens a blank shipment card. The Shipments tab and the Create Shipment tab are almost identical. When manually creating a shipment, the posted document number cannot be scanned and the information must be filled in manually. In this creation, you must enter Status on **New** and add one line. Once the data for the shipment is set up, the "Add to Shipment" function will register the shipment in the Balikobot system. Then you must manually print the label.
 
@@ -106,7 +106,7 @@ To create a shipment manually, the steps are as follows:
 4. function **Print label**
 5. The shipment is ready to be ordered for collection.
 
-## Shipment edit
+## Parcel edit
 Shipments can only be edited if they are in **New** status. If a shipment is in **Collected** status, it cannot be edited. In order to edit/delete shipment information, the shipment must be in the **For Collection** status. Use the Remove From Shipment function to change the status from **For Collection** to **New**.
 
  After this step, you must notify the shipper that you are deleting or editing the shipment. At this point, the shipment number is removed from the carrier and the label is deleted. Once the data has been edited, the user will use the **For Collection** function and use the **Print Labels** function to print the new label.

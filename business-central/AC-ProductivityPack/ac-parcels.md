@@ -12,7 +12,7 @@ ms.date: 06/24/2020
 ms.author: v-makune
 ---
 
-# AC Parcels - Integration Balikobot
+# AC Parcels - Balikobot Integration
 
 The shipments addon is used to create shipments and directly print labels of selected shipping angent, send shipment data to the shipping angent and order the actual parcel collection. With this extension, the process of processing and creating shipments sent to customers is accelerated. This addon uses the API of the Balikobot service.
 

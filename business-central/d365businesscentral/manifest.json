@@ -1323,10 +1323,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-SK/ac-sk-intrastat.html",
-          "hash": "KeDzOyUpG/bHFVa7dCz8Hw=="
+          "hash": "kbCaHoFgRLfpRcvWuOkI8Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1350,7 +1350,7 @@
           "hash": "62cOW+mZnWjVDbIUKF/dtw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2038,6 +2038,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-SK/media/ac-sk-intrastat.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-SK/media/ac-sk-intrastat.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "d365businesscentral/AC-SK/media/ui-search/search.png",
       "output": {
         "resource": {
@@ -2184,7 +2195,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 83,
-          "skipped_file_count": 83
+          "skipped_file_count": 82
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

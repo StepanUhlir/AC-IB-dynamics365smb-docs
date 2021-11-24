@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="odlouhlasení-pohledávek-a-závazků" sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="14">Odlouhlasení pohledávek a závazků</h1>
+
+<p sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="16">V souladu s ustanovením §29 a §30 zák.č. 431/2002 Zz. o účetnictví v platném znění vykonávají účetní jednotky inventarizaci ke dni sestavení řádné nebo mimořádné účetní závěrky.
+Pro tyto účely mohou být použity sestavy „Odsouhlasení salda dodavatele“ a „Odsouhlasení salda zákazníka“.</p>
+<h2 id="odsouhlasení-salda-dodavatele" sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="19">Odsouhlasení salda dodavatele</h2>
+<ol sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="21">
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="21">Pro spuštění sestavy otevřete přehled Dodavatelů nebo Kartu dodavatele a zvolte <strong sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="21">Sestava</strong> a poté <strong sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="21">Odsouhlasení salda</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="22">Vyplňte Datum vrácení a Datum odsouhlasení.</li>
+</ol>
+<p sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="24">Volitelně můžete:</p>
+<ul sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="26">
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="26">Zahrnout dluhy zákazníka – výši závazku upraví o dluhy zákazníka</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="27">Tisk detailů – vytiskne přílohu se seznamem dokladů</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="28">Tisknout pouze nenulové</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="29">Vytisknout částky v měně – vytiskne částky v měně zaúčtovaných dokladů</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="30">Filtrovat podle Dodavatele</li>
+</ul>
+<h2 id="odsouhlasení-salda-zákazníka" sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="32">Odsouhlasení salda zákazníka</h2>
+<ol sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="34">
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="34">Pro spuštění sestavy otevřete přehled Zákazníků nebo Kartu zákazníka a zvolte <strong sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="34">Sestava</strong> a poté <strong sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="34">Odsouhlasení salda</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="35">Vyplňte Datum vrácení a Datum odsouhlasení.</li>
+</ol>
+<p sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="37">Volitelně můžete:</p>
+<ul sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="39">
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="39">Zahrnout dluhy dodavatele – výši pohledávky upraví o dluhy dodavatele</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="40">Tisk detailů – vytiskne přílohu se seznamem dokladů</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="41">Tisknout pouze nenulové</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="42">Vytisknout částky v měně – vytiskne částky v měně zaúčtovaných dokladů</li>
+<li sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="43">Filtrovat podle Zákazníka</li>
+</ul>
+<h2 id="see-also" sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="45">See also</h2>
+<p sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="47"><a href="../index.html" sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="47">AUTOCONT Řešení</a><br>
+<a href="ac-sk-legislative-pack.html" sourcefile="AC-SK/ac-sk-balance-reconciliation.md" sourcestartlinenumber="48">SK Legislativní balíček</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-SK/ac-sk-balance-reconciliation.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </div></div></body>
+</html>

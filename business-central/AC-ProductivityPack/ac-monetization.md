@@ -14,44 +14,48 @@ ms.author: v-makune
 
 
 # AC Monetization
+> Update: 03.02.2022
 
-Jedná se o funkcionalitu umožňující uživateli správu předplatného produktů firmy AUTOCONT v prostředí Business Central. 
+It is a functionality that allows the user to manage subscriptions to AUTOCONT products in the Business Central environment.
+## Trial Period Activation
 
-## Aktivace Zkušebního období 
+Each product has a 30-day trial period to verify that the functionality suits the customer. Activation can be done either:
 
-Každý produkt má 30-ti denní zkušební období pro ověření, zda funkcionalita zákazníkovi vyhovuje. Aktivaci lze provést buď: 
+   - **Automatically** when you start the Assisted Setup of the respective product (Installation & Extensions -> Assisted Setup, section Set up AUTOCONT extension).
+   - By opening the **Purchase of an AUTOCONT Product** page and running the **Buy Product** action (note: the list contains all commercially available extensions; installation of the extension is required before activation).
 
-   - **Automaticky** při spuštění Asistovaného nastavení příslušného produktu (Instalace & Rozšíření -> Asistovaná nastavení, část Nastavit rozšíření AUTOCONT).
-   - Otevřením stránky **Nákup produktu firmy AUTOCONT** a spuštěním akce **Koupit produkt** (pozn. seznam obsahuje všechna komerčně dostupná rozšíření; před aktivací je nutná instalace rozšíření).
+![Buying an AUTOCONT product](media/ac-monetization.png)
 
-![Nákup produktu firmy AUTOCONT](media/ac-monetization.png)
+In both cases, a short activation wizard will start, during which you must enter the following: 
 
-V obou případech se spustí krátký průvodce aktivací, v jehož průběhu je třeba povinně zadat: 
+- Email - this will be used for communication regarding subscriptions, e.g. to send notifications of the upcoming subscription end date, etc. 
 
-- E-mail – tento bude využit pro komunikaci ohledně předplatného, např. pro zasílání upozorňování na blížící se termín konce předplatného, apod. 
+- Consent to [Terms and Conditions](https://www.autocont.cz/business-aplication/pas-subscription-terms).
 
-- Souhlas s [Obchodními podmínkami](https://www.autocont.com/pas-subscription-terms).
+Note: If you are not prompted to confirm that the user really wants to create a trial subscription (and the window for selecting a subscription plan opens directly), then the trial period has already been activated in this tenant sometime before. 
 
-Poznámka: Pokud se neobjeví požadavek na potvrzení, že uživatel opravdu chce vytvořit zkušební předplatné (a otevře se rovnou okno pro výběr plánu předplatného), pak v tomto tenantu již bylo zkušební období někdy dříve aktivováno. 
+## Purchase of the product
 
-## Zakoupení produktu 
+At any time during the trial period, it is possible to purchase the product with the understanding that the customer will not lose the remainder of the trial period.
 
-Kdykoliv v průběhu zkušebního období je možné zakoupit produkt s tím, že zákazník nepřijde o zbývající část zkušebního období. 
+A notification on the Home page with a link to the **Purchase of an AUTOCONT Product** page informs the user that the trial period is about to end. 
 
-O blížícím se konci zkušebního období informuje uživatele oznámení na Domovské stránce s odkazem na stránku **Nákup produktu firmy AUTOCONT**. 
+The **Buy Product** function on the **AUTOCONT Product Purchase** page guides the user through the steps: 
 
-Funkce **Koupit** produkt na stránce **Nákup produktu firmy AUTOCONT** uživatele postupně provede jednotlivými kroky: 
+- **Plan selection** - First, you need to choose whether you want to renew your subscription monthly or annually.
+- **Customer Details** - Fill in missing company details required for ordering and billing.
+- **Payment Card Details** - Entering the payment card details that will be stored in STRIPE.
 
-- **Výběr plánu** – nejprve je třeba zvolit, zda-li chce zákazník obnovovat předplatné každý měsíc nebo jednou ročně.
-- **Detaily zákazníka** – Doplnění chybějících údajů o firmě potřebných pro objednávku a fakturaci.
-- **Detaily platební karty** – Zadání detailů o platební kartě, které budou uloženy ve službě STRIPE.
+## Subscription management 
 
-## Správa předplatného 
+To manage subscriptions, use the **AUTOCONT Subscription** page, where the user: 
 
-Pro správu předplatného slouží stránka **Seznam předplatných AUTOCONT**, kde uživatel: 
+- get an overview of AUTOCONT's subscription products,
+- has the possibility to terminate the subscription of the selected product, 
+- can cancel the subscription.
 
-- získá přehled o předplacených produktech od firmy AUTOCONT,
-- má možnost ukončit předplatné vybraného produktu, 
-- má možnost zrušit předplatné. 
+## See Also
+[Productivity Pack](ac-productivity-pack.md)  
+[AUTOCONT Solution](../index.md)  
 
  

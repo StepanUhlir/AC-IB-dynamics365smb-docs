@@ -11,7 +11,7 @@ ms.search.keywords: Controling basic, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Controling Basic
+# Application extension set
 
 Add-on module The Finance - Controling Basic contains common features to support the operation of the other add-on modules of the Finance Extension Pack, and at the same time includes some additional features such as:
 

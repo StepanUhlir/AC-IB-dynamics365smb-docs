@@ -11,7 +11,7 @@ ms.search.keywords: Controling basic, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Controling Basic - Settings
+# Application extension set - Settings
 > Update 01.02.2022 
 ## CreditCheck Control - Settings
 ### CreditCheck settings

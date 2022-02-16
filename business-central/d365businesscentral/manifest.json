@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-controling-basic-setup.html",
-          "hash": "xDJ4JhAbPzD9xjLiDsHLLw=="
+          "hash": "R7f62VxYhyhmWV9e/f+pDQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-controling-basic.html",
-          "hash": "F4+n5DxHt5hskgX5K3p4ow=="
+          "hash": "bvn+8lduWJiP588MqqPaRQ=="
         }
       },
       "is_incremental": true,
@@ -197,6 +197,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/Hierarchical_price_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/Hierarchical_price_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "AC-FinancialPack/media/Insolvence_register.png",
       "output": {
         "resource": {
@@ -208,10 +219,142 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/calendar.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/calendar.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/calendar_detail.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/calendar_detail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/credit_check-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/credit_check-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/credit_check.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/credit_check.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/exchange_rate.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/exchange_rate.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "AC-FinancialPack/media/factoring.png",
       "output": {
         "resource": {
           "relative_path": "AC-FinancialPack/media/factoring.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_card.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_card.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_customer_entries.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_customer_entries.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_lines.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_lines.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_reverse.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_reverse.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_setup_groupes.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_setup_groupes.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/faktoring_setup_groupes_alt.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/faktoring_setup_groupes_alt.png"
         }
       },
       "is_incremental": false,
@@ -245,6 +388,17 @@
       "output": {
         "resource": {
           "relative_path": "AC-FinancialPack/media/pack_tracking_return_packing.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-FinancialPack/media/setup_vat.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-FinancialPack/media/setup_vat.png"
         }
       },
       "is_incremental": false,
@@ -1576,6 +1730,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/Hierarchical_price_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/Hierarchical_price_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "d365businesscentral/AC-FinancialPack/media/Insolvence_register.png",
       "output": {
         "resource": {
@@ -1587,10 +1752,142 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/calendar.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/calendar.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/calendar_detail.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/calendar_detail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/credit_check-setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/credit_check-setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/credit_check.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/credit_check.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/exchange_rate.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/exchange_rate.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "d365businesscentral/AC-FinancialPack/media/factoring.png",
       "output": {
         "resource": {
           "relative_path": "d365businesscentral/AC-FinancialPack/media/factoring.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_card.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_card.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_customer_entries.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_customer_entries.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_lines.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_lines.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_reverse.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_reverse.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_setup_groupes.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_setup_groupes.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_setup_groupes_alt.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/faktoring_setup_groupes_alt.png"
         }
       },
       "is_incremental": false,
@@ -1624,6 +1921,17 @@
       "output": {
         "resource": {
           "relative_path": "d365businesscentral/AC-FinancialPack/media/pack_tracking_return_packing.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "d365businesscentral/AC-FinancialPack/media/setup_vat.png",
+      "output": {
+        "resource": {
+          "relative_path": "d365businesscentral/AC-FinancialPack/media/setup_vat.png"
         }
       },
       "is_incremental": false,

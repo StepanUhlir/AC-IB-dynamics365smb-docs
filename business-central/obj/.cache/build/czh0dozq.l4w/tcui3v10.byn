@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="kontrolní-výkaz-dph---nastavení" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="14">Kontrolní výkaz DPH - nastavení</h1>
+
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="16">Pro zajištění správné funkčnosti je potřeba nastavit několik níže uvedených oblastí.</p>
+<h2 id="nastavení-financí" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="18">Nastavení financí</h2>
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="20">Pro aktivování slovenských funkčností využijte následující postup:</p>
+<ol sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="22">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="22">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="22" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="22">Nastavení financí</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="23">Na kartě <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="23">Nastavení financí</strong> je nutné vybrat do pole <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="23">Legislativa</strong> hodnotu <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="23">SK</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="24">Potvrďte pomocí tlačítka <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="24">OK</strong>.</li>
+</ol>
+<h2 id="nastavení-xml-schémat" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="26">Nastavení XML schémat</h2>
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="28">XML schéma ke Kontrolnímu výkazu DPH je potřebné do aplikace naimportovat do XML schémat.</p>
+<ol sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="30">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="30">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="30" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="30">XML schémata</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="31">Na stránce <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="31">XML schémata</strong> vyberte akci <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="31">Načíst schéma</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="32">Otevře se vám okno pro import, kde vyberete příslušný XML soubor.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="33">Po import se na kartě <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="33">XML schémata</strong> objeví nový řádek.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="34">Do pole SML portID vyberte hodnotu <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="34">52068871</strong> -platná od 1.1.2020.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="35">do pole <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="35">Přiřazeno legislativě</strong> vyberte hodnotu <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="35">SK</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="36">Potvrďte pomocí tlačítka <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="36">OK</strong>.</li>
+</ol>
+<h2 id="nastavení-řádků-výkazu-dph---rozšíření" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="38">Nastavení řádků výkazu DPH - rozšíření</h2>
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="40">Pro zajištění správného vykazování Kontrolního výkazu DPH je potřeba nastavit pole v řádcích výkazu DPH:</p>
+<ol sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="42">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="42">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="42" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="42">Výkazy DPH</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="43">Pro jednotlivé řádky výkazu DPH definujte pole:</li>
+</ol>
+<ul sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="45">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="45">Filtr kódu původu</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="46">Typ dokladu</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="47">Filtr typu dokladu</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="48">Sekce kontrolního výkazu DPH</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="49">Sekce kontrolního výkazu DPH pro fyzické osoby</li>
+</ul>
+<ol start="3" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="51">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="51">Potvrďte pomocí tlačítka <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="51">OK</strong>.</li>
+</ol>
+<h2 id="nastavení-sekcí-kontrolního-výkazu-dph" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="53">Nastavení sekcí kontrolního výkazu DPH</h2>
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="55">Pro nastavení využijte následující postup:</p>
+<ol sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="57">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="57">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="57" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="57">Sekce kontrolního výkazu DPH</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="58">Nastavte kódy sekcí dle platných nařízení pro vykazování.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="59">Pro vykazování přijatých zjednodušených faktur je potřeba nastavit <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="59">Kód sekce pod limit</strong> a <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="59">Kód sekce nad limit</strong>. Zároveň se vyplní i pole <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="59">Limit částky DPH</strong> a <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="59">Platnost limitu od</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="60">Potvrďte pomocí tlačítka <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="60">OK</strong>.</li>
+</ol>
+<h2 id="nastavení-sloupců-sekcí-kontrolního-výkazu-dph" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="62">Nastavení sloupců sekcí kontrolního výkazu DPH</h2>
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="64">Pro jednotlivé sekce je potřeba nastavit sloupce, které budou exportovány do xml souboru.</p>
+<ol sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="66">
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="66">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="66" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="66">Sekce kontrolního výkazu DPH</strong> a poté vyberte související odkaz.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="67">Označte řádek, pro který chcete nastavovat a poté zvolte funkci <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="67">Akce</strong> - <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="67">Sekce</strong> - <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="67">Nastavení sloupců sekcí výkazu</strong>.</li>
+<li sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="68">Zadejte kódy dle plateného nařízení pro vykazování. V poli <strong sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="68">Přiřazené pole v řádku výkazu</strong> je nastavení z jakého systémového pole bude hodnota naplněna do Kontrolního výkazu.</li>
+</ol>
+<h2 id="see-also" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="70">See also</h2>
+<p sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="72"><a href="../index.html" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="72">AUTOCONT Řešení</a><br>
+<a href="ac-sk-legislative-pack.html" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="73">SK Legislativní balíček</a><br>
+<a href="ac-sk-vat-check-report-export.html" sourcefile="AC-SK/ac-sk-vat-check-report-setup.md" sourcestartlinenumber="74">Kontrolní výkaz DPH</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-SK/ac-sk-vat-check-report-setup.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Zpět na začátek</a>
+            </span>
+            
+            <span><a href="https://muj.autocont.cz/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>ENGLISH</strong><strong>/</strong><a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>CZECH</strong></a></a></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

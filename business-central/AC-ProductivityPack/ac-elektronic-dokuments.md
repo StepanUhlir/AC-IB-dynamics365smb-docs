@@ -21,6 +21,14 @@ K šířené elektronické fakturaci lze připojit libovolné elektronické př�
 
 ![Elektronická fakturace](media/electronic_documents.png "Elektronická fakturace")
 
+## Elektronická fakturace ISDOC
+
+Viz. popis Elektronická fakturace – rozdíl pouze v tom, jak se faktura odešle.
+
+## Elektronická fakturace -  PDFXChange
+
+Viz. popis Elektronická fakturace – rozdíl pouze v tom, jak se faktura odešle. Tento modul poskytuje nástroje pro elektronické podepsání dokladu, případně možnost doplnění časového razítka.
+
 **See also**
 
 [Elektronická fakturace - Nastavení](ac-elektronic-dokuments-setup.md)  

@@ -45,8 +45,8 @@
       "titleSuffix": "Business Central",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
       "ms.service": "dynamics365-business-central",
-      "__global.improveThisDoc": "Vylepšit dokument",
-      "__global.inThisArticle": "V této sekci",
+      "__global.improveThisDoc": "Improve this document",
+      "__global.inThisArticle": "In this article",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},

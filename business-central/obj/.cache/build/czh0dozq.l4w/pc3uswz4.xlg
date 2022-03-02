@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Spooler | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Spooler | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="spooler" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="14">Spooler</h1>
+
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="16">Spooler slouží pro komunikaci systému Microsoft Dynamics NAV s externími systémy nebo datovými zdroji.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="18">Má dvě základní funkce:</p>
+<ul sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="19">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="19">Úložiště nezpracovaných úloh a jako archív komunikačních dokumentů.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="20">Nástroj pro různé typy komunikací a pro zpracování příchozích dokumentů.</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="22">Komunikace může probíhat jak z Bussiness Central do externího systému nebo naopak z externího systému do Bussiness Central. Spooler umožňuje aktuálně využívat celkem 5 komunikačních protokolů; tento počet se neustále rozrůstá.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="24">Tento modul má mnohostranné využití – při synchronizaci dat mezi systémy (katalogy, nastavení systémů v rámci holdingů), v komunikaci dotazů s externími systémy (např. pro systémy B2B nebo B2C), pro archivaci a zpracování automatických elektronických dokladů (objednávkové systémy, elektronické dodávky, fakturace, potvrzení).</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="26">Kromě funkce obecného nástroje na komunikaci umožňuje ve spolupráci s modulem Elektronická fakturace poskytovat plně bezpapírovou fakturaci směrem k zákazníkům, která je uznávána i státními kontrolními orgány.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="28">Tento modul je postaven samostatně a nezasahuje do ostatních modulů</p>
+<h2 id="in-buffer-a-out-buffer" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="30">In Buffer a Out Buffer</h2>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="32">Hlavní částí spooleru jsou dvě tabulky, ve kterých jsou uchovány jednotlivé záznamy o komunikaci včetně souborů.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">Rozhraní obou tabulek je téměř stejné. Každý záznam v tabulce IN Bufferu i OUT Bufferu má přiděleno jedinečné číslo <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">ID dokumentu</strong>. Je zde také zobrazen <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">Typ procesu</strong> a <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">Typ dokumentu</strong>. Dále je v záznamu vidět jaká úloha se zpracovává – pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">ID úkolu</strong>, jakým agentem je zpracovávána – pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">ID agenta</strong>. Stav záznamu označuje pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">Zpracováno</strong>. Nabývá hodnot Ne, Ano, Expirováno a Odloženo. <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="34">Pole ID zdrojového systému</strong> nám v IN Bufferu ukazuje odkud (z jakého systému) daný záznam pochází.</p>
+<h3 id="neodeslání-položky-out-bufferu" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="36">Neodeslání položky Out Bufferu</h3>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="38">Na rozdíl od IN Buffer je na OUT Bufferu je pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="38">Nenutit posloupnost odesílání</strong> - tady je možno kódem vyjmout položku Bufferu z výpočtu o posloupnosti odesílání. Při odesílání dokladů z OUT Bufferu se snaží OUT Agent držet posloupnost odesílání následujícím způsobem:</p>
+<ul sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="41">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="41"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="41">Pokud se nějaká položka nepodaří odeslat, tak se neodešlou ani žádné další položky směřující ke stejnému cíli (dle polí <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="41">ID cílového systému</strong> a <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="41">Parametr komunikace</strong> z nastavení příjemců, bez ohledu na úlohu).</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="42"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="42">Funkcionalita posloupnosti odesílání pracuje tak, že pokud je v OUT Bufferu vyplněno pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="42">Parametr komunikace</strong>, tak se zpracovává právě podle toho pole.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="44"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="44">Držení posloupnosti odesílání ve spooleru má 2 základní důvody:</p>
+<ol sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="45">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="45">Dodrží posloupnost odesílaných dokumentů.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="46">Šetří čas aplikačnímu serveru v případě nefunkčnosti spojení - pokud je potřeba poslat větší množství dokumentů na jedno místo (například TCP adresa/port) a spojení není funkční, tak pokus o odeslání může trvat i několik vteřin a je nežádoucí aby se tento pokus opakoval s každou položkou - v krajním případě to může zastavit Aplikační server i na několik hodin. Je dobré používat pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="46">Nenutit posloupnost</strong> odesílání po důkladné úvaze.</li>
+</ol>
+</li>
+</ul>
+<h3 id="komunikace-in-a-out-bufferu" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="48">Komunikace In a Out Bufferu</h3>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="49">Pro zobrazení úhol komunikace mezi Out Bufferem a In Bufferem postupujte následujícím způsobem:</p>
+<ol sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="51">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="51"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="51">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="51" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="51">In Buffer</strong> a klikněte na související odkaz.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="52"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="52">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="52">In Buffer</strong>, kde funkci v sekci <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="52">Související</strong> použijte funkci <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="52">Položka</strong>, kde najdete následující funkce:</p>
+<ul sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="53">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="53">Položky elektronických dokladů</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="54">Out Buffer - Odpověď</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="55">Out Buffer - Odpověď (včetně archivu)</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="56">Out Buffer - Dotaz</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="57">Out Buffer - Dotaz (včetně archivu)</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="59"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="59">U Out Bufferu jsou volby obdobně.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="60"><p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="60">V zobrazených řádcích se vždy dle <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="60">ID dokumentu</strong>.</p>
+</li>
+</ol>
+<h3 id="export-dokumentu-komunikace" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="62">Export dokumentu komunikace</h3>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="64">Na formulářích IN Bufferu i OUT Bufferu možno exportovat dokument, zobrazit dokument a zobrazit jako HTML – to v případě, že pro úlohu spooleru je nadefinovaná šablona XSL. Dále je zde možnost daný záznam expirovat, změnit poznámku nebo ručně odeslat do archívu.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="66">Pro export dokumentu postupujte následujícím způsobem:</p>
+<ol sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="68">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="68">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="68" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="68">Out Buffer</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="69">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="69">Out Buffer</strong>, kde funkci použijte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="69">Export Dokumentu</strong> .</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="71">Další funkcí pod plačítkem <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="71">Export Dokumentu</strong> je také volba Zkontrolovat elektronický podpis a zobrazit certifikát podpisu.</p>
+<h3 id="nezpracovaný-záznam" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="73">Nezpracovaný záznam</h3>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="75">Pokud je daný záznam ve stavu Zpracováno = Ne, tak je možno danou úlohu spustit z formuláře ručně. Tato funkce je pouze In Bufferu.</p>
+<ol sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="77">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="77">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="77" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="77">In Buffer</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="78">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="78">Out Buffer</strong>, kde funkci použijte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="78">Spustit úlohu</strong>.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="80">Program pak umožňuje zobrazit chybu, kvůli které se úloha nezpracovala. Pokud se po ručním spuštění úloha zpracovala, je zřejmě problém s aplikačním serverem (např. uživatelská práva). Na formuláři <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="80">OUT Bufferu</strong> je funkce <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="80">Odeslat úlohu</strong>, která umožňuje danou úlohu odeslat z OUT Bufferu.</p>
+<h3 id="ruční-vložení-úkolu-do-in-nebo-out-bufferu" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="82">Ruční vložení úkolu do In nebo Out Bufferu</h3>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="84">Pro vložení úkolu do In nebo Out Bufferu postupujte následujícím způsobem:</p>
+<ol sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="86">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="86">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="86" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="86">In Buffer</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="87">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="87">Out Buffer</strong>, kde vyberte sekci <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="87">Akce</strong>, dále <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="87">Funkce</strong> a nakonec funci <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="87">Vložit úlohu</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="88">Na stránce <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="88">Vložit In Buffer</strong> vyplňte následující pole podle potřeby:
+<ul sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="89">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="89"><strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="89">Dokument</strong>, kde se vybírá dokument úlohy. Pokud se dle hlavičky dokumentu najde úloha spooleru, tak se automaticky nastaví údaje ve formuláři např. ID agenta, Typ procesu, Typ dokumentu. Pokud ne, tak se musí ručně nastavit.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="90"><strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="90">Není XML</strong> nás informuje, zda přiřazený dokument není nebo je XML.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="91"><strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="91">Elektronicky podepsáno</strong> – pokud zatrženo dokument je elektronicky podepsán. To je možno zkontrolovat na pod sekcí Funkce výběrem možnosti <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="91">Zobrazit certifikát podpisu</strong>. Pod stejnou sekcí je také možnost <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="91">Zobrazit datum podpisu</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="92">Pole <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="92">Priorita</strong> má pouze evidenční charakter.</li>
+</ul>
+</li>
+</ol>
+<h2 id="archiv---in-a-out-buffer" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="94">Archiv - In a Out Buffer</h2>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="96">Pro zobrazení položek archivu In nebo Out Bufferu posutpujte následujícím způsobem:</p>
+<ol sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="98">
+<li sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="98">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="98" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="98">Archivovaný In Buffer</strong> a klikněte na související odkaz.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="100">Do archívu se položky dostanou automaticky při zpracování, pokud je to nastaveno v úloze spooleru (Nearchivovat při zpracování, Nearchivovat při expiraci) nebo v nastavení spooleru (Archivovat IN Buffer při zpracování a Archivovat IN Buffer při expiraci, Archivovat OUT Buffer při zpracování a Archivovat OUT Buffer při expiraci).</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="102">Do archivu se položky dostanou také ručně z formuláře IN Bufferu nebo OUT Bufferu pomocí funkce <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="102">Přesun do archívu</strong>.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="104">Další možností, jak dostat položky do archívu je pomocí <strong sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="104">reportů R4002900 Move IN Buffer to Archive a R4002901 Move OUT Buffer to Archive</strong>.</p>
+<p sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="106"><a href="ac-spooler-setup.html" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="106">Spooler - Nastavení</a>
+<a href="ac-productivity-pack.html" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="107">AC Productivity Pack</a><br>
+<a href="../index.html" sourcefile="AC-ProductivityPack/ac-spooler.md" sourcestartlinenumber="108">AUTOCONT řešení</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-spooler.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span><a href="https://muj.autocont.cz/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>ENGLISH</strong><strong>/</strong><a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>CZECH</strong></a></a></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

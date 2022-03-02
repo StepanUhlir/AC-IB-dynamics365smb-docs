@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AUTOCONT SOLUTIONS - AC Parcels - Balikobot integration - setup | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AUTOCONT SOLUTIONS - AC Parcels - Balikobot integration - setup | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="setup---ac-parcels---integration-balikobot" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="15">Setup - AC Parcels - Integration Balikobot</h1>
+
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="17">There are several areas that need to be set up for the AC Parcel addon to work properly. The addon is initially set up using the wizard and then the settings can be changed manually.</p>
+<h2 id="addon-settings-areas" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="19">Addon settings areas:</h2>
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="20">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="20">Numbered series</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="21">Expedition places</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="22">Shipment Settings</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="23">Shipping agents</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="24">Location Settings</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="25">Shipment parameters</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="26">Print Settings</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="27">Payment settings (COD)</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="29">The other data sets (Shipping agent services, Handling Units and Carrier Branches) are downloaded from the API of Balikobot.</p>
+<h2 id="setting-up-ac-parcels-using-the-wizard" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="31">Setting up AC Parcels using the wizard</h2>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="33">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="33">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="33" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="33">Assisted setup</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="34">Run Setup Parcels assisted setup.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="35">After you read entry instructions click Next.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="36">If you want to manually import Rapid Start configuration you can do it, otherwise, click Next and it will be downloaded and applied automatically.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="37">Open page Expedition places and enter new record:
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="38">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="38">Code</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="39">Username</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="40">User password</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="41">You can even fill in the optional information:
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="42">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="42">Description</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="43">Name</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="44">Adress</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="45">City</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="46">Postcode</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="47">In the field <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="47">Expedition Place code</strong> select your created expedition place and click Next.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="48">Open location list page and her open location card ZÁPADNÍ.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="49">Assign location by choosing your created expedition place in the <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="49">Expedition place code</strong> field.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="50">Close the card and the list and click Next.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="51">Create new shipping agent Česká pošta with following details:
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="52">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="52">Code:</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="53">Name:</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="54">Integration service:</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="55">Balikobot code:</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="56">Allow More packages: Yes</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="57">Master Data sync: Yes</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="58">Click action <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="58">Synchronize master data</strong> and click Next.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="59">In the field <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="59">Parcel Nos.</strong> select ZASILKY and click Next.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="60">After you will click Finish, the Parcel Setup wizard will synchronize selected data.</li>
+</ol>
+<h2 id="manual-adjustment-of-settings" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="61">Manual adjustment of settings</h2>
+<h3 id="expedition-places" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="62">Expedition Places</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="64">The Expedition Places are locations of your warehouses from where shipments are dispatched. A user can have several expedition places. A different API is required for each expedition place, and the expedition place is associated with one location of your company.</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="66">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="66">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="66" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="66">Expedition places</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="67">Choose the function <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="67">New</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="68">Insert <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="68">Code</strong> for expedition place, description, address and <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="68">User Name and password</strong> to yours API.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="69">Close the list of Expedition places.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="71"><img src="media/BB_exp_pl.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="71" alt="Settings AC Parcels"></p>
+<h3 id="location-settings" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="73">Location Settings</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="74">In the location tab, you need to select the expedition place that is associated with the API. If there are multiple locations, you will need to set the appropriate expedition place on each location. This is to limit user errors so that users cannot combine documents with different shipping locations into a shipment.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="76">To assign a expedition place to a location, you need to set the filed <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="76">Expedition Place Code</strong>.</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="78">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="78">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="78" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="78">Location</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="79">Open the location card.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="80">Fill field <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="80">Expedition Place Code</strong> in General FastTab.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="82"><img src="media/BB_lokace.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="82" alt="Settings AC Parcels"></p>
+<h3 id="parcels-management-setup" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="83">Parcels Management Setup</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="85">Basic settings for AC Parcels - Integration BalikoBot must be made on the <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="85">Parcels Management Setup</strong> page.
+<img src="media/BB_setup.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="86" alt="Settings AC Parcels"></p>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="88">Parcels Management Setup page contain:</p>
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="89">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="89"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="89">Parcels Nos.</strong> - Specifies the No. Series for parcels.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="90"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="90">Default Expediton Place Code</strong> - Specifies the API credentials and shipment location from where the parcel will be shipped.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="91"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="91">Print Handover After Order</strong> – Automatic print of Handover protocols after collection order.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="92"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="92">Default Printer Name</strong> – Specifies the printer for printing labels and handover protocols.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="93"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="93">Limit Response Time</strong> – Specifies the timeout of communication.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="94"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="94">Activity Log Enabled</strong> - Starts activity log tracking.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="95"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="95">Debug Mode</strong> – Enables message catching in communication with the service.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="96"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="96">Automatic synchronization of master data</strong> - Executes a procedure on the job queue that updates all data from the PackageBot side within a certain time period.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="97"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="97">Automatic tracking status update</strong> - Runs a procedure on the job queue that updates the status of the shipment overflow for the last month at a specific time period.</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="100"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="100">Basic setup is done using the application setup wizard.</strong>
+The other tables are downloaded and loaded after master data synchronization is enabled.
+These data are updated manually using the &quot;Resync master data&quot; function.</p>
+<h4 id="základní-nastavení-ac-parcels---integrace-balíkobot" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="103">Základní nastavení AC Parcels - Integrace Balíkobot</h4>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="105">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="105">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="105" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="105">Parcel Setup</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="106">Choose Parcel Nos.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="107">Choose default Expedition place</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="108">Enable Print Handover After Order, Activity Log Enabled, Automatic synchronization of master dataand Automatic tracking status update.</li>
+</ol>
+<h3 id="shipping-agent-setup" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="109">Shipping Agent Setup</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="110">The base dataset is loaded using the RapidStart package for Business Central. This package contains data that is not downloaded from the PackageBot API.</p>
+<h4 id="shipping-agent-table" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="111">Shipping Agent Table</h4>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="113">The other tables are downloaded and populated after synchronizing the master data and in the carrier table.
+These data are updated manually using the &quot;Resync master data&quot; function.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="116"><img src="media/BB_shipping-agents.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="116" alt="Setup AC Parcel"></p>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="118">The list also includes shipping agents that you do not have configured with Balíkobot. For such, no additional data import is performed (see below).</p>
+<h3 id="there-are-several-fields-to-set-in-the-shipping-agent-list" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="119">There are several fields to set in the Shipping agent list:</h3>
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="120">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="120"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="120">Integration service</strong> – Specifies the type of service providing integration API. The service is called when you send and receive data of parcels.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="121"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="121">Master data Sync. Enabled</strong> – Specifies that synchronization of master data with the integration service is enabled.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="122"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="122">Master Data Last Sync.</strong> – Specifies the last time a synchonization of master data has been performed.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="123"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="123">Balikobot Enabled</strong> - Shipping agent is enabled a ready to use.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="124"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="124">Allow More Packages</strong> - When creating a shipment, the feature allows you to create multiple packages within a single shipment.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="125"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="125">Pallet Shipping</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="126"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="126">No. Of Allowed Man. Units</strong> - Multiple handling units can be set up for pallet transport.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="127"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="127">Branches Only</strong> – Specifies that the carrier serves only as a dispensing point.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="128"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="128">Maximum Address Length</strong> – Sets the address length for the selected carrier.</li>
+</ul>
+<h4 id="functions-over-shipping-agents" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="129">Functions over Shipping Agents</h4>
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="130">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="130"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="130">Test connection</strong> – Communication test between the integration service and Business Central.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="131"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="131">Synchronize Master Data</strong> – Starts master data synchronization.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="132"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="132">Shipping Agent Services</strong> - Table of services of shipping agent.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="133"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="133">Shipping Agent Branches</strong> - Table of locations where customers can collect goods from the carrier.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="134"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="134">Manipulation Units</strong> - Table of pallet handling units</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="135"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="135">ADR Units</strong> – Table of ADR units.</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="137">If you add a Shipping agent after the initial setup has been performed using assisted setup, you must fill in the fields correctly:</p>
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="138">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="138">Code</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="139">Package Tracking URL</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="140">Integration Service</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="141">Code Balikobot</li>
+</ul>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="143">Then you must use the <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="143">Sync master data</strong> function!</p>
+<h3 id="setting-up-shipping-agent-services" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="145">Setting up Shipping Agent Services</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="147">Shipping Agent Services are downloaded automatically from Balikobot API. It is possible to enforce certain settings for individual carrier services. For the settings you have to:</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="148">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="148">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="148" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="148">Shipping Agent</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="149">Select the Shipping Agent from the list and select <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="149">Shhipping Agent Services</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="150">On the following page, fill in the fields as required:
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="151">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="151"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="151">Balikobot Enabled</strong> - Službu je možné používat (ve výchozím stavu povoleno)</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="152"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="152">Enforce Parcel Weight</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="153"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="153">Enforce Parcel Cubage</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="154"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="154">Enforce Parcel Price</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="155"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="155">Enforce Parcel Cash On</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="156"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="156">Enforce Parcel Variable symbol</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="157"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="157">Enforce Parcel Weight on line</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="158"><strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="158">Enforce Parcel Cubage on line</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id="parcel-parameters-setup" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="159">Parcel Parameters Setup</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="161">Parameters for each Shipping agent are downloaded from the Balikobot API.</p>
+<h3 id="payment-method-settings---cash-on-delivery" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="162">Payment method settings - Cash on delivery</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="164">To set up and use the Cash on Delivery feature, you need to set the <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="164">Cash on Delivery</strong> field on the payment method.</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="166">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="166">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="166" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="166">Payment method</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="167">In the overview select boolean <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="167">Delivery</strong> for the given payment method</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="168">Close payment method overview</li>
+</ol>
+<h2 id="print-setup" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="169">Print Setup</h2>
+<h3 id="pdf-reader" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="170">PDF reader</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="171">To print labels, you need to have install PDF reader. For working with labels we recommend Foxit PDF and also have it set as the default program for PDF files on your server or computer.</p>
+<h3 id="print-format-selection---client-zone" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="172">Print format selection - Client zone</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="173">The basic step of setting up label printing is to define how the label PDFs will be generated from the Balikobot side. In the client area (<a href="https://client.balikobot.cz/" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="173">https://client.balikobot.cz/</a>), the user must set whether to print in full page format or by position on A4 size paper. It all depends on which printer it will be printed on. For printing on a label printer, the label printing position does not need to be selected.</p>
+<h3 id="printer-selection" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="174">Printer Selection</h3>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="175">To set up label printing, you need to set the report ID and assign a printer to the user. The label printing function is set to print on the defined printer.</p>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="177">The following steps are required for printer definitions:</p>
+<ol sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="178">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="178">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="178" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="178">Printer Selection</strong>, and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="179">Choose <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="179">New</strong></li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="180">In New line fill fields:
+<ul sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="181">
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="181">User ID</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="182">Report ID - 52O68430 Print Parcel Labels</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="183">Printer Name</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="184">Close Printer Selection page.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="186">The printout of the handover report is printed automatically after ordering the collection. If the user does not want automatic printing, just disable Boolean - Printing of collection handover reports in the Parcel Settings. Printing is done from the Default Printer according to your device. Alternatively, if you have set the default printer in <strong sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="186">Printer Selections</strong> as the rest of your print reports.</p>
+<h2 id="see-also" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="189">See Also</h2>
+<p sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="190"><a href="ac-parcels.html" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="190">Parcels</a><br>
+<a href="ac-productivity-pack.html" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="191">AC Productivity Pack</a><br>
+<a href="../index.html" sourcefile="AC-ProductivityPack/ac-parcels-setup.md" sourcestartlinenumber="192">AUTOCONT Solutions</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-parcels-setup.md/#L1" class="contribution-link">improve this document</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this section</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span><a href="https://muj.autocont.cz/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>ENGLISH</strong><strong>/</strong><a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>CZECH</strong></a></a></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

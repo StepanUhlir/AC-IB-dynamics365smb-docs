@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Centr&#225;ln&#237; datab&#225;ze | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Centr&#225;ln&#237; datab&#225;ze | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="nastavení-centrálních-číselníků" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="14">Nastavení Centrálních číselníků</h1>
+
+<h2 id="nastavení-centrální-databáze" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="16">Nastavení Centrální databáze</h2>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="19">Pro základní nastavení centrální databáze pokračujte podle následujícícho postupu:</p>
+<ol sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="21">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="21">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="21" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="21">Nastavení centrální databáze</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="22">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="22">Nastavení centrální databáze</strong>, kde nastavíte následující pole:
+<ul sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="23">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="23"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="23">ID Systému</strong> – slouží k identifikaci systému - název firmy, jak bude používán v oblasti komunikací (důležité je správné nastavení tohoto názvu i v ostatních kooperujících firmách)-</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="24"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="24">ID systému centrální databáze</strong> – název firmy, která slouží jako řídící pro komunikačně-synchronizační proces. Tato firma stanovuje nastavení pro “podřízené” firmy. Jedna firma může přijímat nastavení od centrální databáze a zároveň být sama centrální databází pro jiné firmy = v systému může být více centrálních databází.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="25"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="25">Centrální databáze</strong> – interně používané pole určující, zda je firma sama centrální databází. Nastaveníje zásadní pro rozhodování o zasílání synchronizovaných dat a o kontrolách.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="26"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="26">Typ procesu</strong> – nastavení kódu, který odpovídá kódu uvedenému v nastavení úloh spooleru v poli Process Type (viz nastavení spooleru). Tento kód je součástí XML dokumentu a na jeho základě se rozeznává, zda dokument může počkat se zpracováním.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="27"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="27">Typ procesu – okamžitá odpověď</strong> – nastavení kódu, který odpovídá kódu uvedenému v nastavení úloh spooleru v poli Process Type (viz nastavení spooleru). Tento kód je součástí XML dokumentu a na jeho základě se rozeznává, zda se dokument musí ihned zpracovat a odeslat odpověď.</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="28">Po vyplnění polí stránku zavřete.</li>
+</ol>
+<h2 id="nastavení-cílových-systémů" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="31">Nastavení Cílových systémů</h2>
+<ol sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="33">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="33">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="33" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="33">Cílové systémy</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="34">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="34">Cílové systémy</strong>, kde vyplníte následující pole:
+<ul sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="35">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="35"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="35">ID</strong> – kód firmy pro komunikaci (musí být shodný v celém komunikačním řetězci</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="36"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="36">Popis</strong> – orientační popis k dané firmě</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="37"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="37">Název databáze</strong> – název databáze, ve které se firma nachází</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="38"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="38">Název firmy</strong> – správný název firmy uvedený jako jméno firmy v její databázi (může být odlišné od kódového označení)</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="39">Po vyplnění polí stránku zavřete.</li>
+</ol>
+<h2 id="nastavení-tabulky-centrální-databáze" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="41">Nastavení tabulky centrální databáze</h2>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="43">Aplikace umožňuje synchronizovat jednotlivé tabulky a jejich vybraná pole, lze  synchronizovat i pouze data spadající do určitého filtru. Synchronizace může být nezávislá a různá pro několik firem.</p>
+<ol sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="45">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="45">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="45" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="45">Nastavení tabulky centrální databáze</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="46">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="46">Nastavení tabulky centrální databáze</strong>, kde vyplníte následující pole:
+<ul sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="47">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="47"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="47">Vypnuto</strong> – toto pole umožňuje dočasně vypnout synchronizaci při ponechání nastavení. Používá se hlavně při řešení kolizí nebo hromadném zpracování centralizovaných dat (importy, přejmenování atd.).</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="48"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="48">Priorita</strong> – je možno nastavit pořadí pro odesílání k synchronizaci.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="49"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="49">ID centrální databáze</strong> – ID systému, který řídí synchronizaci dané tabulky. Pokud se toto ID nerovná ID systému firmy, ve které se nacházíme, nelze záznam měnit.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="50"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="50">Číslo tabulky</strong> – číslo objektu datové tabulky v systému. Tabulku lze vybrat z číselníku všech tabulek. Synchronizace některých tabulek je z hlediska systému nesmyslná nebo může způsobit kolizi.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="51"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="51">Název tabulky</strong> – toto pole se vyplní automaticky dle nastavení pole Číslo tabulky.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="52"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="52">ID</strong> – nezávislý kód, který je součástí primárního klíče a umožňuje nastavit rozdílné synchronizace pro jednu tabulku (např. pokud chci mít rozdíl v nastavení pro 2 firmy, kde u jedné chci povolit změnu určitých dat a u druhé nikoliv). Tento kód nemá další vazbu v systému a uživatel si ho může nastavit, jak chce (jméno firmy, skupina firem, typ synchronizace atd.).</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="53"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="53">Typ synchronizace</strong> – tato volba nabývá dvou hodnot – Push a Pull. Význam této volby je při zakládání nových dat do systému (změna dat a mazání dat jsou posílány vždy automaticky).</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="54"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="54">Push</strong> – volba znamená, že v případě změny dat jsou tato data ihned zaslána do podřízených systému a tam updatována (data jsou “tlačena”).</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="55"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="55">Pull</strong> – tato volba znamená, že nově vytvořená data nejsou zasílána ihned do podřízených systémů, ale uživatel si sám může “sáhnout” do centrální databáze a vybrat si, která dat z centrály chce ve svém systému (data jsou “tahána”)</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="56"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="56">Pole</strong> – tato volba určuje, zda se synchronizují některá nebo všechna pole (toto pole má návaznost na funkcionalitu nastavení synchronizovaných polí, viz níže)</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="57"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="57">Povol změnu</strong> – pole určuje, zda uživatel v podřízené databázi může změnit hodnotu polí v daném záznamu (kontrola na synchronizovaných polích)</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="58"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="58">Povol vložit</strong> – pole určuje, zda uživatel v podřízené databázi může založit nový záznam v synchronizované tabulce</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="59"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="59">Synchronizovat po</strong> – pole je využíváno pro optimalizaci přenosu dat a vytížení systému; lze vybrat z hodnot Limitovaný počet záznamů a Všechny záznamy</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="60"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="60">Limit záznamů</strong> – pole je využíváno pro optimalizaci přenosu dat a vytížení systému</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="61"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="61">Maximální počet záznamů v odpovědi</strong> – pole je využíváno pro optimalizaci přenosu dat a vytížení systému; systém omezuje počet záznamů zasílaných jako odpověď z centrální databáze při dotazech na synchronizovaná data</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="62">Po vyplnění polí stránku zavřete.</li>
+</ol>
+<h2 id="ostatní-nastavení" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="64">Ostatní nastavení</h2>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="65">Po základním nastavení addonu Centrální databáze je potřeba nastavit další oblasti. Jedná se o konkrétní nastavení polí tabulek centrální databáze.</p>
+<h3 id="nastavení-polí-centrální-databáze" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="67">Nastavení polí centrální databáze</h3>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="69">Nastavení slouží k definici, která konkrétní pole dané tabulky a jakým způsobem chceme synchronizovat.</p>
+<ol sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="71">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="71">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="71" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="71">Nastavení tabulky centrální databáze</strong> a klikněte na související odkaz.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="72">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="72">Nastavení tabulky centrální databáze</strong>, kde vybere řádek s odpovídající tabulkou.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="73">Vyberete možnost <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="73">Související</strong>, dále <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="73">Nastavení</strong> a vyberete funkci <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="73">Pole</strong>, kde vyplňte náledující pole dle potřeby:
+<ul sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="74">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="74"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="74">Číslo pole</strong> – číslo je vybíráno z objektu dané tabulky a je jednoznačnou identifikací pole v celém systému (spolu s číslem tabulky). Při změnách v systému se čísla polí nemění.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="75"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="75">Titulek pole</strong> – toto pole se vyplní automaticky dle nastavení pole Číslo pole.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="76"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="76">Povol změnu</strong> – pole určuje, zda uživatel v podřízené firmě může měnit hodnotu tohoto konkrétního pole.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="77"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="77">Pole primárního klíče</strong> – pole je používáno interně, systém hodnotu nastavuje  sám. Pole s tímto označením je povinně synchronizováno vždy</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="78"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="78">Nevalidovat</strong> – pole určuje, zda po synchronizace tohoto pole nastane tzv. validační proces (spuštění funkcí souvisejících se změnou hodnoty pole). Toto pole musí nastavovat velmi zkušený uživatel systému, špatné nastavení způsobí kolizní situace.</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="79">Po vyplění polí stránku zavřete.</li>
+</ol>
+<h3 id="nastavení-příjemců-centrální-databáze" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="81">Nastavení příjemců centrální databáze</h3>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="83">Nastavení slouží v definování komunikace pro konkrétní záznam z nastavení synchronizace tabulek (jak bylo popsáno výše, jedna tabulka může být synchronizována pro různé firmy různým způsobem).</p>
+<ol sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="85">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="85"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="85">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="85" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="85">Nastavení tabulky centrální databáze</strong> a klikněte na související odkaz.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="86"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="86">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="86">Nastavení tabulky centrální databáze</strong>, kde vybere řádek s odpovídající tabulkou.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="87"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="87">Vyberete možnost <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="87">Související</strong>, dále <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="87">Nastavení</strong> a vyberete funkci <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="87">Příjemci</strong>, kde vyplňte náledující pole dle potřeby:</p>
+<ul sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="89">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="89"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="89">Vypnuto</strong> – toto pole umožňuje dočasně vypnout synchronizaci při ponechání nastavení. Používá se hlavně při řešení kolizí nebo hromadném zpracování centralizovaných dat (importy, přejmenování atd.).</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="90"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="90">ID cílového systému</strong> – vazba do nastavení cílových systémů, kód určuje, která firma bude příjemcem synchronizovaných dat při události.</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="91"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="91">Filtr synchronizace tabulky</strong> – v poli (a pomocném podřízeném formuláři) lze nastavit obecný filtr, který určuje, která data se budou synchronizovat (pouze data spadající do filtru).</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="92"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="92">Filtr oprávnění tabulky</strong> – v poli (a pomocném podřízeném formuláři) lze nastavit obecný filtr, který určuje, která data bude moci uživatel v podřízené firmě modifikovat či zakládat.</li>
+</ul>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="93"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="93">Po vyplění polí stránku zavřete.</p>
+</li>
+</ol>
+<h3 id="nastavení-relací" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="95">Nastavení Relací</h3>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="97">Nastavení slouží k určení relačních vazeb, které zajišťují, aby při synchronizace záznamů z určité tabulky proběhla synchronizace souvisejících záznamů (např. zboží + měrná jednotka zboží).</p>
+<ol sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="99">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="99"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="99">Vyberte ikonu <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="99" alt="Žárovky, která otevře funkci Řekněte mi" title="Řekněte mi, co chcete dělat">, zadejte <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="99">Nastavení tabulky centrální databáze</strong> a klikněte na související odkaz.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="100"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="100">Otevře se stránka <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="100">Nastavení tabulky centrální databáze</strong>, kde vybere řádek s odpovídající tabulkou.</p>
+</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="101"><p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="101">Vyberete možnost <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="101">Související</strong>, dále <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="101">Nastavení</strong> a vyberete funkci <strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="101">Relace</strong>, kde vyplňte náledující pole dle potřeby:</p>
+<ul sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="103">
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="103"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="103">Vypnuto</strong> – toto pole umožňuje dočasně vypnout synchronizaci při ponechání nastavení. Používá se hlavně při řešení kolizí nebo hromadném zpracování centralizovaných dat (importy, přejmenování atd.)</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="104"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="104">Číslo tabulky relace</strong> – číslo objektu datové tabulky v systému. Tabulku lze vybrat z číselníku již synchronizovaných tabulek. Tato tabulka je relačně nebo logicky podřízena a její data mají vazbu k nadřízené tabulce</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="105"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="105">Název tabulky relace</strong> – toto pole se vyplní automaticky dle nastavení pole Číslo tabulky relace</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="106"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="106">Filtr tabulky</strong> – v poli (a pomocném podřízeném formuláři) lze nastavit obecný filtr, který určuje, která data budou synchronizována v rámci relační synchronizace</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="107"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="107">Relace existuje</strong> – pole, které určuje, zda je již definována relační vazba</li>
+<li sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="108"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="108">Relace</strong> – pouze zobrazované formulářové pole, v jehož podřízeném formuláři lze definovat relační vazbu</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="110"><strong sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="110">See also</strong></p>
+<p sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="112"><a href="ac-centraldatabase.html" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="112">Centrální číselníky</a>`<br>
+<a href="ac-productivity-pack.html" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="113">AC Productivity Pack</a><br>
+<a href="../index.html" sourcefile="AC-ProductivityPack/ac-centraldatabase-setup.md" sourcestartlinenumber="114">AUTOCONT řešení</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-centraldatabase-setup.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span><a href="https://muj.autocont.cz/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>ENGLISH</strong><strong>/</strong><a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>CZECH</strong></a></a></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

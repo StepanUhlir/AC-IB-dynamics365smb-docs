@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AUTOCONT SOLUTIONS - AC Parcels - Balikobot integration - setup | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AUTOCONT SOLUTIONS - AC Parcels - Balikobot integration - setup | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="setup---ac-parcels---integration-balikobot">Setup - AC Parcels - Integration Balikobot</h1>
+
+<p>There are several areas that need to be set up for the AC Parcel addon to work properly. The addon is initially set up using the wizard and then the settings can be changed manually.</p>
+<h2 id="addon-settings-areas">Addon settings areas:</h2>
+<ul>
+<li>Numbered series</li>
+<li>Expedition places</li>
+<li>Shipment Settings</li>
+<li>Shipping agents</li>
+<li>Location Settings</li>
+<li>Shipment parameters</li>
+<li>Print Settings</li>
+<li>Payment settings (COD)</li>
+</ul>
+<p>The other data sets (Shipping agent services, Handling Units and Carrier Branches) are downloaded from the API of Balikobot.</p>
+<h2 id="setting-up-ac-parcels-using-the-wizard">Setting up AC Parcels using the wizard</h2>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Assisted setup</strong>, and then choose the related link.</li>
+<li>Run Setup Parcels assisted setup.</li>
+<li>After you read entry instructions click Next.</li>
+<li>If you want to manually import Rapid Start configuration you can do it, otherwise, click Next and it will be downloaded and applied automatically.</li>
+<li>Open page Expedition places and enter new record:
+<ul>
+<li>Code</li>
+<li>Username</li>
+<li>User password</li>
+</ul>
+</li>
+<li>You can even fill in the optional information:
+<ul>
+<li>Description</li>
+<li>Name</li>
+<li>Adress</li>
+<li>City</li>
+<li>Postcode</li>
+</ul>
+</li>
+<li>In the field <strong>Expedition Place code</strong> select your created expedition place and click Next.</li>
+<li>Open location list page and her open location card ZÁPADNÍ.</li>
+<li>Assign location by choosing your created expedition place in the <strong>Expedition place code</strong> field.</li>
+<li>Close the card and the list and click Next.</li>
+<li>Create new shipping agent Česká pošta with following details:
+<ul>
+<li>Code:</li>
+<li>Name:</li>
+<li>Integration service:</li>
+<li>Balikobot code:</li>
+<li>Allow More packages: Yes</li>
+<li>Master Data sync: Yes</li>
+</ul>
+</li>
+<li>Click action <strong>Synchronize master data</strong> and click Next.</li>
+<li>In the field <strong>Parcel Nos.</strong> select ZASILKY and click Next.</li>
+<li>After you will click Finish, the Parcel Setup wizard will synchronize selected data.</li>
+</ol>
+<h2 id="manual-adjustment-of-settings">Manual adjustment of settings</h2>
+<h3 id="expedition-places">Expedition Places</h3>
+<p>The Expedition Places are locations of your warehouses from where shipments are dispatched. A user can have several expedition places. A different API is required for each expedition place, and the expedition place is associated with one location of your company.</p>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Expedition places</strong>, and then choose the related link.</li>
+<li>Choose the function <strong>New</strong></li>
+<li>Insert <strong>Code</strong> for expedition place, description, address and <strong>User Name and password</strong> to yours API.</li>
+<li>Close the list of Expedition places.</li>
+</ol>
+<p><img src="media/BB_exp_pl.png" alt="Settings AC Parcels"></p>
+<h3 id="location-settings">Location Settings</h3>
+<p>In the location tab, you need to select the expedition place that is associated with the API. If there are multiple locations, you will need to set the appropriate expedition place on each location. This is to limit user errors so that users cannot combine documents with different shipping locations into a shipment.</p>
+<p>To assign a expedition place to a location, you need to set the filed <strong>Expedition Place Code</strong>.</p>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Location</strong>, and then choose the related link.</li>
+<li>Open the location card.</li>
+<li>Fill field <strong>Expedition Place Code</strong> in General FastTab.</li>
+</ol>
+<p><img src="media/BB_lokace.png" alt="Settings AC Parcels"></p>
+<h3 id="parcels-management-setup">Parcels Management Setup</h3>
+<p>Basic settings for AC Parcels - Integration BalikoBot must be made on the <strong>Parcels Management Setup</strong> page.
+<img src="media/BB_setup.png" alt="Settings AC Parcels"></p>
+<p>Parcels Management Setup page contain:</p>
+<ul>
+<li><strong>Parcels Nos.</strong> - Specifies the No. Series for parcels.</li>
+<li><strong>Default Expediton Place Code</strong> - Specifies the API credentials and shipment location from where the parcel will be shipped.</li>
+<li><strong>Print Handover After Order</strong> – Automatic print of Handover protocols after collection order.</li>
+<li><strong>Default Printer Name</strong> – Specifies the printer for printing labels and handover protocols.</li>
+<li><strong>Limit Response Time</strong> – Specifies the timeout of communication.</li>
+<li><strong>Activity Log Enabled</strong> - Starts activity log tracking.</li>
+<li><strong>Debug Mode</strong> – Enables message catching in communication with the service.</li>
+<li><strong>Automatic synchronization of master data</strong> - Executes a procedure on the job queue that updates all data from the PackageBot side within a certain time period.</li>
+<li><strong>Automatic tracking status update</strong> - Runs a procedure on the job queue that updates the status of the shipment overflow for the last month at a specific time period.</li>
+</ul>
+<p><strong>Basic setup is done using the application setup wizard.</strong>
+The other tables are downloaded and loaded after master data synchronization is enabled.
+These data are updated manually using the &quot;Resync master data&quot; function.</p>
+<h4 id="základní-nastavení-ac-parcels---integrace-balíkobot">Základní nastavení AC Parcels - Integrace Balíkobot</h4>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Parcel Setup</strong>, and then choose the related link.</li>
+<li>Choose Parcel Nos.</li>
+<li>Choose default Expedition place</li>
+<li>Enable Print Handover After Order, Activity Log Enabled, Automatic synchronization of master dataand Automatic tracking status update.</li>
+</ol>
+<h3 id="shipping-agent-setup">Shipping Agent Setup</h3>
+<p>The base dataset is loaded using the RapidStart package for Business Central. This package contains data that is not downloaded from the PackageBot API.</p>
+<h4 id="shipping-agent-table">Shipping Agent Table</h4>
+<p>The other tables are downloaded and populated after synchronizing the master data and in the carrier table.
+These data are updated manually using the &quot;Resync master data&quot; function.</p>
+<p><img src="media/BB_shipping-agents.png" alt="Setup AC Parcel"></p>
+<p>The list also includes shipping agents that you do not have configured with Balíkobot. For such, no additional data import is performed (see below).</p>
+<h3 id="there-are-several-fields-to-set-in-the-shipping-agent-list">There are several fields to set in the Shipping agent list:</h3>
+<ul>
+<li><strong>Integration service</strong> – Specifies the type of service providing integration API. The service is called when you send and receive data of parcels.</li>
+<li><strong>Master data Sync. Enabled</strong> – Specifies that synchronization of master data with the integration service is enabled.</li>
+<li><strong>Master Data Last Sync.</strong> – Specifies the last time a synchonization of master data has been performed.</li>
+<li><strong>Balikobot Enabled</strong> - Shipping agent is enabled a ready to use.</li>
+<li><strong>Allow More Packages</strong> - When creating a shipment, the feature allows you to create multiple packages within a single shipment.</li>
+<li><strong>Pallet Shipping</strong></li>
+<li><strong>No. Of Allowed Man. Units</strong> - Multiple handling units can be set up for pallet transport.</li>
+<li><strong>Branches Only</strong> – Specifies that the carrier serves only as a dispensing point.</li>
+<li><strong>Maximum Address Length</strong> – Sets the address length for the selected carrier.</li>
+</ul>
+<h4 id="functions-over-shipping-agents">Functions over Shipping Agents</h4>
+<ul>
+<li><strong>Test connection</strong> – Communication test between the integration service and Business Central.</li>
+<li><strong>Synchronize Master Data</strong> – Starts master data synchronization.</li>
+<li><strong>Shipping Agent Services</strong> - Table of services of shipping agent.</li>
+<li><strong>Shipping Agent Branches</strong> - Table of locations where customers can collect goods from the carrier.</li>
+<li><strong>Manipulation Units</strong> - Table of pallet handling units</li>
+<li><strong>ADR Units</strong> – Table of ADR units.</li>
+</ul>
+<p>If you add a Shipping agent after the initial setup has been performed using assisted setup, you must fill in the fields correctly:</p>
+<ul>
+<li>Code</li>
+<li>Package Tracking URL</li>
+<li>Integration Service</li>
+<li>Code Balikobot</li>
+</ul>
+<p>Then you must use the <strong>Sync master data</strong> function!</p>
+<h3 id="setting-up-shipping-agent-services">Setting up Shipping Agent Services</h3>
+<p>Shipping Agent Services are downloaded automatically from Balikobot API. It is possible to enforce certain settings for individual carrier services. For the settings you have to:</p>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Shipping Agent</strong>, and then choose the related link.</li>
+<li>Select the Shipping Agent from the list and select <strong>Shhipping Agent Services</strong></li>
+<li>On the following page, fill in the fields as required:
+<ul>
+<li><strong>Balikobot Enabled</strong> - Službu je možné používat (ve výchozím stavu povoleno)</li>
+<li><strong>Enforce Parcel Weight</strong></li>
+<li><strong>Enforce Parcel Cubage</strong></li>
+<li><strong>Enforce Parcel Price</strong></li>
+<li><strong>Enforce Parcel Cash On</strong></li>
+<li><strong>Enforce Parcel Variable symbol</strong></li>
+<li><strong>Enforce Parcel Weight on line</strong></li>
+<li><strong>Enforce Parcel Cubage on line</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id="parcel-parameters-setup">Parcel Parameters Setup</h3>
+<p>Parameters for each Shipping agent are downloaded from the Balikobot API.</p>
+<h3 id="payment-method-settings---cash-on-delivery">Payment method settings - Cash on delivery</h3>
+<p>To set up and use the Cash on Delivery feature, you need to set the <strong>Cash on Delivery</strong> field on the payment method.</p>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Payment method</strong>, and then choose the related link.</li>
+<li>In the overview select boolean <strong>Delivery</strong> for the given payment method</li>
+<li>Close payment method overview</li>
+</ol>
+<h2 id="print-setup">Print Setup</h2>
+<h3 id="pdf-reader">PDF reader</h3>
+<p>To print labels, you need to have install PDF reader. For working with labels we recommend Foxit PDF and also have it set as the default program for PDF files on your server or computer.</p>
+<h3 id="print-format-selection---client-zone">Print format selection - Client zone</h3>
+<p>The basic step of setting up label printing is to define how the label PDFs will be generated from the Balikobot side. In the client area (<a href="https://client.balikobot.cz/">https://client.balikobot.cz/</a>), the user must set whether to print in full page format or by position on A4 size paper. It all depends on which printer it will be printed on. For printing on a label printer, the label printing position does not need to be selected.</p>
+<h3 id="printer-selection">Printer Selection</h3>
+<p>To set up label printing, you need to set the report ID and assign a printer to the user. The label printing function is set to print on the defined printer.</p>
+<p>The following steps are required for printer definitions:</p>
+<ol>
+<li>Choose the <img src="media/ui-search/search_small.png" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do"> icon, enter <strong>Printer Selection</strong>, and then choose the related link.</li>
+<li>Choose <strong>New</strong></li>
+<li>In New line fill fields:
+<ul>
+<li>User ID</li>
+<li>Report ID - 52O68430 Print Parcel Labels</li>
+<li>Printer Name</li>
+</ul>
+</li>
+<li>Close Printer Selection page.</li>
+</ol>
+<p>The printout of the handover report is printed automatically after ordering the collection. If the user does not want automatic printing, just disable Boolean - Printing of collection handover reports in the Parcel Settings. Printing is done from the Default Printer according to your device. Alternatively, if you have set the default printer in <strong>Printer Selections</strong> as the rest of your print reports.</p>
+<h2 id="see-also">See Also</h2>
+<p><a href="ac-parcels.html">Parcels</a><br>
+<a href="ac-productivity-pack.html">AC Productivity Pack</a><br>
+<a href="../index.html">AUTOCONT Solutions</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-parcels-setup.md/#L1" class="contribution-link">Vylep&#353;it dokument</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>V t&#233;to sekci</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Zpět na začátek</a>
+            </span>
+            
+            <span><a href="https://muj.autocont.cz/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>ENGLISH</strong><strong>/</strong><a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>CZECH</strong></a></a></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

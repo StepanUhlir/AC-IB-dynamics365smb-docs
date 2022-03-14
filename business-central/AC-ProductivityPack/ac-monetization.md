@@ -50,9 +50,12 @@ The **Buy Product** function on the **AUTOCONT Product Purchase** page guides th
 
 To manage subscriptions, use the **AUTOCONT Subscription** page, where the user: 
 
-- get an overview of AUTOCONT's subscription products,
+- Get an overview of AUTOCONT's subscription products,
 - has the possibility to terminate the subscription of the selected product, 
-- can cancel the subscription.
+- can cancel the subscription,
+- can update customer information (Update Customer Information action),
+- can change the payment card - when updating the information (see previous), you can select Update payment card, then the Stripe dialog will appear.
+
 
 ## See Also
 [Productivity Pack](ac-productivity-pack.md)  

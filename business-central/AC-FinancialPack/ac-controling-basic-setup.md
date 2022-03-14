@@ -12,7 +12,7 @@ ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
 # Application extension set - Settings
-> Update 01.02.2022 
+> Update: 01.02.2022 
 ## CreditCheck Control - Settings
 ### CreditCheck settings
 
@@ -270,5 +270,5 @@ The described automation when posting the final invoice is activated in the VAT 
 
 **See also**
 
-[Controling Basic](ac-controling-basic.md)  
+[Application extension set](ac-controling-basic.md)  
 [Financial Pack](ac-finance-pack.md)

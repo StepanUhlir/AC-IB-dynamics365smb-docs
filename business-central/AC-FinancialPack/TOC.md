@@ -14,6 +14,7 @@
 ### [Settings - Pack Tracking Basic (EKOKOM)](ac-pack-tracking-basic-setup.md)
 ## [Pack Tracking - Returnable packaging](ac-pack-tracking-return-packing.md)
 ### [Settings - Pack Tracking - Returnable packaging](ac-pack-tracking-return-packing-setup.md)
+## [Deprecated features](ac-fp-deprecated-features.md)
 # [AC Productivity Pack](../AC-productivitypack/ac-productivity-pack.md)
 ## [Electronic invoicing](../AC-productivitypack/ac-elektronic-dokuments.md)
 ### [Settings - Electronic invoicing](../AC-productivitypack/ac-elektronic-dokuments-setup.md)

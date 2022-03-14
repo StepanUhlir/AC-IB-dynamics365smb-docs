@@ -12,23 +12,13 @@ ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
 # Application extension set
+> Update: 03.03.2022
 
-Add-on module The Finance - Controling Basic contains common features to support the operation of the other add-on modules of the Finance Extension Pack, and at the same time includes some additional features such as:
-
-- CreditCheck control – connection to an external Credit Check database and credit check of companies.
-- Hierarchical proposa of prices – option to disable the standard lowest price proposal.
-- Payment Calendars – spreading the instalments of receivables and payables into partial payments.
-- Cumulation of payments on the payment order
-- Enforcement of receivables - support for the recovery of long-term receivables that have not yet been paid. For such receivables it is necessary to have information about the status of the receivable and to be able to attach documents.
-- Exchange rate controls
-- Extension of number series
-- Rounding of the invoice according to the payment method
-- Other minor modifications or improvements to selected areas (finance, warehouses, general, etc.)
-- VAT registration in Multiple countries
+Add-on module The Finance - Controling Basic contains common features to support the operation of the other add-on modules of the Finance Extension Pack, and at the same time includes some additional features. The list of functions can be found on the right side of the page.
 
 The Controling Basic addon is required for other AC Financial Pack add-on modules.
 
-# CreditCheck control
+## CreditCheck control
 This is the integration of BC into the commercial CreditCheck service, which is used to check the creditworthiness of partners.
 
 Therefore, in order to have as much information about the selected partner in the system as possible, the information is imported via the Creditcheck ERP web service, see. <http://www.creditcheck.cz/ProductDetail.aspx?id=02>.
@@ -91,8 +81,6 @@ The functionality of the Payment Calendars is available for sale and purchase, a
 9.	Click **OK** to close the page.
 10.	Run the Post function on the sales invoice.
 
-
-![Payment calendars](media/calendar.png)
 
 In addition, after posting a sales invoice (or order), customer items are created that balance the ba-lance of the original item and several new receivables (with the same document type, document nu-mber, etc.) are created with due dates and amounts according to the payment calendar.
 
@@ -394,7 +382,8 @@ OSS mode is activated on the sales document based on the following information:
 ## Accounting purchase aof purchase advances
 
 > [!Note]
-> The functionality described below will be part of the module only up to version BC21, from version BC19 only as an extension of the functionality of backups marked as "obsolete."
+> The functionality described below will be part of the module only up to version BC14.
+
 In connection with the introduction of the Control Report from 1 January 2016, there was a need to address the overpayment of the purchase deposit under one document number, the same date and the same exchange rate.
 The whole procedure can be performed manually. However, due to its complexity, functionality was added to the system, where the overpayment of the advance payment is re-billed within the final billing invoice.
 
@@ -404,8 +393,6 @@ After creating the final purchase invoice and assigning the paid purchase deposi
 By posting the invoice, an item of the Vendor type is created for each such line with overpayment. The return of the money by the supplier (Refund) is then settled by the user with these created items.
 Note: When using the Derecognize assigned down payment function (from the Down Payment Docu-ment tab), these overpayment settlements will be derecognized by analogy.
 
-## Visible Fee
-This functionality is not part of the module since version BC15.
 
-[Controling Basic - Setup](ac-controling-basic-setup.md)  
+[Application extension set - Setup](ac-controling-basic-setup.md)  
 [Financial Pack](ac-finance-pack.md)

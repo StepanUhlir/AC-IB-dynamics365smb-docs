@@ -13,7 +13,7 @@ ms.author: v-makune
 ---
 
 # AC Parcels - Balikobot Integration
-> Update: 08.03.2022
+> Update: 08.04.2022
 
 The AC Parcels addon is used to create shipments and directly print labels of selected shipping angent, send shipment data to the shipping angent and order the actual parcel collection. With this extension, the process of processing and creating shipments sent to customers is accelerated. This addon uses the API of the Balikobot service.
 

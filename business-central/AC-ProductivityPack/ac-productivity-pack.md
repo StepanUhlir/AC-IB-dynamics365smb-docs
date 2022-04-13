@@ -11,7 +11,7 @@ ms.search.keywords: Czech, productivity, additional functions, sale, warehouse, 
 ms.author: v-makune
 ---
 
-# [přibližně]<g1>AC Productivity Pack</g1>
+# AC Productivity Pack
 
 Set of addons to extend the functionality of the operational part of the system for D365 Business Central.
 

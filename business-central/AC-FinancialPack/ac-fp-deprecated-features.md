@@ -12,33 +12,40 @@ ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
 
-# Deprecated features from AC Financial Pack
+# Odstraněné funkce z AC Financial Pack
 
-This page lits the functionality that has been moved, removed or replaced from the AC Financial Pack.
+This page contains a list of features that have been moved, removed or replaced from the AC Financial Pack.
 
-## Visible Fee
+## Visible fee
 
 
-|Moved, Removed or Repaced?|When?|
+| Moved, Deleted or Replaced? | When? |
 |----|----|
-|Removed|Since BC15|
+| Deleted | from version BC15 |
 
 
-## Finance - Transfered tax liability
+## Finance - Tax liability transferred
 
 
-|Moved, Removed or Repaced?|When?|
+| Moved, Deleted or Replaced? | When? |
 |----|----|
-|Removed|Since BC15|
+| Deleted | from version BC15 |
 
 
-## Discount credit memos inc CZ
+## Discount credits for CZ
 
-|Moved, Removed or Repaced?|When?|
+
+| Moved, Deleted or Replaced? | When? |
 |----|----|
-|Replaced|Since BC15|
+| Replaced | from version BC15 |
 
-Because the basic functionality for creating sales credit memos has been deleted from the CZ localization, the expanding functionality is no longer part of the Application Extensions Set module.
+Since the basic functionality for creating sales credit notes has been omitted from the CZ localization, the extended functionality is no longer part of the Application Extension Set module.
 
-## See Also
-[Financial Pack](ac-finance-pack.md)  
+## Excise duty
+
+| Moved, Deleted or Replaced? | When? |
+|----|----|
+| Deleted | from version BC15 |
+
+## See also
+[Financial Pack](ac-finance-pack.md)

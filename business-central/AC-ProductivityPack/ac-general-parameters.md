@@ -10,7 +10,8 @@ ms.workload: na
 ms.search.keywords: Czech, General parameters, additional functions
 ms.author: v-makune
 ---
-# General parameters
+
+# General Parameters
 > Update 17.03.2022
 
 The **General Parameters** add-on module allows you to add an unlimited number of new parameters to **Item** and **Fixed Assest** in Dynamics 365 Business Central for detailed sorting and filtering. Parameters can be grouped into templates according to the purpose. The module contains a wizard for easy entry of parameter values by manually entering or selecting from the prepared lists.

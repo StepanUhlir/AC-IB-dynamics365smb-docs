@@ -29,5 +29,5 @@ Addon set to extend finance functionality for D365 Business Central.
 ## See also
 [AUTOCONT Solution](../index.md)  
 [Productivity Pack](../AC-ProductivityPack/ac-productivity-pack.md)    
-[Slovak Legistive Pack](../AC-SK/ac-sk-legislative-pack.md)
+[Slovak Legislative Pack](../AC-SK/ac-sk-legislative-pack.md)
 

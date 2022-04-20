@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: Czech, General parameters, additional functions
 ms.author: v-makune
 ---
+
 # General Parameters - Setup
 > Update 17.03.2022
 

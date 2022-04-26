@@ -22,7 +22,7 @@ The automated task then searches for vendors and customers registered in the sys
 
 A company that is not listed and has at least one published bank account for doing business in Slovakia is designated as reliable.
 
-> [!Poznámka]
+> [!NOTE]
 > Checking the unreliability of the VAT payer in the case of customers is 
 limited to a check on the Payment Order only
 

@@ -75,3 +75,4 @@
 ## [Institute of the payer's unreliability](../AC-SK/ac-sk-unreability-payer.md)
 ## [Balance reconciliation](../AC-SK/ac-sk-balance-reconciliation.md)
 ## [Tax depreciation](../AC-SK/ac-sk-tax-depreciation.md)
+## [Import of exchange rates](../AC-SK/ac-sk-ECB.md)

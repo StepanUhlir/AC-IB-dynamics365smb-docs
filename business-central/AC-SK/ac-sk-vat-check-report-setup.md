@@ -11,64 +11,68 @@ ms.search.keywords: Slovak, , additional functions, sale, VAT
 ms.author: v-makune
 ---
 
-# Kontrolní výkaz DPH - nastavení
+# VAT Control Report - Setup
 
-Pro zajištění správné funkčnosti je potřeba nastavit několik níže uvedených oblastí.
+To ensure proper functionality, you need to set up several areas below
 
-## Nastavení financí
+## General Ledger Setup
 
-Pro aktivování slovenských funkčností využijte následující postup:
+To activate Slovak functionality, follow these steps:
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Nastavení financí** a poté vyberte související odkaz.
-2. Na kartě **Nastavení financí** je nutné vybrat do pole **Legislativa** hodnotu **SK**.
-3. Potvrďte pomocí tlačítka **OK**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+2. On the **General Ledger Setup** page you must select**SK** in **Legislation**field.
+3. Confirm with the **OK** button.
 
-## Nastavení XML schémat
+## Setting up XML schemas
 
-XML schéma ke Kontrolnímu výkazu DPH je potřebné do aplikace naimportovat do XML schémat.
+The XML schema for the VAT Control Report must be imported into the application into the XML schemas.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **XML schémata** a poté vyberte související odkaz.
-2. Na stránce **XML schémata** vyberte akci **Načíst schéma**.
-3. Otevře se vám okno pro import, kde vyberete příslušný XML soubor.
-4. Po import se na kartě **XML schémata** objeví nový řádek.
-5. Do pole SML portID vyberte hodnotu **52068871** -platná od 1.1.2020.
-6. do pole **Přiřazeno legislativě** vyberte hodnotu **SK**.
-7. Potvrďte pomocí tlačítka **OK**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **XML Schemas** and then choose the related link.
+2. On the **XML Schemas** page choose **Load Schema** action
+3. An import window will open where you select the appropriate XML file.
+4. After import, a new line appears on **XML Schemas** page.
+5. In the SML portID field, select the value **52068871** -valid from 1.1.2020.
+6. In the **Assing legislation** select **SK**.
+7. Confirm with the **OK** button.
 
-## Nastavení řádků výkazu DPH - rozšíření
 
-Pro zajištění správného vykazování Kontrolního výkazu DPH je potřeba nastavit pole v řádcích výkazu DPH:
+## VAT report line settings - extensions
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Výkazy DPH** a poté vyberte související odkaz.
-2. Pro jednotlivé řádky výkazu DPH definujte pole:
+To ensure the correct reporting of the VAT Control Report, it is necessary to set the fields in the lines of the VAT report:
 
-- Filtr kódu původu
-- Typ dokladu
-- Filtr typu dokladu
-- Sekce kontrolního výkazu DPH
-- Sekce kontrolního výkazu DPH pro fyzické osoby
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Statements** and then choose the related link.
+2. For each line in the sales tax statement, define the following fields:
 
-3. Potvrďte pomocí tlačítka **OK**.
+- Source Code filter
+- Document type
+- Document type filter
+- VAT Control Report Section
+- VAT Check Report Section for individuals
 
-## Nastavení sekcí kontrolního výkazu DPH
+![Import of unreliable VAT payers from xml format](media/VAT_check_report.png)
 
-Pro nastavení využijte následující postup:
+3. Confirm with the **OK** button.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Sekce kontrolního výkazu DPH** a poté vyberte související odkaz.
-2. Nastavte kódy sekcí dle platných nařízení pro vykazování.
-3. Pro vykazování přijatých zjednodušených faktur je potřeba nastavit **Kód sekce pod limit** a **Kód sekce nad limit**. Zároveň se vyplní i pole **Limit částky DPH** a **Platnost limitu od**.
-4. Potvrďte pomocí tlačítka **OK**.
+## Setting the sections of the VAT Control Report
 
-## Nastavení sloupců sekcí kontrolního výkazu DPH
+Use the following procedure to set up:
 
-Pro jednotlivé sekce je potřeba nastavit sloupce, které budou exportovány do xml souboru.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Check Report Section** and then choose the related link.
+2. Set up section codes according to applicable reporting regulations.
+3. To report received simplified invoices, you need to set the **Section Code Below Limit** and **Section Code Above Limit**. The fields **VAT Amount Limit** and **Limit Valid From** are filled in at the same time.
 
-1. Vyberte ikonu ![Žárovky, která otevře funkci Řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete dělat"), zadejte **Sekce kontrolního výkazu DPH** a poté vyberte související odkaz.
-2. Označte řádek, pro který chcete nastavovat a poté zvolte funkci **Akce** - **Sekce** - **Nastavení sloupců sekcí výkazu**.
-3. Zadejte kódy dle plateného nařízení pro vykazování. V poli **Přiřazené pole v řádku výkazu** je nastavení z jakého systémového pole bude hodnota naplněna do Kontrolního výkazu.
+![Import of unreliable VAT payers from xml format](media/VAT_check_report_section.png)
+
+## Set up VAT Control Report Section Columns
+
+It is necessary to set columns for individual sections, which will be exported to an xml file.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Check Report Section** and then choose the related link.
+2. Select the row for which you want to set columns, and then choose **Action** -> **Section** -> **Column Selection Setup**.
+3. Enter the codes according to the valid reporting regulation. In the **Assigned Field field in the report line**, you can set from which system field the value will be populated into the Control Report.
 
 ## See also
 
-[AUTOCONT Řešení](../index.md)  
-[SK Legislativní balíček](ac-sk-legislative-pack.md)  
-[Kontrolní výkaz DPH](ac-sk-vat-check-report-export.md)
+[AUTOCONT Solutions](../index.md)  
+[SK Legislative Pack](ac-sk-legislative-pack.md)  
+[VAT Control Report](ac-sk-vat-check-report-export.md)

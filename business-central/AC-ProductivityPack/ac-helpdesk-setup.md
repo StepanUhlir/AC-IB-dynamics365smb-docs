@@ -7,107 +7,122 @@ Product: dynamics365-business-central
 Contentlocale: cs-cz
 ---
 
-# HelpDesk - Nastavení
+# HelpDesk - Setup
 
-Modul  Helpdesk slouží k centralizovanému zadávání, evidenci, zpracování a vyhodnocování různých požadavků uživatelů v systému Microsoft Dynamics NAV. Uživatelé zde mohou zadávat požadavky na servisní úkony, na poskytnutí podpory, úpravu nebo doplnění funkcionality, evidovat reklamace a podobně. Umožňuje také kategorizaci požadavků, nastavení priorit a řízené zpracování přiřazenými řešiteli. K dispozici je i historie uzavřených požadavků HelpDesku.
-
-
-Aby bylo možné zadávat požadavky do HelpDesku, je nutné předem provést některá nastavení:
-- Nastavit HelpDesk.
-- Založit číselnou řadu pro požadavky HelpDesku.
-- Založit kategorie uživatelů.
-- Zadat oprávněné osoby a přiřadit je do kategorií.
-- Naplnit tabulku priorit požadavků.
-- Vytvořit kategorie požadavků (volitelně, pokud se sledují).
-- Naplnit tabulku způsobů řešení.
-- Vytvořit šablonu workflow pro Helpdesk.
-- Nastavit workflow pro HelpDesk.
+The Helpdesk module is used to centrally enter, record, process and evaluate various user requests in the Microsoft Dynamics 365 Business Central system. Users can enter requests for service operations, for providing support, modifying or supplementing functionality, register complaints and so on. It also allows you to categorize requests, set priorities, and manage processing by assigned solvers. There is also a history of closed HelpDesk requests.
 
 
-## Nastavení HelpDesku
-
-Základní nastavení helpdesku slouží k nastavení kategorií požadavků a priorit, zda je nutné požadavky zadávat pomocí průvodce.
-
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Nastavení helpdesku**.
-2. Na kartě Nastavení v záložce Obecné je potřeba vybrat **Vynucení Kategorií** a **Výchozí prioritu**.
-3. V záložce Číslování nastavit **Číselnou řadu** pro požadavky.
-4. Potvrďte pomocí OK.
-
-
-## Nastavení kategorie uživatelů
-
-Kategorie uživatelů představují skupiny uživatelů. Skupinám uživatelů se přiřadí určitá váha (stupeň důležitosti), která je jedním z faktorů při automatickém výpočtu priority požadavku.
-
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Kategorie uživatelů**.
-2. Naplnit pole: **Kód**, **Popis** a **Váha**.
-3. Potvrďte pomocí OK.
+In order to enter requests into the HelpDesk, it is necessary to make some settings in advance:
+- HelpDesk Setup.
+- Create a number series for HelpDesk requirements.
+- Create user categories.
+- Enter authorized persons and assign them to categories.
+- Populate the requirements priority table.
+- Create request categories (optionally if they are tracked).
+- Populate the table of ways to solve.
+- Create a workflow template for the Helpdesk.
+- Set up workflow for HelpDesk.
 
 
-## Nastavení seznamu oprávněných osob
+## HelpDesk settings
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Helpdesk Setup** and then choose the related link.
 
-Pro každou oprávněnou osobu se zvolí příslušná Kategorie uživatele, podle které program automaticky předvyplní Váhu požadavku pro danou osobu. Předvyplněnou hodnotu pole Váha lze pro každou osobu individuálně upravit. Pro výpočet celkové priority požadavku, pak program použije tuto hodnotu
+On the **Helpdesk Settings** page, on the **General** tab, you can choose whether to fill in request categories 1-3, the default priority, and whether you need to enter new requests using the wizard.
 
-Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Oprávněné osoby**.
-2. Zvolit volbu **Nový**.
-3. Na kartě oprávněné osoby zadat obecné informace do záložky Obecné:
-- **Kód**, **Jméno**, **Kategorie**, **ID** **uživatele**, **Váha**, **Povolena** změna uživatele (opravňuje  ke změně Oprávněné osoby) a **Výchozí** **priorita**.
-4. Na kartě oprávněné osoby lze zadat i **detailní informace** do záložky Spojení:
-   - **Adresa**, **Telefon**, **Fax**, **Mobil**, **E-mail**.
-5. Potvrďte pomocí OK.
+![Helpdesk settings - General tab](media/HD_general_setup.png)
 
+On the **Numbering** tab, in the **Request Nos.** field, select a number series for newly created Helpdesk requests.
 
-## Nastavení priority požadavků
+### Create a number series for HelpDesk requests
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series** and then choose the related link.
+2. On the **Number Series** page, click **New** to create a new number series.
+3. Enter the Code, Description, and Starting No. of the number sequence.
+4. Select the Default Nos. for autofilling numbers when entering new requests check box.
 
-Aby bylo možné vyhodnocovat požadavky podle jejich naléhavosti, je nutné vyplnit **Priority požadavků**. V rámci nastavení je nutné zadat: **Kód**, **Popis** a **Váha**.
+Example of a created number series:
 
-- Váha – pro výpočet výsledné priority požadavku. Váhy lze stanovit libovolně, záleží na místních podmínkách a zvyklostech (zpravidla čím závažnější je požadavek, tím vyšší váha)
-- Výpočet data odezvy, Výpočet data řešení – vzorce pro výpočet. Do polí lze zadat celá čísla se zkratkou jednotky času (např. D = den, M = měsíc, K = kvartál, R = rok). Výsledné datum se vypočte z data, kdy byl požadavek zadán (datum lze následně upravit).
+![Helpdesk settings - number series](media/HD_serial_no.png)
 
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Priority požadavků**.
-2. Do tabulky je nutné zadat:
-   - **Kód**, **Popis**, **Váha**, **Výpočet data** odezvy a **Výpočet data řešení**.
-3. Potvrďte pomocí OK.
+## Set up a User Categories
 
+User categories are groups of users. User groups are assigned a certain weight (level of importance), which is one of the factors in the automatic request priority calculation The user category contains the Code, Description, and Weight fields
 
-## Nastavení kategorie požadavků
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **User Categories** and then choose the related link.
+2. On the **User Category** page, choose **New** action, and then enter **Code**, **Description**, and **Weight**.
+3. The Weight field can take values ​​0-1 in terms of percentages (0 = 0%, 1 = 100%).
 
-Pro sledování požadavků z jiných hledisek než podle závažnosti je možné nadefinovat kategorie požadavků, a to až ve 3 úrovních, pro které platí stromový rozpad (tzn. jsou ve vztahu hierarchické podřízenosti, tj. volba Kategorie 1 určí, jaké se budou nabízet Kategorie 2, a ty zase ovlivní nabídku Kategorií 3).
+## Set up an Entitled Persons
 
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Kategorie požadavků**.
-2. Na kartě požadavku zadat **Kód** a **popis kategorie požadavku 1**.
-3. Pro rozpad na další úroveň v ribbonu vybrat funkci **Kategorie požadavku 2**.
-4. Stejný krok opakovat **pro třetí úroveň**.
-5. Potvrďte pomocí OK.
+For each Authorized Person, the appropriate User Category is selected, according to which the program automatically pre-populates the Request Weight for that person. The pre-filled value of the **Weight** field can be adjusted individually for each person. The program then uses this value to calculate the overall priority of the request.
 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Entitled Person List** and then choose the related link.
+2. A table will appear with all authorized persons entered so far.
+3. On the **Entitled Person List** choose **the New** action and fill in the new authorized person fields as needed.
 
-## Nastavení řešení požadavků
+On the **Communication** tab, you can add more detailed contact information for the given person (**Address**, **Phone No.**, **Fax**, **Mobile Phone No.**, **E-mail**).
 
-V této tabulce je možné nadefinovat Kód (max. 10 znaků) a Popis (max. 30 znaků) jednotlivých způsobů řešení požadavků.
+When the corresponding login name of the authorized person is filled in the **User ID** field, the code of the authorized person who enters the request will be automatically offered to the HelpDesk when making a request.
 
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Řešení**.
-2. Nadefinovat **Kód** a **Popis řešení požadavků**.
-3. Potvrďtě pomocí OK.
+The **User Change Allowed** field entitles you to change the Authorized Person (poIe Helpdesk Identification) when entering a new request into the HelpDesk. The selected **Default priority** will be automatically offered in the newly purchased request.
 
+## Request Priority Setup
 
-## Založení šablony Workflow HelpDesku
+In order to evaluate requirements according to their urgency, it is necessary to fill in **Requirements Priorities**:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Request Priorities** and then choose the related link.
+2. On the Request Priorities page, choose **the New** action.
+3. Enter the **Code** and **Description** fields.
+4. Enter the appropriate value in the **Weight** field to calculate the resulting request priority.
 
-Pro založení šabloby workflow je nutný **addon WorkFlow**.
+- The Weight field can take values ​​0-1 in terms of percentages (0 = 0%, 1 = 100%). Weights can be set arbitrarily, depending on local conditions and customs (usually, the more severe the requirement, the higher the weight).
 
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Šablony workflow**
-2. Vyplnit na řádku **kód**, **popis** a **číslo tabulky (52068298)**.
-3. V ribbonu nastavit stavy WF pomocí tlačítka **Stavy workflow**.
-   - Pro stav workflow je třeba nadefinovat **Kód**, **Popis** a **Filtr dalšího stavu**, který určuje, do jakých dalších stavů je možné z daného stavu přejít. Jeden ze stavů musí být označen jako **Výchozí stav** – ten se vyplní při založení nového helpdesk požadavku. Některé stavy mohou být označeny jako **Konečný stav**, z něhož se už nepokračuje do dalšího stavu.
-4. Pro konkrétní stav workflow lze definovat **Akci workflow**. Stačí stát na daném řádku stavu a v ribbonu kliknout na **Akce Workflow**.
-   - Pro aktivní řádek lze specifikovat **Akce workflow**, **Kontrolovaná pole** a **Nastavovaná pole**. V Akcích se definují **Codeunity**, **Reporty** či **XMLporty**, které se automaticky spustí při přechodu do daného stavu (např. odeslání e-mailové zprávy). U kontrolovaných resp. nastavovaných polí se určí, co a kde se má kontrolovat nebo nastavit při přechodu do daného stavu.
-5. Potvrďte pomocí OK.
+5. Enter the **Response Date Calculation**, **Solution Date Calculate** using a formula to calculate fields.
 
-## Nastavení WorklFlow pro HelpDesk
+- Integers can be entered in the fields with the abbreviation of the unit of time (e.g. D = day, M = month, Q = quarter, Y = year). The resulting date, when entering a new request, is calculated from the date when the request was entered (the date can then be edited).
 
-Po založení šablony je nutné nastavit tuto šablonu v Nastavení workflow.
+After specifying request priorities, the table can look like this:
+![Helpdesk Setup - Request Priorities](media/HD_request_priorities.png)
 
-1. Pomocí vyhledávací funkce **Řekněte mi, co chcete udělat (Alt + Q)** vyhledejte **Nastavení workflow**.
-2. Do pole **Šablona workflow** helpdesku zvoli definovanou šablonu.
-3. Potvrďte pomocí OK.
+## Request Category Settings
+
+To monitor requirements from points of view other than severity, it is possible to define categories of requirements, up to 3 levels for which the tree decay applies (i.e. they are in a hierarchical subordination relationship, i.e. the Category 1 option determines which Category 2 will be offered, which in turn will affect the Category 3 offer).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Request Categories** and then choose the related link.
+2. On the **Request Categories 1** page, choose the **New** action.
+3. Fill in the appropriate fields in the Category Code (max. 10 characters) and **Description** (max. 50 characters) rows.
+4. To create multiple subcategories (level 2 categories) for a given category, choose **Request Categories 2** action on the **Request Categories 1** page.
+5. Repeat steps 2 and 3 to complete Requirement Category 2.
+6. To create multiple subcategories (level 3 categories) for a given category, choose **Request Categories 3** action on the **Request Categories 2** page.
+   
+7. Repeat steps 2 and 3 to complete Requirement Category 3.
+
+## Set up a Request Solution
+
+In this setting, it is possible to define individual ways of solving requests.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Solutions** and then choose the related link.
+2. On the **Solution** page, choose the **New** action.
+3. Fill in the appropriate fields in the Code (max. 10 characters) and **Description** (max. 50 characters) rows.
+
+## Create a Status Management template for Helpdesk
+
+To set up a workflow, the **Status Management addon** is required, which you must have installed.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Status Management Templates** and then choose the related link.
+2. On **the Status Management Templates** page, fill in the fields in the **Code**, **Description**, and **Table Number (52068298) rows**.
+3. In the function panels, click **Status Management Statuses** to set each state.
+   - For workflow status, you need to define **Code**, **Description**, and **Next status filter**, which determines what other states can be accessed from that state. One of the states must be marked as **Default State** – this is filled in when a new helpdesk request is created. Some states may be referred to as **the Final Status**, from which no further state is continued.
+
+5. When you have defined Status Management Statuses, use the **OK** button to confirm them.
+
+For more information about setting up and setting up Status Management, see [Status Management Settings](ac-workflow-status-management-setup.md).
+
+## Status Management settings for HelpDesk
+
+After you create a template, you must set up the template on the **Status Management Settings** page.
+
+1. Select the ![Light Bulb icon that opens Tell Me feature.](media/ui-search/search_small.png " me what you want to do"), enter **Status Control Settings**, and then select the related link.
+2. On **Status Management Setup** page, in the **Table number** field, type the 52068298 number that indicates the Request Helpdesk table.
+3. In the **Status Management templates**field, select the appropriate template for status control for HelpDesk requests.
 
 ## See also
 [HelpDesk](ac-helpdesk.md)  

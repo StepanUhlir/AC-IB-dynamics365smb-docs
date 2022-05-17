@@ -41,6 +41,6 @@ To start manually, follow the procedure below:
 When you synchronize manually, you can use filters to specify exactly what tables, where and where to sync them. This option is used mainly when synchronizing existing data into new systems (migration and parameterization).
 
 ## See also
-[Central Database - Setup](ac-centraldatabase-setup.md)
+[Central Database - Setup](ac-centraldatabase-setup.md)  
 [AC Productivity Pack](ac-productivity-pack.md)  
 [AUTOCONT řešení](../index.md)

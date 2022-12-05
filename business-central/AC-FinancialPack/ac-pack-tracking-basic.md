@@ -12,7 +12,7 @@ ms.date: 01/31/2020 TODO
 ms.author: v-pejano
 ---
 
-# Pack Tracking Basic (EKOKOM)
+# Packaging records
 Pack Tracking Basic module is an extension of the Inventory area.  
 The module establishes a separate packaging record linked to the inventory area and standard goods movements (purchase, sale, receipt, issue, transfer, consumption and production).
 
@@ -35,5 +35,5 @@ If you want to mark items as reported, it is necessary to check the **Mark Entri
 The data used in the statement can be filtered, e.g. by Posting Date, Packing Stat. El. Name, etc.
 
 ## See also
-[Pack Tracking Basic (EKOKOM) - Setup](ac-pack-tracking-basic-setup.md)  
+[Packaging records - Setup](ac-pack-tracking-basic-setup.md)  
 [Financial Pack](ac-finance-pack.md)

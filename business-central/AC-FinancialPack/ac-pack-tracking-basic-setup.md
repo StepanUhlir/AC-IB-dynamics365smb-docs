@@ -12,7 +12,7 @@ ms.date: 01/31/2020 TODO
 ms.author: v-pejano
 ---
 
-# Pack Tracking Basic (EKOKOM) - Setup
+# Packaging records - Setup
 To ensure the functioning of the add-on module **Pack Tracking Basic**, it is necessary to perform the necessary setup steps.
 
 ## Establish a Packaging Statement
@@ -65,5 +65,5 @@ For example **Packing Statement Elements** page might look like this:
 In each **Packaging Statement** that you create, you can define exceptions, specified by the status of the lines in the Item journal, that will not be included in the report. Choose the **Lightbulb that opens the Tell Me feature.![Tell me what you want to do](media/ui-search/search_small.png ", icon, enter ")Packing Stat. El. Exceptions</g4> and then choose the related link.  The exception is defined by the data entered in the **Movement Type**, **Field no.**, **Field Value** and **Position** fields (in the report). You must also specify the **Element Code** to create an exception.
 
 ## See also
-[Pack Tracking Basic (EKOKOM)](ac-pack-tracking-basic.md)  
+[Packaging records](ac-pack-tracking-basic.md)  
 [Financial Pack](ac-finance-pack.md)

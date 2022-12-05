@@ -11,11 +11,11 @@ ms.search.keywords: klicova slova,
 ms.date: 01/31/2020
 ms.author: AC MartinKunes
 ---
-# Pack Tracking - Return Packing - Setup 
+# Returnable Packaging records - Setup 
 
 Pack Tracking - Return Packing
 
 ## See also
 
-[Pack Tracking - Return Packing](ac-pack-tracking-return-packing.md)  
+[Returnable Packaging records](ac-pack-tracking-return-packing.md)  
 [Financial Pack](ac-finance-pack.md)

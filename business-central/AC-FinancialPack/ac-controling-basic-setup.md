@@ -250,10 +250,10 @@ In the case of using a currency other than the local currency in the country of 
 2. In the OSS - EU Registration field on the VAT tab, confirm that your company is registered for OSS mode.
 3. In the Currency code for OSS field on the VAT tab, select the currency code corresponding to the Euro currency.
 4. Select the VAT Settings for OSS action (Related -> VAT Posting).
-5. On the VAT Settings for OSS page, enter the VAT sales group for the combination of countries where the shipment starts and ends.
+5. On the VAT Settings for OSS page, enter the VAT sales group for the combination of countries where the shipment starts and ends, and select whether the document should be marked as OSS for this combination.
 
-> [!NOTE]
-> The OSS flag determines whether or not the specified country combination is subject to OSS.
+>[!NOTE]
+>Combinations with the OSS = No flag must be defined for cases when it is necessary to disable the OSS mode on a sales document.
 
 
 ## Set up purchase advance overpayment posting

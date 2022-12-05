@@ -404,14 +404,19 @@ OSS mode is activated on the sales document based on the following information:
 - VAT Registration No. field – OSS mode is possible only for customers without registration, ie with an unfilled VAT Registration No.
 - Country code from the location in the document header
 - Ship to Country/Region code or VAT Country/region code
+- OSS flag value for the country combination above in Settings
 
 **Payment of money for OSS**
 
-*During Q1 2022, a report will be added, which will be the basis for statements to the tax office. From the closed VAT items for the whole quarter, it calculates (and prints with the necessary details) the amount that the company has to pay to the tax office.*
+Quarterly, you need to prepare supporting documents and pay VAT to the tax office. For this purpose, the function Closing VAT items in OSS mode has been prepared, which marks VAT items with the OSS closed flag and calculates the Base and VAT amount in CZK according to the entered exchange rate against EUR. The result is a printout report documenting the calculation for each combination of VAT account groups contained in the VAT source items.
+
+>[!NOTE]
+>Information about the closing date in the OSS mode is included in the VAT item. Thanks to this, it is possible to run the report as needed, e.g. only for open items, etc.
 
 **Closure of VAT entries**
 
-*During Q1 2022, the functionality for closing VAT entries will be adjusted.*
+The system includes a Calculate and Account for VAT OSS Settlement function that will close the VAT entries that fall within the filter. However, unlike the standard function, it recharges the items in OSS mode to the specified OSS Settlement Account. This is important for the subsequent posting of the payment to the specialised tax office in charge of this agenda.  
+Thus, both modes are processed simultaneously as part of the activities related to the production of the VAT statement.
 
 ## Accounting purchase of purchase advances
 

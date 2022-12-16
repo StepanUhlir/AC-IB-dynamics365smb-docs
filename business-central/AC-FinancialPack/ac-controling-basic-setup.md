@@ -48,8 +48,8 @@ In the user settings on the General tab, there is a new boolean **Allow change o
 
 In the CreditCheck settings, it is possible to turn on the update of web feed creation for all contacts with a completed ID.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **CreditCheck Settings** and then choose the related link. **
-2. Auto flag. web resource updates**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **CreditCheck Settings** and then choose the related link.
+2. Choose **Auto flag. web resource updates**.
 
 > [!NOTE]
 > Creating web feeds for a paid statement is possible using **Aut. update web feeds - Full**, but only if the **Access code** field is filled.
@@ -59,7 +59,15 @@ In the CreditCheck settings, it is possible to turn on the update of web feed cr
 
 ## Setting the Hierarchy proposal of sales prices
 
-### Sales and receivables setup
+### Price Calculation Methods (from version 22.0, optionally from 18.0)
+Starting with version BC 22 (or BC 18 if you have "Feature Update: New Sales Price Experience" turned on in Feature Management), you turn on hierarchical item price suggestions as follows:
+1.	Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Price Calculation Methods** and then choose the related link.
+2.	Click to select the Lowest Price method.
+3.	In the Sales Price Calculation section, for Items, select the implementation named AC Financial Pack - Hierarchic (by clicking a value in the Implementation Used field)
+
+
+
+### Sales and receivables setup (up to version 21.0)
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales & Receivables Setup** and then choose the related link.
 > [!TIP]
 > The settings depend on the version you are using. In BC17, select **<Hierarchical pricing enabled** to enable it.

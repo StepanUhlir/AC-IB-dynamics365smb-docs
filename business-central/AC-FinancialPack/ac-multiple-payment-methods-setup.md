@@ -11,7 +11,7 @@ ms.search.keywords: Multiple payments, finance
 ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
-# Více úhrad - nastavení
+# Setup - Multiple payment methods
 > Update 01.04.2022
 
 Before you can use the functionality of multiple payment methods in your business processes, you must make the basic module settings. These are code lists:
@@ -40,7 +40,7 @@ In the Payment places list, define all the locations where customers can pay the
 
 In the User Settings list, assign the appropriate payment places code to the selected users serving customers. This assignment will help to guide user behavior to prevent errors due to inattention. See Assigning payment methods to users. **See: Assign payment methods to users.**
 
-Přiřazením Kódu platebního místa na způsobu platby docílíte větší kontroly uživatelů, aby nebylo možné omylem provést úhradu vůči protiúčtu, který není uživateli přiřazen.
+By assigning a Payment Location Code to a payment method, you achieve greater control over users so that payment cannot be made by mistake against a balance account that is not assigned to the user. 
 
 
 ## Setting up Multiple Payment Methods

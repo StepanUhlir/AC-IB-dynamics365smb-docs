@@ -209,6 +209,11 @@ A prerequisite for use is the correct setting of Paperless trade.
 5. Use **Create a Shipment** or **Create a Shipment and Print a Label**
 6. Continue processing the next shipment or close the form.
 
+## Availability of Balíkobot services
+
+Balíkobot also offers the possibility to view the status of individual service availability at https://status.balikobot.cz/.
+
+There is also the possibility of notifications from Balíkobot either by e-mail, via teams, RSS and others.
 
 ## See also
 [Setup - AC Parcels - Balíkobot Integration](ac-parcels-setup.md)  

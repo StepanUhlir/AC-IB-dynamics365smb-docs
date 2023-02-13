@@ -163,6 +163,12 @@ Shipping Agent Services are downloaded automatically using the Balikobot API. It
       o	https://www.balikobot.cz/dokumentace/cp_ciselnik_sluzeb.pdf
 
 
+### Balikobot API settings
+
+This system table allows you to configure extended carrier settings. These are settings for API communication, where you can select communication versions and more for selected carriers.
+
+From an admin point of view, there is an option to set the shipping agent code for communication in case of changes from Balíkobot (Shipping Agent API Code) when the API shipper name is longer than 10 characters (for example DHL Freight EuroConnect, which had the API name "dhlfreight" and now uses "dhlfreightec").
+
 
 
 

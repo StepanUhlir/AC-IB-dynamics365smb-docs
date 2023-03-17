@@ -38,7 +38,7 @@ It is possible to use all three counter-account options included in the localiza
 8. On the Sales Invoice page, run the Post function.
 
 > [!NOTE]
-> Ff you do not enter a cash amount, you must enter amounts in the rows exactly up to the amount of the receipt (i.e., so that the Balance field is zero).
+> If you do not enter a cash amount, you must enter amounts in the rows exactly up to the amount of the receipt (i.e., so that the Balance field is zero).
 
 ![Payment Schedule](media/multiple_payment_methods_payment.png)
 

@@ -11,9 +11,9 @@ ms.search.keywords: Czech, Workflow status management setup, additional function
 ms.author: v-pejano
 ms.date: 07/18/2023
 ---
-# WorkFlow - State Management - Setup
+# Status Management - Setup
 
-## Set up a state management template
+## Set up a State Management Template
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Status Management Templates** and then choose the related link.
 2. On the **Status Management Templates** page choose **New** action.
@@ -39,7 +39,7 @@ For the active row on the **Status Mgt. Statuses** page, you can specify:
 - **Set Fields**
 - **Status management Actions**
 
-### Checked fields
+### Checked Fields
 
 For each state (the row on the Status Management Statuses page), you can define fields to check when you enter that state.
 
@@ -71,7 +71,7 @@ This feature helps you check the field you set on another page (in a different t
 
 If you click the Checked Tables feature, the Status management Checked Tables page opens, where the **Template Code** and **Status Code** fields are automatically populated. On this page, you need to fill in the **Code** field, **Table ID** in which you want to check a field, the **Table Checking Condition**, and possibly the **Value** field.
 
-## Status Management setup
+## Status Management Setup
 
 This setting is used to link defined state management templates to the entity in which the state management is to be used.
 
@@ -87,5 +87,5 @@ This setting is used to link defined state management templates to the entity in
 
 ## See also
 
-[WorkFlow - Status management](ac-workflow-status-management.md)  
+[WorkFlow - Status Management](ac-workflow-status-management.md)  
 [Productivity Pack](ac-productivity-pack.md)

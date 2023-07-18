@@ -1,5 +1,5 @@
 ---
-title: Workflow status management setup| Microsoft Docs
+title: Workflow status management setup 
 description: Workflow status management setup
 author: ac-kunes
 ms.service: dynamics365-business-central
@@ -8,7 +8,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Czech, Workflow status management setup, additional functions
-ms.author: v-makune
+ms.author: v-pejano
+ms.date: 07/18/2023
 ---
 # WorkFlow - State Management - Setup
 
@@ -21,7 +22,7 @@ ms.author: v-makune
 
 ![State Management - Status Management Templates](media/WF_Templates.png)
 
-5. To specify individual states for the newly created State Management, click the **Template** action, and then click **Status Mgt. States**.
+5. To specify individual states for the newly created State Management, click on the  **Statuses**.
 
 For each Status management state, you must define a **Code**, **Description**, and **Next status filter** that determines what other states can be accessed from that state. Just one of the states must be marked as **Default Status** (by checking the Default Status button). This state is then automatically filled in when a new row is created in the table with which the state control works (document, request, etc.).
 
@@ -31,15 +32,15 @@ An example of state settings for State Control is shown in the figure below.
 
 ![Status Management Settings - State Control Statuses](media/WF_states.png)
 
-For the active row on the **Status Management States page**, you can use the **Status** function to specify:
-- **Status management Actions**
-- **Checked fields**
-- **Set Fields**
-- **Checked Tables**
+For the active row on the **Status Mgt. Statuses** page, you can specify:
 
-![Status Management Settings - State Control Functions](media/WF_states_header.png)
+- **Checked fields**
+- **Checked Tables**
+- **Set Fields**
+- **Status management Actions**
 
 ### Checked fields
+
 For each state (the row on the Status Management Statuses page), you can define fields to check when you enter that state.
 
 For the fields to be checked, it is necessary to fill in at least **Code**, **Fields No.** (where the field that should be checked is recorded) and the **Value Checking** field (indicates what type of check will be performed when the state is set):
@@ -50,11 +51,13 @@ For the fields to be checked, it is necessary to fill in at least **Code**, **Fi
 - **Compare Fields** - When selecting this option, it is important to fill in the **Comparison Field No.** field. This field determines which field we will compare the field to. It is also important to fill in the **Compare Condition**field, where we can also specify comparison methods as in the previous option.
 
 ### Set Fields
+
 It is possible to define fields for each status, which will be set when entering this status.
 
 For the field you are setting, you must fill in **Field No.** and **Value** fields. The Value field specifies what value the field is set to when it goes to the Status Management status.
 
 ### Status Management Actions
+
 The Actions define Codeunits, Reports and XMLPorts that can be run when entering a given status. Codeunits for events can be created by the partner himself according to his own needs in the object numbers allowed by his license.
 
 For each status, you can define the actions that will be performed when you transition to that state. For Action, you must define the **Action Code**, **Field No. (Value),** and **Value** fields.
@@ -63,11 +66,24 @@ In the **Field No. (Value)** field, it is defined from which field the content i
 Using the Mail Texts function, you can define the content of the mail (subject and custom text). It is possible to insert codes into the text, which are replaced by the contents of the fields when you send the mail. Codes are defined using the Mail Fields function
 
 ### Checked Tables
+
 This feature helps you check the field you set on another page (in a different table, such as the table you're currently working in). It is a similar feature to the Status Management Actions. With this function, you can verify or a field on another page is set as needed when you transition to the state where you are using this feature.
 
 If you click the Checked Tables feature, the Status management Checked Tables page opens, where the **Template Code** and **Status Code** fields are automatically populated. On this page, you need to fill in the **Code** field, **Table ID** in which you want to check a field, the **Table Checking Condition**, and possibly the **Value** field.
 
+## Status Management setup
 
+This setting is used to link defined state management templates to the entity in which the state management is to be used.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type **Status Mgt. Setup** and then select the associated link.
+2. On the **Status Mgt. Setup** page, select the **New** action.
+3. Fill in the **Table Number** and **Status Mgt. Templates** fields.
+4. If you want to enable user checks, select the **Status Mgt. User Checks** check box.
+
+![Status Management setup](media/WF_states_setup.png)
+
+> [!NOTE]
+> The state management settings will only be activated after users have logged out and logged back in, as indicated by the informational message.
 
 ## See also
 

@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "AC-FinancialPack/ac-multiple-payment-methods.html",
-          "hash": "5H8t3IA27vh0su0upyNq5wcVSDkSYWKbzcoiKTUAMkQ="
+          "hash": "gxDjYf6b7684gH7fgzhCUux/OLv8nNOWk4er4uD+Rwk="
         }
       },
       "is_incremental": false,
@@ -697,7 +697,7 @@
           "hash": "1wP5lBEPYwv1asErElceXaiKgSYfTDmv0U7RFmht4bU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -817,7 +817,7 @@
           "hash": "z9mXUyHvjrW7AahfEcI9eNg6fFLZiss6IMr0sD+HNv4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -829,7 +829,7 @@
           "hash": "qlSzwCyDmAi+CidCLDidRPuFAkYi032IRNkWEbm0UfQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -889,7 +889,7 @@
           "hash": "+S83sanOgmgtnAbquSRoLIV2XIzbgtUDH0p3nN5dNac="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1066,10 +1066,10 @@
       "output": {
         ".html": {
           "relative_path": "AC-ProductivityPack/ac-workflow-status-management-setup.html",
-          "hash": "HhIkr5s0iQHNhds/3mcHFGKW70qln4xznmvYnpncDJ0="
+          "hash": "xmErdiasi6dPzgcX+uYH4ConANv6XxQyFIBNe9UBkwQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1081,7 +1081,7 @@
           "hash": "e11s+tENv3PmfSBpdzM0F1yjrRU0lHnzZkNbaZsIxP0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1574,6 +1574,17 @@
       "output": {
         "resource": {
           "relative_path": "AC-ProductivityPack/media/WF_states_header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "AC-ProductivityPack/media/WF_states_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "AC-ProductivityPack/media/WF_states_setup.png"
         }
       },
       "is_incremental": false,
@@ -4476,7 +4487,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 87,
-          "skipped_file_count": 84
+          "skipped_file_count": 85
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

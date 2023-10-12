@@ -42,5 +42,5 @@ When you synchronize manually, you can use filters to specify exactly what table
 
 ## See also
 [Central Database - Setup](ac-centraldatabase-setup.md)  
-[AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT řešení](../index.md)
+[Productivity Pack](ac-productivity-pack.md)  
+[ARICOMA řešení](../index.md)

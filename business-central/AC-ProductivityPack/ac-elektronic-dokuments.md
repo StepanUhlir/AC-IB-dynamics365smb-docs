@@ -1,5 +1,5 @@
 ---
-title: AUTOCONT SOLUTIONS - Elektronická fakturace | Microsoft Docs
+title: ARICOMA SOLUTIONS - Elektronická fakturace | Microsoft Docs
 description: Electronic_documents
 author: ac-kunes
 ms.service: dynamics365-business-central

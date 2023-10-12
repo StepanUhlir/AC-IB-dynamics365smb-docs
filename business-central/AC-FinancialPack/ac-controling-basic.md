@@ -18,7 +18,7 @@ ms.author: AC MartinKunes
 
 Add-on module **Application extension set** contains common features to support the operation of the other add-on modules of the Finance Extension Pack. The list of functions can be found on the right side of the page.
 
-The Controling Basic addon is required for other AC Financial Pack add-on modules.
+The Controling Basic addon is required for other Financial Pack add-on modules.
 
 ## Credit Check
 
@@ -192,7 +192,7 @@ If it does not find an entry in the Exchange Rates table for such a business day
 
 The functionality serves as support for enforcement of receivables that have not yet been repaid. For such receivables, tis necessary to have up-to-date information on the status of the receivable, the course of recovery.
 
-Note: If you need to attach electronic documents to the register, consider using the SharePoint Publishing addon from AUTOCONT, or another third party product.
+Note: If you need to attach electronic documents to the register, consider using the SharePoint Publishing addon from ARICOMA, or another third party product.
 
 The receivable collection status is displayed in the **Customer Ledger Entry FactBox**. As a result, the user has immediate access to this basic information, but also detailed information at the click of a button.
 

@@ -1,7 +1,7 @@
 ---
 Title: "HelpDesk"
 Description: 
-Author: AUTOCONT
+Author: ARICOMA
 Date: 04/04/2019
 Product: dynamics365-business-central
 Contentlocale: cs-cz
@@ -122,4 +122,4 @@ Menu of print reports assigned to the HelpDesk module:
 
 ## See also
 [HelpDesk - Setup](ac-helpdesk-setup.md)  
-[AC Productivity Pack](ac-productivity-pack.md)
+[Productivity Pack](ac-productivity-pack.md)

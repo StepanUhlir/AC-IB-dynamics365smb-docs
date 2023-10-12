@@ -105,5 +105,5 @@ Another way to get items into the archive is using  **reports R4002900 Move IN B
 
 ## See also
 [Spooler - Setup](ac-spooler-setup.md)
-[AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT Solutions](../index.md)
+[Productivity Pack](ac-productivity-pack.md)  
+[ARICOMA Solutions](../index.md)

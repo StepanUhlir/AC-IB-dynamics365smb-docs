@@ -126,5 +126,5 @@ On the Spooler Tasks form, you can use the Function button to export, import, vi
 
 ## See also
 [Spooler](ac-spooler.md)
-[AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT Solutions](../index.md)
+[Productivity Pack](ac-productivity-pack.md)  
+[ARICOMA Solutions](../index.md)

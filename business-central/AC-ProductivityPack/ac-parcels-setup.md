@@ -1,5 +1,5 @@
 ---
-title: AUTOCONT SOLUTIONS - AC Parcels - Balikobot integration - setup | Microsoft Docs
+title: ARICOMA SOLUTIONS - Parcels - Balikobot integration - setup | Microsoft Docs
 description: This section describes parcel functionality - Setup of Balikobot
 author: ac-kunes
 ms.service: dynamics365-business-central
@@ -12,7 +12,7 @@ ms.date: 06/24/2020
 ms.author: v-makune
 ---
 
-# Setup - AC Parcels - Balíkobot Integration
+# Setup - Parcels - Balíkobot Integration
 > Update: 08.04.2022
 
 
@@ -32,7 +32,7 @@ There are several areas that need to be set up for the AC Parcel addon to work p
 
 
 Other code lists (Carrier Services, Handling Units and Carrier Branches) are downloaded from the Balíkobot API.
-## Setting up AC Parcels using the wizard
+## Setting up Parcels using the wizard
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Assisted Setup** and then choose the related link.
 2. Select Shipment Settings
@@ -71,7 +71,7 @@ The Expedition Places are locations of your warehouses from where shipments are 
 3. Insert **Code** for expedition place, description, address and **User Name and password** to yours API.
 4. Close the list of Expedition places.
 
-![AC Parcels settings](media/BB_exp_pl.png)
+![Parcels settings](media/BB_exp_pl.png)
 
 ### Location Settings
 On the tab of the given location it is necessary to select the dispatch place that is connected with the given API. If there are more locations, it is necessary to set the appropriate dispatch point for each. This serves to reduce the error rate of users so that they cannot combine documents with different shipping points into the shipment.
@@ -82,11 +82,11 @@ To assign a shipping location to a location, you need to set the **Expedition Pl
 2. Open the desired location tab
 3. Fill in **Expedition Places Code** field on the General tab
 
-![AC Parcels settings](media/BB_lokace.png)
+![Parcels settings](media/BB_lokace.png)
 ### Parcels settings
 
 Basic Package Setup must be made on the **Parcels Settings**page.
-![AC Parcels settings](media/BB_setup.png)
+![Parcels settings](media/BB_setup.png)
 
 Parcels Management Setup page contain:
 - **Parcels No.** - Specifies the No. Series for parcels.
@@ -103,7 +103,7 @@ Parcels Management Setup page contain:
 Basic settings are made using the application setup wizard.
 The other tables are downloaded and filled after master data synchronization is enabled.
 These data are updated manually using the "Resynchronize master data" function.
-#### Basic settings of AC Parcels - Balíkobot integration
+#### Basic settings of Parcels - Balíkobot integration
 To start the balíkobot functions, you need to make the following settings:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels setup** and then choose the related link.
@@ -227,7 +227,7 @@ When setting up the add-on with assistance, the message "*The request was blocke
 To resolve this issue, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Extension Management** and then choose the related link.
 2. **The Installed Extensions** page opens.
-3. Select the line extension **AC Parcels** and then use the action **Configuration**.
+3. Select the line extension **Parcels** and then use the action **Configuration**.
 4. On the **Extension Configuration** page, enable the **Enable HttpClient requests** switch.
 5. You can then close the page and run the Guided Wizard again.
 
@@ -258,6 +258,6 @@ In the case of creating a shipment from a billed sales invoice, it is possible t
 
 
 ## See also
-[AC Parcels](ac-parcels.md)  
-[AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT Solutions](../index.md)
+[Parcels](ac-parcels.md)  
+[Productivity Pack](ac-productivity-pack.md)  
+[ARICOMA Solutions](../index.md)

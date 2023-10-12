@@ -1,7 +1,7 @@
 ---
 Title: "HelpDesk - Setup"
 Description: 
-Author: AUTOCONT
+Author: ARICOMA
 Date: 04/04/2019
 Product: dynamics365-business-central
 Contentlocale: cs-cz
@@ -126,4 +126,4 @@ After you create a template, you must set up the template on the **Status Manage
 
 ## See also
 [HelpDesk](ac-helpdesk.md)  
-[AC Productivity Pack](ac-productivity-pack.md)
+[Productivity Pack](ac-productivity-pack.md)

@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
-description: This section describes AUTOCONT Solutions - Slovak legislation
+title: ARICOMA SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
+description: This section describes ARICOMA Solutions - Slovak legislation
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -40,5 +40,5 @@ Import the current XML schema template into the XML schemas by following these s
 
 ## See also
 
-[AUTOCONT Solution](../index.md)  
+[ARICOMA Solution](../index.md)  
 [SK Legislative Pack](ac-sk-legislative-pack.md)

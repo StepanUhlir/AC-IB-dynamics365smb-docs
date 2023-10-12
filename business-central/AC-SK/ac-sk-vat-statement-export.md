@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
-description: This section describes AUTOCONT Solutions - Slovak legislation
+title: ARICOMA SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
+description: This section describes ARICOMA Solutions - Slovak legislation
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -23,6 +23,6 @@ To export a VAT statement, follow these steps:
 
 ## See also
 
-[AUTOCONT Solutions](../index.md)  
+[ARICOMA Solutions](../index.md)  
 [SK Legislative Pack](ac-sk-legislative-pack.md)  
 [VAT Statement - Setup](ac-sk-vat-statement-setup.md)

@@ -1,5 +1,5 @@
 ---
-title: AUTOCONT SOLUTIONS - AC Monetization | Microsoft Docs
+title: ARICOMA SOLUTIONS - AC Monetization | Microsoft Docs
 description: This section describes parcel functionality - AC Monetization
 author: ac-kunes
 ms.service: dynamics365-business-central
@@ -16,16 +16,16 @@ ms.author: v-makune
 # AC Monetization
 > Update 03.02.2022
 
-It is a functionality that allows the user to manage subscriptions to AUTOCONT products in the Business Central environment.
+It is a functionality that allows the user to manage subscriptions to ARICOMA products in the Business Central environment.
 
 ## Trial Period Activation
 
 Each product has a 30-day trial period to verify that the functionality suits the customer. Activation can be done either:
 
-- **Automatically** when you start the Assisted Setup of the respective product (Installation & Extensions -> Assisted Setup, section Set up AUTOCONT extension).
-- By opening the **Purchase of an AUTOCONT Product** page and running the **Buy Product** action (note: the list contains all commercially available extensions; installation of the extension is required before activation).
+- **Automatically** when you start the Assisted Setup of the respective product (Installation & Extensions -> Assisted Setup, section Set up ARICOMA extension).
+- By opening the **Purchase of an ARICOMA Product** page and running the **Buy Product** action (note: the list contains all commercially available extensions; installation of the extension is required before activation).
 
-![Purchase of an AUTOCONT product ](media/ac-monetization.png)
+![Purchase of an ARICOMA product ](media/ac-monetization.png)
 
 In both cases, a short activation wizard will start, during which you must enter the following:
 
@@ -39,9 +39,9 @@ Note: If you are not prompted to confirm that the user really wants to create a 
 
 At any time during the trial period, it is possible to purchase the product with the understanding that the customer will not lose the remainder of the trial period.
 
-A notification on the Home page with a link to the **Purchase of an AUTOCONT Product** page informs the user that the trial period is about to end.
+A notification on the Home page with a link to the **Purchase of an ARICOMA Product** page informs the user that the trial period is about to end.
 
-The **Buy** **Product function on the AUTOCONT Product Purchase** page guides the user through the steps:
+The **Buy** **Product function on the ARICOMA Product Purchase** page guides the user through the steps:
 
 - **Plan selection** - First, you need to choose whether you want to renew your subscription monthly or annually.
 - **Customer Details** – Fill in missing company details required for ordering and billing.
@@ -49,9 +49,9 @@ The **Buy** **Product function on the AUTOCONT Product Purchase** page guides th
 
 ## Subscription management
 
-To manage subscriptions, use the **AUTOCONT Subscription page**, where the user:
+To manage subscriptions, use the **ARICOMA Subscription page**, where the user:
 
-- Get an overview of AUTOCONT's subscription products,
+- Get an overview of ARICOMA's subscription products,
 - has the possibility to terminate the subscription of the selected product,
 - can cancel the subscription,
 - can update customer information (Update Customer Information action),

@@ -63,7 +63,7 @@ In the CreditCheck settings, it is possible to turn on the update of web feed cr
 Starting with version BC 22 (or BC 18 if you have "Feature Update: New Sales Price Experience" turned on in Feature Management), you turn on hierarchical item price suggestions as follows:
 1.	Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Price Calculation Methods** and then choose the related link.
 2.	Click to select the Lowest Price method.
-3.	In the Sales Price Calculation section, for Items, select the implementation named AC Financial Pack - Hierarchic (by clicking a value in the Implementation Used field)
+3.	In the Sales Price Calculation section, for Items, select the implementation named Financial Pack - Hierarchic (by clicking a value in the Implementation Used field)
 
 
 

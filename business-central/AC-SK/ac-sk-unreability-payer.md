@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS - Institute of unreliability of the payer | Microsoft Docs
-description: This section describes AUTOCONT Solutions -Institute of unreliability of the payer
+title: ARICOMA SOLUTIONS - Institute of unreliability of the payer | Microsoft Docs
+description: This section describes ARICOMA Solutions -Institute of unreliability of the payer
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -51,5 +51,5 @@ portal.
 
 ## See also
 
-[AUTOCONT Solutions](../index.md)  
-[AC Slovak Legislative Pack](ac-sk-legislative-pack.md)
+[ARICOMA Solutions](../index.md)  
+[Slovak Legislative Pack](ac-sk-legislative-pack.md)

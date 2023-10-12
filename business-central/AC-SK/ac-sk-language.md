@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS - SK language | Microsoft Docs
-description: This section describes AUTOCONT Solutions - Slovak language
+title: ARICOMA SOLUTIONS - SK language | Microsoft Docs
+description: This section describes ARICOMA Solutions - Slovak language
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -17,12 +17,12 @@ This help will help you set up Business Central in Slovak language.
 
 To change the language, follow this procedure:
 
-1.	Install **AC SK language pack** app.
+1.	Install **SK language pack** app.
 2.	Run and log into Business Central.
-3.  Open **Purchase of an AUTOCONT product** page and activate **AC SK language pack** (mandatory for next update)
+3.  Open **Purchase of an ARICOMA product** page and activate **SK language pack** (mandatory for next update)
 4.	Click on **Settings** icon, select **My Settings** and change language to: "Slovak".
 5.	After Business Central refresh is finished, your Business Central is in Slovak.
 
 
-[AUTOCONT Řešení](../index.md)  
+[ARICOMA Řešení](../index.md)  
 [SK Legislativní balíček](ac-sk-legislative-pack.md)

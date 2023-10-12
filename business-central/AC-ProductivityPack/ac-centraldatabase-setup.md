@@ -110,5 +110,5 @@ Use the settings to specify relational bindings that ensure that related records
 ## See also
 
 [Central Database](ac-centraldatabase.md)`  
-[AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT Solutions](../index.md)
+[Productivity Pack](ac-productivity-pack.md)  
+[ARICOMA Solutions](../index.md)

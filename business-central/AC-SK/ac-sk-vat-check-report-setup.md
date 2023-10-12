@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
-description: This section describes AUTOCONT Solutions - Slovak legislation
+title: ARICOMA SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
+description: This section describes ARICOMA Solutions - Slovak legislation
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -73,6 +73,6 @@ It is necessary to set columns for individual sections, which will be exported t
 
 ## See also
 
-[AUTOCONT Solutions](../index.md)  
+[ARICOMA Solutions](../index.md)  
 [SK Legislative Pack](ac-sk-legislative-pack.md)  
 [VAT Control Report](ac-sk-vat-check-report-export.md)

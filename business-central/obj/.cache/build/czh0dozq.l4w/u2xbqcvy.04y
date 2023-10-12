@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ARICOMA SOLUTIONS - Odes&#237;l&#225;n&#237; elektronick&#253;ch doklad&#367; | Microsoft Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ARICOMA SOLUTIONS - Odes&#237;l&#225;n&#237; elektronick&#253;ch doklad&#367; | Microsoft Docs ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../TOC.html">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="png" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="electronic-documents-sending---settings" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="13">Electronic Documents Sending - Settings</h1>
+
+<blockquote sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="14">
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="14">Update 20.06.2023</p>
+</blockquote>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="16">Before you can take advantage of the enhanced capabilities of sending electronic documents, you must configure the rules and values that define the company's requirements in this area.</p>
+<h2 id="document-sending-profiles" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="18">Document sending profiles</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="19">If your company uses more than one way to send documents to customers or vendors, it is advisable to define document sending profiles for all of them. You can define one method as the default and then assign specific ones to selected partners.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="21"><img src="media/ac_elect_dom_set1.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="21" alt="Document sending profiles"></p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="23">For more information, see <a href="https://docs.microsoft.com/cs-cz/dynamics365/business-central/sales-how-setup-document-send-profiles" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="23">Set Up Document Sending Profile</a>.</p>
+<div class="NOTE" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="25">
+<h5>Note</h5>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="26">You must create as many sending profiles as the number of different sending combinations the company will use (e.g., if you are sending invoices via email in XML or PEPPOL format, you must have 2 sending profiles).</p>
+</div>
+<div class="WARNING" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="28">
+<h5>Warning</h5>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="29">This module is not adapted to use the „Electronic Document“ value in the Email Attachment field. Instead, you must use the value „Through Document Exchange Service“ in the Electronic document field (see also ISDOC and XML format settings).</p>
+</div>
+<h2 id="document-sending-profiles-by-document-type" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="31">Document Sending Profiles by Document Type</h2>
+<h3 id="default-settings" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="32">Default settings:</h3>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="33">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="33">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="33" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="33">Electronic Document Setup</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="34">On the Electronic Document Setup page, run the <em sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="34">Documents Partner Setup</em> action.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="35">On the row in the Usage column, select the document for which you want to set the default sending method (<em sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="35">Document Sending Profile column</em>).</li>
+</ol>
+<h3 id="specific-settings" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="38">Specific settings:</h3>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="39">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="39">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="39" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="39">Customers</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="40">Locate the appropriate customer and open their tab.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="41">On the customer's card page, run the <em sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="41">Electronic Documents Partner Setup</em> action.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="42">On the row in the Usage column, select the document for which you want to set a specific sending method for the customer (<em sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="42">Document Sending Profile column</em>) and other parameters (email, etc.).</li>
+</ol>
+<div class="NOTE" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="45">
+<h5>Note</h5>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="46">If necessary, you can also define different parameters for individual Ship-to Addresses. Similar functionality is available on the Supplier tab and on the Order Addresses tab.</p>
+</div>
+<h2 id="automatic-sending-of-documents" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="48">Automatic sending of documents</h2>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="49">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="49">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="49" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="49">Customers</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="50">Turn on field <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="50">Auto.Send Documents</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="51">Close the page.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="53">The function creates Job Queue entries for workdays with an interval of 30 minutes. If necessary, you can modify the parameters.</p>
+<h2 id="sending-logging" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="55">Sending logging</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="57">If you turn on logging of Send activities, you will find each use of the Send function on documents in the Activity Log.</p>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="59">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="59">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="59" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="59">Electronic Document Setup</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="60">Turn on field <em sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="60">Use Activity Log</em>.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="61">Close the page.</li>
+</ol>
+<h2 id="isdoc-and-xml-format-settings" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="63">ISDOC and XML format settings</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="65">To set up the ISDOC and XML formats correctly, use the assisted setup to add the basic settings to the Electronic Document Formats list for Sales Invoice and Sales Credit Note documents. You can create your own exports and adjust the settings within the customizations.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="67">Formats with the code &quot;AC_ISDOC_6&quot; (or &quot;AC_XML&quot;) are for use on document sending profiles where the Email field is set as the delivery method for the electronic document (Email attachment = PDF &amp; Electronic Document).</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="69">In contrast, formats with a code ending in SPOOLER are for use on document sending profiles where the Electronic Document field is set as the delivery method.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="71">Note: The wizard will also add settings for sending PDF using the Spooler functionality (&quot;AC_PDF_SPOOLER&quot;).</p>
+<h2 id="isdoc-settings---payment-methods" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="73">ISDOC Settings - Payment Methods</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="74">To use the ISDOC format, it is necessary to set the mapping of the payment methods used in BC to the payment methods defined in the ISDOC format by the &quot;PaymentMeansCodeType&quot; element.</p>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="76">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="76">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="76" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="76">Payment Methods</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="77">On the Payment Methods page, navigate to the row corresponding to the cash payment.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="78">Enter 10 in the ISDOC Method Code column.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="79">Repeat for the other payment methods used (42 - Bank transfer, 48 - Card payment,... see more at <a href="https://isdoc.cz/6.0.2/xsd/isdoc-invoice-6.0.2.xsd" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="79">isdoc.cz/6.0.2/xsd/isdoc-invoice-6.0.2.xsd</a>)</li>
+</ol>
+<h2 id="optional---sending-via-spooler" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="81">Optional - Sending via Spooler</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="82">If you have the Spooler module enabled, you can send documents through it. It is not recommended for sending emails, but rather to cover customer requests with the need for logged communication.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="84">You must set the default process type designation for the Sending Electronic Documents module.</p>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="86">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="86">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="86" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="86">Electronic Document Setup</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="87">On the Electronic Document Setup page, fill in <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="87">Spooler Process Type</strong>.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="88">Close the page.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="91">Then, for each customer, you need to set specific parameters for sending via Spooler.</p>
+<h3 id="document-delivery-parameters" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="93">Document delivery parameters</h3>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="95">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="95">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="95" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="95">Customers</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="96">Open the relevant customer card, and then choose the Electronic Documents Partner Setup action.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="97">Fill in Spooler Process Type, Spooler Destination System and Spooler Interaction Parameter for required Usage and relevant Document Sending Profile.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="98">Close the page.</li>
+</ol>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="101">For more information, see the <a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-ProductivityPack/ac-spooler.html" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="101">Spooler</a>.</p>
+<h2 id="onprem---sending-via-data-box" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="103">OnPrem - Sending via Data Box</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="105"><strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="105">The described functionality is only available in the OnPrem version!</strong></p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="108">If you have purchased the Data Mailbox module, you can also send documents via this communication channel. The advantage of such communication is that the reliability of the delivery of data messages is ensured.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="110">In order to use the Data Mailbox for sending documents, you need to define which Outgoing Mail Template the messages should be sent through.</p>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="112">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="112">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="112" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="112">Electronic Document Setup</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="113">In the <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="113">Databox Mail Template</strong> field, choose the template to use.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="114">Close the page.</li>
+</ol>
+<div class="IMPORTANT" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="116">
+<h5>Important</h5>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="117">You must also set the Electronic Document Formats. Then create your own formats analogous to the settings for Spooler, for Data Boxes you need to change the value in the Delivery ID field to 52067927.</p>
+</div>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="119">If the single Data Box ID entered on the Customer tab is not sufficient, it is possible to set Data Mailbox IDs specific to different documents:</p>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="120">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="120">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="120" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="120">Customers</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="121">Find the relevant customer and open their card.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="122">On the Customer Card page, run the Electronic Documents Partner Setup action.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="123">On the line with the desired combination of Usage and Document Sending Profile, enter the <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="123">Data Box ID</strong>.</li>
+</ol>
+<h2 id="onprem---electronic-signing-of-documents" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="127">OnPrem - Electronic signing of documents</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="128"><strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="128">The described functionality is only available in the OnPrem version!!</strong></p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="130">It is recommended to use the Setup Wizard to make the necessary settings for signing PDF documents.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="132">There are 3 steps:</p>
+<h3 id="installing-a-certificate-for-signing" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="134">Installing a certificate for signing</h3>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="136">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="136">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="136" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="136">Electronic Document Setup</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="137">On the Electronic Document Setup page, choose the Import action in Pfx Certificate SubMenu.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="138">Select the Pfx file, and open it.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="139">On the Electronic Document Setup page, fill in Pfx Certificate password.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="140">Close the page.</li>
+</ol>
+<h2 id="installing-pdfxchange" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="143">Installing PDFXchange</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="145">The PDFXchange application must be installed on the server on which you are running the middle tier. A license for the application for background use is included with the addon. However, if you want to use the application other than through Business Central, you must purchase a license.</p>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="147">The installation files can be found on the manufacturer's website at  <a href="https://www.pdfxchange.cz/download" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="147">https://www.pdfxchange.cz/download</a>, , and you can use any of the available editions (Editor, Standard or PRO).</p>
+<h2 id="time-stamp-settings" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="149">Time stamp settings</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="151">This is an optional step if you use a paid service from such a service provider. If you want to adjust the basic settings manually, open the Electronic Document Settings.</p>
+<ol sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="153">
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="153">Choose the <img src="media/ui-search/search_small.png" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="153" alt="Lightbulb that opens the Tell Me feature." title="Tell me what you want to do">, icon, enter <strong sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="153">Electronic Document Setup</strong> and then choose the related link.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="154">Enter an URL address of your timestamp service provider in the TimeStamp Server URL field.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="155">Enter an account name given by your service provider in the TimeStamp Server Account field.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="156">Enter a password for the timestamp account in the TimeStamp Server password field.</li>
+<li sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="157">Close the page.</li>
+</ol>
+<h2 id="viz-také" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="161">Viz také</h2>
+<p sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="163"><a href="ac-electronic-documents.html" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="163">Odesílání elektronických dokladů</a><br>
+<a href="ac-productivity-pack.html" sourcefile="AC-ProductivityPack/ac-electronic-documents-setup.md" sourcestartlinenumber="164">Productivity Pack</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AutoContCZ/AC-IB-dynamics365smb-docs/blob/master/business-central/AC-ProductivityPack/ac-electronic-documents-setup.md/#L1" class="contribution-link">Improve this document</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span><a href="https://muj.autocont.cz/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>ENGLISH</strong><strong>/</strong><a href="https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/AC-Solutions/ac-solutions.html"><strong>CZECH</strong></a></a></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

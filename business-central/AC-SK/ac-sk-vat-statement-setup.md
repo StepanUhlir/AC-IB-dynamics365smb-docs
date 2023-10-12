@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
-description: This section describes AUTOCONT Solutions - Slovak legislation
+title: ARICOMA SOLUTIONS - SK Legistaltive Pack| Microsoft Docs
+description: This section describes ARICOMA Solutions - Slovak legislation
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -104,6 +104,6 @@ In General ledger setup and VAT posting setup, you can enable system controls wh
 
 ## See also
 
-[AUTOCONT Solutions](../index.md)  
+[ARICOMA Solutions](../index.md)  
 [SK Legislative Pack](ac-sk-legislative-pack.md)   
 [VAT Statement - Export](ac-sk-vat-statement-export.md)

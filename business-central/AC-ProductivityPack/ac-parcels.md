@@ -1,5 +1,5 @@
 ---
-title: AUTOCONT SOLUTIONS - AC Parcels | Microsoft Docs
+title: ARICOMA SOLUTIONS - Parcels | Microsoft Docs
 description: This section describes parcel functionality - Balikobot Integration
 author: ac-kunes
 ms.service: dynamics365-business-central
@@ -12,10 +12,10 @@ ms.date: 06/24/2020
 ms.author: v-makune
 ---
 
-# AC Parcels - Balikobot Integration
+# Parcels - Balikobot Integration
 > Update: 08.04.2022
 
-The AC Parcels addon is used to create shipments and directly print labels of selected shipping angent, send shipment data to the shipping angent and order the actual parcel collection. With this extension, the process of processing and creating shipments sent to customers is accelerated. This addon uses the API of the Balikobot service.
+The Parcels addon is used to create shipments and directly print labels of selected shipping angent, send shipment data to the shipping angent and order the actual parcel collection. With this extension, the process of processing and creating shipments sent to customers is accelerated. This addon uses the API of the Balikobot service.
 
 This addon is built on the basis of reading barcode (numbers) of charged documents. Shipments can be created from posted sales shipments and invoices. If the user will create a shipment from an invoiced sales delivery, the shipment will be created without COD and from invoices with COD.
 
@@ -185,7 +185,7 @@ To verify your account as a test or production account and to list the carriers,
 
 Paperless Trade is used to send an electronic invoice (in the case of a pro-forma Invoice) for a customs procedure encoded in PDF BASE64.
 
-In the AC Parcels addon, you can use the function to automatically create and attach a PDF invoice to a shipment, provided that the shipment is created from a billed sales invoice.
+In the Parcels addon, you can use the function to automatically create and attach a PDF invoice to a shipment, provided that the shipment is created from a billed sales invoice.
 If you create a shipment from a posted sales shipment, you must insert the PDF manually.
 
 ### Create a shipment from a posted sales invoice
@@ -216,6 +216,6 @@ Balíkobot also offers the possibility to view the status of individual service 
 There is also the possibility of notifications from Balíkobot either by e-mail, via teams, RSS and others.
 
 ## See also
-[Setup - AC Parcels - Balíkobot Integration](ac-parcels-setup.md)  
-[AC Productivity Pack](ac-productivity-pack.md)  
-[AUTOCONT Solution](../index.md)
+[Setup - Parcels - Balíkobot Integration](ac-parcels-setup.md)  
+[Productivity Pack](ac-productivity-pack.md)  
+[ARICOMA Solution](../index.md)

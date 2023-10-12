@@ -1,6 +1,6 @@
 ---
-title: AUTOCONT SOLUTIONS | Microsoft Docs
-description: This section describes AUTOCONT Solutions - Addons
+title: ARICOMA SOLUTIONS | Microsoft Docs
+description: This section describes ARICOMA Solutions - Addons
 author: ac-kunes
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -21,14 +21,14 @@ Data is available anytime and from anywhere. Operation of the information system
 
 More information about Business Central can be found on our [website ACDynamics365.cz](https://www.acdynamics365.cz/aplikace/provoz-mensi-firmy).
 
-**Implementing Microsoft Dynamics 365 Business Central from AUTOCONT is easy and fast thanks to a wide range of extension modules and industry solutions.**
+**Implementing Microsoft Dynamics 365 Business Central from ARICOMA is easy and fast thanks to a wide range of extension modules and industry solutions.**
 
-## AUTOCONT EXTENSION MODULES
+## ARICOMA EXTENSION MODULES
 
 We are expanding the standard Dynamics 365 Business Central system with a range of functionality complementing legislative requirements and best practices.
 We have grouped the individual functionalities into the following packages.
 
-### [AC Financial Pack](../AC-FinancialPack/ac-finance-pack.md) - extension for finance
+### [Financial Pack](../AC-FinancialPack/ac-finance-pack.md) - extension for finance
 - App Extension Set
 - Insolvency register
 - Factoring
@@ -37,7 +37,7 @@ We have grouped the individual functionalities into the following packages.
 - Pack Tracking Basic (EKOKOM)
 - Pack Tracking - Return Packing
 
-### [AC Productivity Pack](../AC-ProductivityPack/ac-productivity-pack.md) - productivity extension
+### [Productivity Pack](../AC-ProductivityPack/ac-productivity-pack.md) - productivity extension
 - Electronic invoicing
 - Data boxes
 - Incoming Mail
@@ -56,7 +56,7 @@ We have grouped the individual functionalities into the following packages.
 - Parcels
 ### [SK Legislative Pack](../AC-SK/ac-sk-legislative-pack.md) - extension to Slovak legislation and Slovak language
 
-## AUTOCONT INDUSTRY SOLUTIONS
+## ARICOMA INDUSTRY SOLUTIONS
 In addition to the expansion modules, the specialized industry solutions listed below are available.
 
 - Spa, hotel and wellness
@@ -75,6 +75,6 @@ In addition to the expansion modules, the specialized industry solutions listed 
 
 
 ## See also
-[AC Financial Pack](../AC-FinancialPack/ac-finance-pack.md)  
-[AC Productivity Pack](../AC-ProductivityPack/ac-productivity-pack.md)  
+[Financial Pack](../AC-FinancialPack/ac-finance-pack.md)  
+[Productivity Pack](../AC-ProductivityPack/ac-productivity-pack.md)  
 [SK Legislative Pack](../AC-SK/ac-sk-legislative-pack.md)

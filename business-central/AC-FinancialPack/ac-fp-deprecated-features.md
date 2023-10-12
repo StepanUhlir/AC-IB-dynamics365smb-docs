@@ -12,9 +12,9 @@ ms.date: 01/31/2021
 ms.author: AC MartinKunes
 ---
 
-# Odstraněné funkce z AC Financial Pack
+# Odstraněné funkce z Financial Pack
 
-This page contains a list of features that have been moved, removed or replaced from the AC Financial Pack.
+This page contains a list of features that have been moved, removed or replaced from the Financial Pack.
 
 ## Visible fee
 

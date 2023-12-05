@@ -10,6 +10,9 @@ ms.workload: na
 ms.search.keywords: Czech, productivity, additional functions, sale, warehouse, invoicing, barcode, claims, transportation, workflow
 ms.author: v-makune
 ---
+# Autocont changes to Aricoma
+Autocont is changing. Like the other brands in the group, it adopts the new name Aricoma. This brings together companies focused on IT infrastructure, cloud technology, enterprise applications, cybersecurity, public sector digitalization and systems integration. As Aricoma, we want to offer customers an extension of services and solutions under a single brand and a more comprehensive approach to their needs.
+
 
 # Microsoft Dynamics 365 Business Central
 

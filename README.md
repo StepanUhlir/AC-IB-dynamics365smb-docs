@@ -6,16 +6,16 @@ Tento repozitář slouží k evidenci nápovědy D365 Business Central.
 ### Markdown soubory
 
 Markdown soubory naleznete v kořenovém adresáři a poté v každé složce vybraného balíčku:
- - AC-IB-dynamics365smb-docs.cs-cz/business-central/
+ - IB-dynamics365smb-docs.cs-cz/business-central/
  
 **Příklad**: Markdown soubory pro Productivity Pack
-> AC-IB-dynamics365smb-docs.cs-cz/business-central/AC-ProductivityPack/
+> IB-dynamics365smb-docs.cs-cz/business-central/ProductivityPack/
 
 ### HTML soubory
 Html soubory jsou uložené ve složce d365businesscentral v kořenovém adresáři. Následně má pak každý balíček svoji složku, obdobně jako markdown soubory
 
 **Příklad**: HTML soubory pro Productivity Pack
-> AC-IB-dynamics365smb-docs.cs-cz/business-central/d365businesscentral/AC-ProductivityPack/
+> IB-dynamics365smb-docs.cs-cz/business-central/d365businesscentral/ProductivityPack/
 
  
 
@@ -24,13 +24,13 @@ Html soubory jsou uložené ve složce d365businesscentral v kořenovém adresá
 Pro psaní nápovědy k addonům dodržujte náležitosti:
 
  - Název souboru nápovědy se bude skládat z:
-   - ```ac-nazevsouboru.md```
-   - *(```ac-helpdesk.md```)*
+   - ```nazevsouboru.md```
+   - *(```helpdesk.md```)*
  - Pro každý addon vzniknou dva soubory, jeden pro popis a použití, druhý pro nastavení.
-   - Například: ```ac-helpdesk.md``` a ```ac-helpdesk-setup.md```
+   - Například: ```helpdesk.md``` a ```helpdesk-setup.md```
  - Struktura souborů nápovědy je:
    - Nadpis, krátký popis a kroky jak danou činnosti udělat.
-   - viz. vzorová nápověda [Helpdesku](business-central/AC-ProductivityPack/ac-helpdesk.md)
+   - viz. vzorová nápověda [Helpdesku](business-central/ProductivityPack/helpdesk.md)
  - ### Vlastnosti a tagy
     Každý dokumentu musí obsahovat hlavičku v následujícím tvaru:
 
@@ -38,7 +38,7 @@ Pro psaní nápovědy k addonům dodržujte náležitosti:
     ---
     title: Czech Local Functionality - Advance payments and invoices | Microsoft Docs
     description: This section describes local functionality - Advance payments and invoices
-    author: ac-kunes
+    author: kunes
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
@@ -59,8 +59,8 @@ Pro psaní nápovědy k addonům dodržujte náležitosti:
 
 ```
 ## Viz také
-[HelpDeks - Nastavení](business-central/AC-IB/ac-helpdesk-setup.md)  
-[AC Productivity pack](business-central/AC-IB/ac-productivity-pack.md)
+[HelpDeks - Nastavení](business-central/IB/helpdesk-setup.md)  
+[AC Productivity pack](business-central/IB/productivity-pack.md)
 ```
 
 - Pro základní editaci je zde [šablona](template.md).
@@ -98,7 +98,7 @@ Soubory standardní nápovědy nahrávejte do:
 Soubory pro addony nahrávejte do:
 
  - business-central/nazev-slozky-baliku/
- - *business-central/AC-IB/ac-pp-productivity-pack.md*
+ - *business-central/IB/pp-productivity-pack.md*
 
 ## Základní syntaxe
 

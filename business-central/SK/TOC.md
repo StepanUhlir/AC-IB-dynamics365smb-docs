@@ -70,3 +70,6 @@
 ## [Balance reconciliation](sk-balance-reconciliation.md)
 ## [Tax depreciation](sk-tax-depreciation.md)
 ## [Import of exchange rates](sk-ECB.md)
+# [Streamline Tools](../StreamlineTools/streamlinetools.md)
+## [Attribute Tool](../StreamlineTools/attribute-tool.md)
+# [Support](../support/support.md)

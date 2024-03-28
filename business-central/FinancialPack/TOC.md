@@ -64,7 +64,6 @@
 ## [Export VAT Statement](../SK/sk-vat-statement-export.md)
 ### [Settings - Export VAT Statement](../SK/sk-vat-statement-setup.md)
 ## [Settings - VIES and Intrastat export.](../SK/sk-vies.md)
-
 ## [Balance sheet and income statement](../SK/sk-balance-sheet-income-statement.md)
 ## [Settings - Statutory statements](../SK/sk-balance-sheet-income-statement-setup.md)
 ## [VAT Statement](../SK/sk-vat-statement-export.md)
@@ -78,3 +77,6 @@
 ## [Balance reconciliation](../SK/sk-balance-reconciliation.md)
 ## [Tax depreciation](../SK/sk-tax-depreciation.md)
 ## [Import of exchange rates](../SK/sk-ECB.md)
+# [Streamline Tools](../StreamlineTools/streamlinetools.md)
+## [Attribute Tool](../StreamlineTools/attribute-tool.md)
+# [Support](../support/support.md)

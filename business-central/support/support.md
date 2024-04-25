@@ -13,9 +13,13 @@ ms.author: martinkunes
 
 # Support
 
-***Applications for our solutions** can be found on GitHub [ARICOMA Solutions](https://github.com/ARICOMA-D365BC/ARICOMA-SOLUTIONS).
+![Support](media/support.png)
+
+**Applications for our solutions** can be found on GitHub [ARICOMA Solutions](https://github.com/ARICOMA-D365BC/ARICOMA-SOLUTIONS).
 
 **Documentation on our solutions** can be found on our website [ARICOMA Solutions](https://www.aricoma.com/docs/en-us/dynamics365/business-central/AC-Solutions/ac-solutions.html).
+
+**Our apps** for Business Central online can also be found at [Microsoft Appsource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&search=aricoma&product=dynamics-365-business-central)
 
 ## Contact
 

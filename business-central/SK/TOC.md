@@ -1,4 +1,4 @@
-# [Solutins](../solutions/solutions.md)
+# [Solutions](../solutions/solutions.md)
 # [Financial Pack](../FinancialPack/finance-pack.md)
 ## [Application extension set](../FinancialPack/controling-basic.md)
 ### [Settings - Application extension set](../FinancialPack/controling-basic-setup.md)

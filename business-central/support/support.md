@@ -19,7 +19,9 @@ ms.author: martinkunes
 
 **Documentation on our solutions** can be found on our website [ARICOMA Solutions](https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/solutions.html).
 
-**Our apps** for Business Central online can also be found at [Microsoft Appsource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&search=aricoma&product=dynamics-365-business-central)
+**Our apps** for Business Central online can also be found at [Microsoft Appsource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&search=aricoma&product=dynamics-365-business-central).
+
+**Documentation on changes to our apps (changelog)** can be found on the GitHub site [ARICOMA Apps Update](https://aricoma-d365bc.github.io/ARICOMA-SOLUTIONS/).
 
 ## Contact
 

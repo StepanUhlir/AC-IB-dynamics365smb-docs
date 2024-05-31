@@ -19,18 +19,18 @@ First and foremost, it is an improved user experience. The user always knows how
 
 The extension of supported documents, especially reminders and also purchase orders, is also essential. This covers the entire business process.
 
-Another area of improvement is the communication formats. The functionality extends the standard [Document sending ](https://learn.microsoft.com/cs-cz/dynamics365/business-central/sales-how-to-send-electronic-documents) in D365 Business Central by adding its Czech equivalent ISDOC and also a unified XML format in addition to the PEPPOL format.
+Another area of improvement is the communication formats. The functionality extends the standard [Document sending ](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-send-electronic-documents) in D365 Business Central by adding its Czech equivalent ISDOC and also a unified XML format in addition to the PEPPOL format.
 
 The ISDOC format is based on the UBL (Universal Business Language) standard and supplements it with Czech specifics. Technically, it is an XML format signed with an electronic signature according to the XML Signature standard. To verify the validity and integrity of the ISDOC document, the [ISDOC Reader](http://www.isdoc.org/), application is used, which also allows you to view or print the document. There is also a version with attachments (delivery notes, certificates, etc.), the resulting file is then in ISDOCX format (zip file).
 
 The XML format supplied with the module can be used for the exchange of documents between companies using the module. Similarly to the ISDOC format, electronic attachments can be included. For the user display of the XML document (structured data usable for automatic exports to information systems), XSD templates can be defined that transform the XML data into a visual HTML document.
 
-Last but not least, the functionality extends (in combination with other addons from AUTOCONT) the possibilities of sending documents. In case of a requirement for logged communication, the [Spooler](https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/ProductivityPack/spooler.html) addon can be used.
+Last but not least, the functionality extends (in combination with other addons from AUTOCONT) the possibilities of sending documents. In case of a requirement for logged communication, the [Spooler](https://www.aricoma.com/docs/en-us/dynamics365/business-central/ProductivityPack/spooler.html) addon can be used.
 
-The module also includes support for sending emails in connection with customer processes. A typical example is notifying customers about the status of their order. However, a programmatic modification is required in the form of a function call, which is described in the [module settings](https://www.aricoma.com/docs/cs-cz/dynamics365/business-central/ProductivityPack/electronic-documents-setup.html).
+The module also includes support for sending emails in connection with customer processes. A typical example is notifying customers about the status of their order. However, a programmatic modification is required in the form of a function call, which is described in the [module settings](https://www.aricoma.com/docs/en-us/dynamics365/business-central/ProductivityPack/electronic-documents-setup.html).
 
 ## BC OnPrem only
-In cooperation with the [Data boxes](https://muj.autocont.cz/docs/en-us/dynamics365/business-central/ProductivityPack/data-boxes.html) module, documents can also be sent via this communication channel. Data boxes work on a similar principle to a regular e-mail box, but the technical solution itself ensures the trustworthiness of the delivery of data messages, each one being provided with an electronic mark (e-stamp) and a time stamp (qualified time stamp). For more information, visit the [official website](https://info.mojedatovaschranka.cz/).
+In cooperation with the [Data boxes](https://www.aricoma.com/docs/en-us/dynamics365/business-central/ProductivityPack/data-boxes.html) module, documents can also be sent via this communication channel. Data boxes work on a similar principle to a regular e-mail box, but the technical solution itself ensures the trustworthiness of the delivery of data messages, each one being provided with an electronic mark (e-stamp) and a time stamp (qualified time stamp). For more information, visit the [official website](https://info.mojedatovaschranka.cz/).
 
 If you prefer the PDF format, the module allows you to electronically sign or even e-time stamp these documents.
 
@@ -42,7 +42,7 @@ The following text describes the most common use cases for the Electronic Docume
 In this case, this is the standard BC functionality where the user uses the Post and Send function for posting. Each customer has a document posting profile set on his/her card, or the profile marked as default is used.
 
 > [!NOTE]
-> The "send" result varies depending on the Document Sending Profiles settings (see the official documentation Document Sending Profile Settings).[Document Sending Profiles settings](https://learn.microsoft.com/cs-CZ/dynamics365/business-central/sales-how-setup-document-send-profiles)).
+> The "send" result varies depending on the Document Sending Profiles settings (see the official documentation Document Sending Profile Settings).[Document Sending Profiles settings](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-setup-document-send-profiles)).
 
 
 ### Posting a sales document with immediate posting with multiple Sending Profiles for a customer

@@ -28,7 +28,7 @@ For the correct function of the add-on, it is necessary to set and create other 
 ### Factoring settings
 
 On the Factoring Settings page, you need to make the basic settings for the factoring module:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Factoring Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Factoring Setup** and then choose the related link.
 2. Fill in the following fields on the Factoring setup:
    - **Factoring Posting Group** –  the posting group that is used for posting a factoring receivable
    - **Cost Bal. Account No.** – the account to which the receivable from the customer is posted

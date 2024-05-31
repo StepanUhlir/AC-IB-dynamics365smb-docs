@@ -30,13 +30,13 @@ For more information, see [Set Up Document Sending Profile](https://docs.microso
 
 ## Document Sending Profiles by Document Type
 ### Default settings:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Electronic Document Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Document Setup** and then choose the related link.
 2.	On the Electronic Document Setup page, run the *Documents Partner Setup* action.
 3.	On the row in the Usage column, select the document for which you want to set the default sending method (*Document Sending Profile column*).
 
 
 ### Specific settings:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Locate the appropriate customer and open their tab.
 3.	On the customer's card page, run the *Electronic Documents Partner Setup* action.
 4.	On the row in the Usage column, select the document for which you want to set a specific sending method for the customer (*Document Sending Profile column*) and other parameters (email, etc.).
@@ -46,7 +46,7 @@ For more information, see [Set Up Document Sending Profile](https://docs.microso
 > If necessary, you can also define different parameters for individual Ship-to Addresses. Similar functionality is available on the Supplier tab and on the Order Addresses tab.
 
 ## Automatic sending of documents
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Turn on field **Auto.Send Documents**.
 3.	Close the page.
 
@@ -56,7 +56,7 @@ The function creates Job Queue entries for workdays with an interval of 30 minut
 
 If you turn on logging of Send activities, you will find each use of the Send function on documents in the Activity Log.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Electronic Document Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Document Setup** and then choose the related link.
 2.	Turn on field *Use Activity Log*.
 3.	Close the page.
 
@@ -73,14 +73,14 @@ Note: The wizard will also add settings for sending PDF using the Spooler functi
 ## ISDOC Settings - Payment Methods
 To use the ISDOC format, it is necessary to set the mapping of the payment methods used in BC to the payment methods defined in the ISDOC format by the "PaymentMeansCodeType" element.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Payment Methods** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods** and then choose the related link.
 2.	On the Payment Methods page, navigate to the row corresponding to the cash payment.
 3.	Enter 10 in the ISDOC Method Code column.
 4.	Repeat for the other payment methods used (42 - Bank transfer, 48 - Card payment,... see more at [isdoc.cz/6.0.2/xsd/isdoc-invoice-6.0.2.xsd](https://isdoc.cz/6.0.2/xsd/isdoc-invoice-6.0.2.xsd))
 
 ## General emails - settings
 ### Basic setup
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Email Sending Setup List** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Email Sending Setup List** , and then choose the related link.
 2.	On the General Email Sending Setup List page, run the *New* action.
 3.	On the General Email Sending Setup card, select *Type* and *Language Code*, which are the determining combinations for finding the correct email template. A blank language code is valid for all languages unless a setting for a specific code is found.
 4.	In the *Email Scenario* field, select the method of sending the email.
@@ -98,7 +98,7 @@ To use the ISDOC format, it is necessary to set the mapping of the payment metho
 ### E-mail attachments
 You can also have attachments inserted into the email by running the report over any table. However, when calling the function, you must pass a link to the appropriate table record and the functionality will find all attachment settings for the same table and create a PDF attachment. 
 To set it up, do the following:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Email Sending Setup List** , and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Email Sending Setup List** , and then choose the related link.
 2. On the General Email Sending Setup List page,  run the *Edit* action on the selected row.
 3. On the General Email Sending Setup card, create the new line on Gen. Email Sending Setup Attachments tab.
 4. In the *Attachment Name* field, enter the name of the file you want it to have when you insert it into the email. You can take a value from any field in the table, e.g. the definition "Order No. [3].pdf" will name the file "Order No. 101123.pdf".
@@ -126,7 +126,7 @@ If you have the Spooler module enabled, you can send documents through it. It is
 
 You must set the default process type designation for the Sending Electronic Documents module.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Electronic Document Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Document Setup** and then choose the related link.
 2.	On the Electronic Document Setup page, fill in **Spooler Process Type**.
 3.	Close the page.
 
@@ -135,7 +135,7 @@ Then, for each customer, you need to set specific parameters for sending via Spo
 
 ### Document delivery parameters
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Open the relevant customer card, and then choose the Electronic Documents Partner Setup action.
 3.	Fill in Spooler Process Type, Spooler Destination System and Spooler Interaction Parameter for required Usage and relevant Document Sending Profile.
 4.	Close the page.
@@ -152,7 +152,7 @@ If you have purchased the Data Mailbox module, you can also send documents via t
 
 In order to use the Data Mailbox for sending documents, you need to define which Outgoing Mail Template the messages should be sent through.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Electronic Document Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Document Setup** and then choose the related link.
 2.	In the **Databox Mail Template** field, choose the template to use.
 3.	Close the page.
 
@@ -160,7 +160,7 @@ In order to use the Data Mailbox for sending documents, you need to define which
 > You must also set the Electronic Document Formats. Then create your own formats analogous to the settings for Spooler, for Data Boxes you need to change the value in the Delivery ID field to 52067927.
 
 If the single Data Box ID entered on the Customer tab is not sufficient, it is possible to set Data Mailbox IDs specific to different documents:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Find the relevant customer and open their card.
 3.	On the Customer Card page, run the Electronic Documents Partner Setup action.
 4.	On the line with the desired combination of Usage and Document Sending Profile, enter the **Data Box ID**.
@@ -176,7 +176,7 @@ There are 3 steps:
 
 ### Installing a certificate for signing
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Electronic Document Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Document Setup** and then choose the related link.
 2.	On the Electronic Document Setup page, choose the Import action in Pfx Certificate SubMenu.
 3.	Select the Pfx file, and open it.
 4.	On the Electronic Document Setup page, fill in Pfx Certificate password.
@@ -193,7 +193,7 @@ The installation files can be found on the manufacturer's website at  https://ww
 
 This is an optional step if you use a paid service from such a service provider. If you want to adjust the basic settings manually, open the Electronic Document Settings.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Electronic Document Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Document Setup** and then choose the related link.
 2.	Enter an URL address of your timestamp service provider in the TimeStamp Server URL field.
 3.	Enter an account name given by your service provider in the TimeStamp Server Account field.
 4.	Enter a password for the timestamp account in the TimeStamp Server password field.

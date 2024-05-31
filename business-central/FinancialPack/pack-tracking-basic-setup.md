@@ -16,7 +16,7 @@ ms.author: v-pejano
 To ensure the functioning of the add-on module **Pack Tracking Basic**, it is necessary to perform the necessary setup steps.
 
 ## Establish a Packaging Statement
-The necessary number of different Packaging Statements can be created in the system. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Packing Statements** and then choose the related link.
+The necessary number of different Packaging Statements can be created in the system. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Packing Statements** and then choose the related link.
 
 > [!NOTE]  
 > If you are going to import the provided EKO-KOM parameterization files, you must create a Packaging Report with the code **EKO-KOM**.
@@ -26,7 +26,7 @@ The add-on module Pack Tracking is supplied with excel files *ekokom_def.xlsx* a
 The parameterisation files can be uploaded to the system using the **RapidStart Service**.<s
 
 ## Packing Statement Element Definition
-For each created report, it is necessary to define its elements. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Packing Statement Element Def.** and then choose the related link.
+For each created report, it is necessary to define its elements. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Packing Statement Element Def.** and then choose the related link.
 Elements in the report can be grouped into positions on the report. A total of 10 positions can be defined (grouping of elements). Elements within a position are further assigned a code.
 
 Packing Statement Element Definition form fields:
@@ -52,7 +52,7 @@ For example, you can create a table with the following values:
 
 ## Creating Elements in a Packing Statements (Defining a Custom Statement)
 
-Definice vlastního výkazu se provádí založením prvků Výkazu obalů. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter ** Packing Statement Elements** and then choose the related link. In the form, individual statement lines are defined by selecting from previously defined elements for each statement position. The *Description* field is then added by the system depending on the field on the **Packing Statement Element Definition**page.
+Definice vlastního výkazu se provádí založením prvků Výkazu obalů. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter ** Packing Statement Elements** and then choose the related link. In the form, individual statement lines are defined by selecting from previously defined elements for each statement position. The *Description* field is then added by the system depending on the field on the **Packing Statement Element Definition**page.
 
 For example **Packing Statement Elements** page might look like this:
 

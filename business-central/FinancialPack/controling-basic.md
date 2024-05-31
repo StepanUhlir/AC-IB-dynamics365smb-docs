@@ -80,7 +80,7 @@ The functionality of the Payment Calendars is available for sale and purchase, a
 
 **Posting a sales invoice with a payment calendar**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link.
 2. Create a new sales invoice according to your conventions. In the **Due date** field define the latest date for the payment schedule.
 3. Start the **Payment Calendar** action.
 4. Start the **Generate Payments** function.
@@ -102,7 +102,7 @@ In addition, after posting a sales invoice (or order), customer items are create
 
 **Create a payment calendar for a posted invoice**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Posted Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices** and then choose the related link.
 2. Start the **Payment Calendar** action.
 3. Define your own installment schedule in the lines.
 4. Settle the invoice balance and post the payment calendar with the **Post** function.
@@ -115,7 +115,7 @@ This functionality combines payment lines for vendors who are allowed to accumul
 
 **Creating a payment order with cumulation of payments**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Payment Orders** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders** and then choose the related link.
 2. Select the number of the bank with the set payment accumulation for which you want to crea-te a payment order and confirm with the OK button **OK**.
 3. Run the **Suggest Payments…** action (the alternative is to enter the order lines manually, or the Im-port function…)
 4. Fill in the **Last due date** and the **Available amount**, or adjust other parameters.
@@ -154,7 +154,7 @@ Note: Not only information about verifying VAT registration is visible on purcha
 
 Before submitting a VAT statement, it is a good idea to verify that all reported records will be correct from the point of view of VAT registration.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Statements** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements** and then choose the related link.
 2. Run the **Check VAT Reg. - VAT Entries** report.
 3. Choose the OK button to run the report.
 
@@ -198,7 +198,7 @@ The receivable collection status is displayed in the **Customer Ledger Entry Fac
 
 **Creating a new record for a receivable**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Cust. Ledger Entry** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cust. Ledger Entry** and then choose the related link.
 2. On the **Customer Ledger Entries** page, navigate to the selected record and run the **Receivable Information** function.
 3. Confirm that you wish to create a accounts receivable information card.
 
@@ -235,7 +235,7 @@ The needs of companies in the field of working with number series tend to be mor
 
 **Generating number series according to masks**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series Mask Generator** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series Mask Generator** and then choose the related link.
 2. On the **No. Series Mask Generator** page, on the Options tab page, enter:
 
    - **Starting date** – from which date the new number series should be active
@@ -267,7 +267,7 @@ This chapter describes other minor modifications or enhancements broken down by 
 
 The Set Processing Order feature has been added to the Configuration Workbook and Configuration Package Tab pages. This function suggests the order in which the individual packages should be processed, taking into account the interrelationships (the Field Order and Table Order fields in the Configuration Workbook).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Configuration Worksheet** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet** and then choose the related link.
 2. On the **Configuration Worksheet** page, run the **Set Processing Order** function.
 3. On the Get Config.Table Processing Order page, select **Package Code** for which the order is to be set.
 4. Select the **OK** button to run the report.
@@ -276,7 +276,7 @@ The Set Processing Order feature has been added to the Configuration Workbook an
 
 **The Data Structure Definition report** can serve as documentation for migration tasks. The report can be found not only on the Configuration Worksheet page, but also completely separately:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Config.Wksh. - Data Structures** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Config.Wksh. - Data Structures** and then choose the related link.
 2. Select Package Code.
 3. Choose the OK button to run the report.
 
@@ -320,7 +320,7 @@ The Set Processing Order feature has been added to the Configuration Workbook an
 
    If you additionally add a new web resource, you can then generate bulk for all (or only selected) contacts:
 
-   1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Create Cont. Web Sources** and then choose the related link.
+   1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Cont. Web Sources** and then choose the related link.
    2. In the options, select the **Web Source Code** you want to add to Contacts.
    3. In the options, select the contact field from which the variable value of the link URL is to be added.
    4. If necessary, specify a filter to limit the selection of contacts to which the above should be applied.
@@ -340,7 +340,7 @@ With the correct settings, this functionality is suitable not only for Czech but
 
 This function allows you to prepare a print report or even post the calculated VAT deductions. he function only works with VAT items containing combinations of account groups set up for VAT deductions - see Setting the VAT deduction reduction.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Calc. and Post VAT Coefficient** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calc. and Post VAT Coefficient** and then choose the related link.
 2. In Options, fill in:
 
    - Starting date

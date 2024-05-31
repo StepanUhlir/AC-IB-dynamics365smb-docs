@@ -21,7 +21,7 @@ To ensure the correct calculation of the amounts of the VAT Statement and export
 
 To activate Slovak functionality, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. On the **General Ledger Setup** page you must select**SK** in **Legislation**field.
 3. Confirm with the **OK** button.
 
@@ -29,7 +29,7 @@ To activate Slovak functionality, follow these steps:
 
 Import the current XML schema template into the XML schemas by following these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **XML Schemas** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas** and then choose the related link.
 2. On the **XML Schemas** page, in the **Actions** section, select the **Load Schema**action.
 3. An import window will open where you select the appropriate XML file.
 4. After import, a new line appears on the **XML Schemas**.
@@ -42,7 +42,7 @@ Import the current XML schema template into the XML schemas by following these s
 
 Use the following procedure to set up:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Statement Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement Templates** and then choose the related link.
 2. On the **VAT Statement Templates** page, select **Use XML Schema** in the **XML SK Format** column.
 3. On the **VAT Report Templates** page, select the **Related**section, then the **Template** section and open the **Report Names**.
 4. On the **VAT Statement** page, select the appropriate schema for each line that will be used when you export the **XML Schema** field.
@@ -55,7 +55,7 @@ You can see an example in the picture below:
 
 To ensure proper VAT reporting, you need to set up fields in the VAT statement lines:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Statements** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements** and then choose the related link.
 2. For each line in the sales tax statement, define the following fields:
 
 - Source Code filter
@@ -72,7 +72,7 @@ You can see an example in the picture below:
 
 Use the following procedure to set up:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Source Code Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Source Code Setup** and then choose the related link.
 2. On the Sales FastTab, enter INTCREDIT in the **Sales internal credit memo** field and DEBITNOTE in the **Sales debit note** field. The values ​​must first be entered in the Source Codes
 3. On the Purchase FastTab, enter INTCREDIT in the **Purchase internal credit memo** field and DEBITNOTE in the **Purchase debit note** field. The values ​​must first be entered in the Source Codes
 
@@ -85,20 +85,20 @@ In General ledger setup and VAT posting setup, you can enable system controls wh
 
 ### Set up Tariff Numbers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Tariff Numbers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers** and then choose the related link.
 2. Define each commodity code and tick the **Domestic Self Assessment** field for these code.
 3. For codes in Domestic Self Assessment mode, enter the **Statement Code** field.
 4. Confirm with the **OK** button.
 
 ### General Ledger Setup - 	Domestic Self Assessment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. On the **General Ledger Setup** define **tVAT Base for Domestic Self As.** and **Due Date of from Self Ass.** fields.
 3. Confirm with the **OK** button.
 
 ### VAT Posting Setup - Domestic Self Assessment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Posting Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup** and then choose the related link.
 2. On the **VAT posting setup** tab, you can set up checks for Domestic Self Assessment on individual combinations of VAT posting groups in the **Reverse Charge Check** field.
 3. Confirm with the **OK** button.
 

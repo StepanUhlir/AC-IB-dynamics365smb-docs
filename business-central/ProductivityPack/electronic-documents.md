@@ -60,7 +60,7 @@ As in the previous scenario, the Document Sending Profile on a specific document
 
 Pro správnou funkčnost odloženého odesílání je třeba mít nastaveno spouštění úlohy ve Frontě úloh viz Automatické odesílání dokladů.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link.
 2.	Create a new Sales Invoice per your customer and verify that the Document Sending Profile field is populated on the Electronic Documents tab.
 3.	On the Sales Invoice page, run the *Post* action.
 4.	When you see information about the number of the posted invoice, select Open Invoice and verify that the *El.Document No. Sent* field on the posted invoice increases after the defined period of triggering automatic posting.
@@ -73,7 +73,7 @@ Pro správnou funkčnost odloženého odesílání je třeba mít nastaveno spou
 ### Additional manual sending of a posted sales invoice
 
 If you subsequently need to send in a different way than normal, this can be done on the relevant document page.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Posted Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices** and then choose the related link.
 2.	Find the relevant document and open its tab.
 3.	On the Electronic Documents tab, select the desired method in the *Document Sending Profile* field.
 4.	If it is an *email*, enter the required email address (or more, separated by semicolons) in the *Email* field.
@@ -87,7 +87,7 @@ If you subsequently need to send in a different way than normal, this can be don
 ### Sending an unposted sales document
 Sending sales quotes or sales order confirmations via email is often part of the sales process. These documents are enhanced with the Send function so that (similar to previous scenarios) individual customer communication settings can be used.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Quotes** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes** and then choose the related link.
 2.	Create a new sales quote for the customer and verify that the Electronic Documents tab has the *Document Sending Profile* field filled in.
 3.	On the Sales Quote page, run the *Send* action.
 4.	Verify that the *El.Document No. Sent* field is incremented.
@@ -95,7 +95,7 @@ Sending sales quotes or sales order confirmations via email is often part of the
 
 ### Sending an unposted purchase document
 Součástí obchodních procesů bývá odesílání nákupních poptávek či nákupních objednávek e-mailem.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Purchase Orders** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** and then choose the related link.
 2.	Create a new purchase order to a vendor and verify that the *Document Sending Profile* field is filled in on the Electronic Documents tab.
 3.	On the Purchase Order page, run the *Send* action.
 4.	Verify that the *El.Document No. Sent* field is incremented.
@@ -106,7 +106,7 @@ Součástí obchodních procesů bývá odesílání nákupních poptávek či n
 
 The following scenario describes a situation where a user decides to change the sending of documents that have yet to be created during the progress of a business case. The prerequisite is the existence of the settings for sending by document type (see Profiles for sending documents by document type), specifically for the customer sending a quotation, an order and an invoice (or even a delivery note).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Quotes** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes** and then choose the related link.
 2.	Create a new sales quote for the customer for whom you have set up different sending by document types.
 3.	On the Electronic Documents tab, verify that the Electronic Documents Advanced Setup displays the parameters for sending subsequent documents according to the settings for the customer.
 4.	On the line using Sales Order, change the value in the Document Sending Profile field.

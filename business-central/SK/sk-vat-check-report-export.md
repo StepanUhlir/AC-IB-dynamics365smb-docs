@@ -16,7 +16,7 @@ The functionality enables the processing of the VAT Control Report and its expor
 
 ## Generate a VAT Control Report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Check Report List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Check Report List** and then choose the related link.
 2. To create a new Control Report, choose the **New** function.
 3. On the VAT Control Report Card, fill in the appropriate fields on the header. On the Other tab, it is necessary to fill in the **XML schema** field correctly.
 4. To fill the statement lines, run the **Fill report lines** function.

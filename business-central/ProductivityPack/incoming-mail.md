@@ -16,7 +16,7 @@ The **Mail record** extends **the Purchase** and **Sales** modules of the Micros
 
 ## Create a new Mail Record Card
 After making the necessary settings, you can create Mail Record documents. Documents can be created manually by:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Mail Record** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mail Record** and then choose the related link.
 2. On the **Mail Record Templates** page select the code for the correct Mail Record Template.
    ![Mail Record Template](media/IM-mail-record-templates.png)
    ![Mail Record](media/IM-incoming-mail.png)
@@ -78,7 +78,7 @@ Using the **Mail Related Documents** function or the **View Related Items** func
 ![Related Entries](media/IM-related_item.png)
 ## Mail Record Board
 Mail Record Board is available as follows.
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Mail Record Board** and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mail Record Board** and then choose the related link.
 
 This page provides a summary view of unclosed mail records cards. It offers an overview view of requirements with preset optional filters in the header for easier searching and orientation. First of all, it is necessary to choose which cards of mail records it is, i.e. the template of mail records. Furthermore, requests can be filtered by, for example, **Customer** or **Vendors**, **Status**, **Responsible Person** or **Mail Type**. In addition, the displayed list of requirements can be sorted by different keys, especially by number, customer or supplier, date or responsible person. At the bottom of the list of cards there is additional information about **Request Status**, **Amout of document**, **Amount to Approve** and **Approved Amount**.
 
@@ -86,7 +86,7 @@ The selected request can then be displayed by selecting **Card**. There are also
 ![Displayed request](media/IM-mail.png)
 ## Closed Mail Record
 Closed mail records are available:
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Closed Mail Record** and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Closed Mail Record** and then choose the related link.
    Viewing the **Closed Mail Record** page displays closed requests, that is, requests that have already been processed. Requests are closed manually through the Close Mail Records feature.
    The selected request can then be displayed by selecting **View**. There are also functions for displaying ** Related Mail Documents** and **Data Box Record**.
    ![Closed Mail Record](media/IM-closed_mail.png)

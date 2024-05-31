@@ -57,7 +57,7 @@ On the Numbering tab, you can set the number series for payment documents. . Thi
 ## Assigning payment methods to users
 
 In order to better control the handling of cash or valuables, separate records are usually required for each user. To reduce error rate, each user can be assigned his own Payment Place Code.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **User Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup** and then choose the related link.
 2. On the User Settings page, select the desired value in the Payment Point Code column.
 
 

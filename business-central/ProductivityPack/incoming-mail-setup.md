@@ -14,7 +14,7 @@ ms.author: v-makune
 ## Mail Record Templates
 After installations of the module, it is necessary to create the Mail Record Templates on the page – **Mail Record Templates**.
 
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Mail Record Templates** and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mail Record Templates** and then choose the related link.
 
 On the **Mail Record Templates** page select the code for the correct Mail Record Template. It is also possible to check whether to **External document number Unique**, **Open document card after creation**, **Only one document**, **Create incoming document** or **Copy dimensions to document**.
 
@@ -22,7 +22,7 @@ On the **Mail Record Templates** page select the code for the correct Mail Recor
 
 In the **No. Series** field, a number sequence is selected for the newly created documents, which we must prepare in advance if we have not already done so. The number series is formed in the same way as for other agendas:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** and then choose the related link.
 2. On the **Number Series** page, click **New** to create a new number series.
 3. Enter the **Code**, **Description**, and **Starting number** of the number series.
 4. Select the **Default Nos.** for autofilling numbers when entering new requests check box.
@@ -38,7 +38,7 @@ If you want to use **the Mail Records** module, it is also necessary to set up t
 
 First, you need to set up a state control template *(for more details, see module - Workflow)*.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Status Management Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Status Management Templates** and then choose the related link.
 2. On the **Status Management Templates** page choose **New** funciton.
 3. Enter the **Code** and **Description** fields.
 4. In the **Table Number** field, enter the number **52067961** (the number of the Mail Record,).

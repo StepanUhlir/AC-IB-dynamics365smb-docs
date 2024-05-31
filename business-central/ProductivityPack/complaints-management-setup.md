@@ -23,7 +23,7 @@ Na stránce **Nastavení reklamací** je třeba v záložce **Číslování** vy
 
 Číselnou řadu si musíme připravit, pokud jsme tak ještě neudělali. The number series is formed in the same way as for other agendas:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** and then choose the related link.
 2. On the **Number Series** page, click **New** to create a new number series.
 3. Enter the **Code**, **Description**, and **Starting number** of the number series.
 4. Select the **Default Nos.** for autofilling numbers when entering new requests check box.
@@ -65,7 +65,7 @@ Pokud chcete používat modul **Reklamace** je potřebné správně nastavit i m
 
 First, you need to set up a state control template *(for more details, see module - Workflow)*.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Status Management Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Status Management Templates** and then choose the related link.
 2. On the **Status Management Templates** page choose **New** funciton.
 3. Enter the **Code** and **Description** fields.
 4. Do pole **Číslo tabulky** zadejte číslo **52068271** (číslo tabulky Hlavička reklamace).

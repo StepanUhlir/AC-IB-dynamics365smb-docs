@@ -17,13 +17,13 @@ According to the Income Tax Act No. 595/2003 Coll., a taxpayer may apply annual 
 
 ## Depreciation reduction setting in the 1st year
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Fixed Asset Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Setup** and then choose the related link.
 2. Check the box **Depreciation Reduction First Year**.
 3. Confirm with **OK**.
 
 ## Calculation of depreciation
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **SK Calculate Depreciation** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SK Calculate Depreciation** and then choose the related link.
 2. In the fields of the window that appears, enter the parameters for depreciation.
    Do not activate the **Use Force No. of Days** field, and do not enter a value in the **Force No. of Days**.
 3. Confirm with **OK**.

@@ -34,7 +34,7 @@ There are several areas that need to be set up for the AC Parcel addon to work p
 Other code lists (Carrier Services, Handling Units and Carrier Branches) are downloaded from the Balíkobot API.
 ## Setting up Parcels using the wizard
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Assisted Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup** and then choose the related link.
 2. Select Shipment Settings
 3. After reading the instructions, click **Next**.
 4. If you want you can import the RapidStart package manually, or you can click **Next and the package will download and import itself**.
@@ -66,7 +66,7 @@ Other code lists (Carrier Services, Handling Units and Carrier Branches) are dow
 
 The Expedition Places are locations of your warehouses from where shipments are dispatched. A user can have several expedition places. A different API is required for each expedition place, and the expedition place is associated with one location of your company.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Expedition Places** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Expedition Places** and then choose the related link.
 2. Choose the function **New**.
 3. Insert **Code** for expedition place, description, address and **User Name and password** to yours API.
 4. Close the list of Expedition places.
@@ -78,7 +78,7 @@ On the tab of the given location it is necessary to select the dispatch place th
 
 To assign a shipping location to a location, you need to set the **Expedition Places Code**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Locations** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations** and then choose the related link.
 2. Open the desired location tab
 3. Fill in **Expedition Places Code** field on the General tab
 
@@ -106,7 +106,7 @@ These data are updated manually using the "Resynchronize master data" function.
 #### Basic settings of Parcels - Balíkobot integration
 To start the balíkobot functions, you need to make the following settings:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels setup** and then choose the related link.
 2. Select a number series for shipments
 4. Select default Expedition Places
 5. Enable or disable automatic printing of collection reports
@@ -149,7 +149,7 @@ Then you need to use **the Synronization function of master data**!
 ### Set up Shipping Agent Services
 
 Shipping Agent Services are downloaded automatically using the Balikobot API. It is possible to force certain settings for individual Shipping Agents services. To set it up, you must:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Shipping Agents** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents** and then choose the related link.
 2. Select the desired carrier from the list and select **Shipping Agent Services** feature
 3. Fill in the fields on the following page as needed:
    - **Enabled for Balikobot** - The service can be used (enabled by default)
@@ -180,7 +180,7 @@ Parameters for individual shipping agents are downloaded from the package packag
 
 To set up and use the cash on delivery function, it is necessary to set up booeal **Cash on delivery** on the payment method.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Payment Method** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Method** and then choose the related link.
 2. In the overview, check the **Cash on delivery** option.
 3. Close the payment method overview.
 ## Print Settings
@@ -193,7 +193,7 @@ The basic step in setting up label printing is to define how the PDF with labels
 To set up label printing, you need to set the report ID and assign a printer to the user. The Print Labels feature is set to print to a defined printer.
 
 To define a printer, it is necessary:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Printer Selections** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections** and then choose the related link.
 2. Choose **New**.
 3. Select User ID, Report ID 52068430, and Printer Name
 
@@ -205,7 +205,7 @@ Printing of the handover protocol is printed automatically after ordering the co
 The automatic update of the master data starts a procedure on the job queue, which updates all data from Balikobot in a certain period of time (By default on Sunday at 14:00).
 
 To turn on this feature, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels setup** and then choose the related link.
 2. In Parcels Management Setup, turn on "Run Master Data Sync. Task".
 3. The user will be prompted to create and open a new job queue item that will be in the "Ready" state.
 4. After that, you can close the settings.
@@ -214,7 +214,7 @@ To turn on this feature, follow these steps:
 Automatic shipment status update triggers a procedure on the job queue that updates the shipment shipment status for the last month over a period of time.
 
 To turn on this feature, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels setup** and then choose the related link.
 2. In Parcels Management Setup, turn on "Run Track Status Update Task".
 3. The user will be prompted to create and open a new job queue item that will be in the "Ready" state.
 4. After that, you can close the settings.
@@ -225,7 +225,7 @@ To turn on this feature, follow these steps:
 When setting up the add-on with assistance, the message "*The request was blocked by the runtime*" may be displayed.
 
 To resolve this issue, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Extension Management** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Extension Management** and then choose the related link.
 2. **The Installed Extensions** page opens.
 3. Select the line extension **Parcels** and then use the action **Configuration**.
 4. On the **Extension Configuration** page, enable the **Enable HttpClient requests** switch.
@@ -239,7 +239,7 @@ Paperless Trade is used to send an electronic invoice (in the case of a pro-form
 
 To set it up correctly, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Shipping Agents** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents** and then choose the related link.
 2. On the carriers overview, select the carrier for which you want to turn on the service.
 3. To turn on the service, select the **Paperless Trade** field.
 4. After setup, you can close the page
@@ -250,7 +250,7 @@ For Paperless Trade to work properly, you must attach a PDF file of the invoice 
 
 In the case of creating a shipment from a billed sales invoice, it is possible to generate a document and attach it automatically when creating the shipment. To make the correct settings, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Shipping Agents** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents** and then choose the related link.
 2. In the carriers overview, select the carrier for which you want to turn on automatic document creation.
 3. To turn on automatic PLT document creation, select the **Create PLT Document**field.
 4. Once set up, you can close the page.

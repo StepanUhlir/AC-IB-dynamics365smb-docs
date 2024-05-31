@@ -48,7 +48,7 @@ Unlike IN Buffer, there is an outgoing **Send sequence** field on the OUT Buffer
 ### Communication of In and Out Buffer
 To view the communication tasks between the Out Buffer and the In Buffer, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **IN Buffer** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IN Buffer** and then choose the related link.
 1. The **In Buffer** page opens, where the function in **the Related** section is used by **Entry** function, where you will find the following functions:
    - Electronic Document Entries
    - In Buffer - Response
@@ -65,7 +65,7 @@ It is possible to export a document, display the document and display it as HTML
 
 To export a document, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **OUT Buffer** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OUT Buffer** and then choose the related link.
 1. The **OUT Buffer** page opens, where you can use the **Document Export** feature.
 
 Another feature under the **Export Document** banner is the Check Electronic Signature and View Signature Certificate option.
@@ -74,7 +74,7 @@ Another feature under the **Export Document** banner is the Check Electronic Sig
 
 If the given record is in the state Processed = No, it is possible to run the task manually from the form. This function is only available for In Buffer.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **IN Buffer** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IN Buffer** and then choose the related link.
 1. The **In Buffer** page opens, where you can use the **Run Task** function.
 
 The program then allows you to view an error due to which the task did not process. If the task did not process after manual execution, there may be a problem with the application server (e.g. user rights). On the **IN Buffer** form, there is a **Send Task** function that allows you to send the job from the IN Buffer.
@@ -83,7 +83,7 @@ The program then allows you to view an error due to which the task did not proce
 
 To insert a task into an IN or OUT Buffer, do the following:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **IN Buffer** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IN Buffer** and then choose the related link.
 1. **IN Buffer** page opens, where you select the **Actions** section, then **Functions**, and finally the **Insert Task** function.
 1. On the **Insert In Buffer** page, fill in the following fields as needed:
    - **Document** where the assignment document is selected. If a spooler task is found according to the document header, the data in the form is automatically set, e.g. Agent ID, Process Type, Document Type. If not, it must be manually set.
@@ -95,7 +95,7 @@ To insert a task into an IN or OUT Buffer, do the following:
 
 To view the In or Out Buffer archive items, do the following:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Archived IN Buffer** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived IN Buffer** and then choose the related link.
 
 Entry will be accessed to the archive automatically during processing if this is set in the spooler task (Do not archive during processing, Do not archive at expiration) or in the spooler settings (Archive IN Buffer during processing and Archive IN Buffer during expiration, Archive OUT Buffer during processing and Archive OUT Buffer during expiration).
 

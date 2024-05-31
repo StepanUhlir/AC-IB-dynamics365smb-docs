@@ -28,7 +28,7 @@ It is possible to use all three counter-account options included in the localiza
 
 ## Posting a sales invoice with multiple payment methods
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link.
 2. Create a new sales invoice according to your conventions.
 3. On the **Sales Invoice** page, choose **Issue** and then run **Payment Schedule** function.
 4. Enter the amount of cash you received from the customer.
@@ -43,7 +43,7 @@ It is possible to use all three counter-account options included in the localiza
 ![Payment Schedule](media/multiple_payment_methods_payment.png)
 
 ## Additional payment of the posted sales invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Posted Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices** and then choose the related link.
 2. Find the relevant document and open its card.
 3. On the Posted Sales Invoice page, choose the **Payment Schedule** function.
 4. Enter the amount of cash you received from the customer.
@@ -60,7 +60,7 @@ It is possible to use all three counter-account options included in the localiza
 
 In case the customer wants to settle the document when charging by one method only, e.g. by bank card, the simplified mode can be used by entering the selected Payment Method Code directly in the document header.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link.
 2. Find the relevant document and open its card.
 3. On the Sales Invoice page, select the appropriate value in the **Payment Method Code** field.
 4. On the Sales Invoice page, run the Post function.
@@ -73,14 +73,14 @@ In case the customer wants to settle the document when charging by one method on
 It is a relatively common practice that the preferred or allowed payment method (typically cash payment) is defined on customer cards. However, when there are more than one such code (due to record keeping requirements), it is necessary to ensure that the document is posted with the code appropriate to the user posting the document. If "Check payment method on sales document" is enabled, the system will make the change automatically (see [Setting up Payment Methods](http://muj.autocont.cz/docs/cs-cz/d365businesscentral/FinancialPack/multiple-payment-methods-setup.html#nastaven%C3%AD-zp%C5%AFsob%C5%AF-platby)).
 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Multiple Payment Methods Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Multiple Payment Methods Setup** and then choose the related link.
 2. Verify that check **Check Payment Method On Sales Documents** is turned on.
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **User Setup** and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup** and then choose the related link.
 4. Verify that **Payment Place Code** is set on the logged-in user login.
-5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 6. Find the relevant customer and open their card.
 7. In the **Payment Method Code** field, set the method that has the value Cash set in the Cashier Operation Type column, but that does not have a **Payment Location Code** defined (see "Cash" as shown in the **Payment Method Settings**)
-7. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link.
+7. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link.
 9. Run the New action to create a new document.
 10. On the Sales Invoice page, enter the customer (see above)
 11. Enter at least one invoice line.
@@ -93,7 +93,7 @@ In some cases, it is required to create a register of EET (legislation in the Cz
 
 If Enable EET registration is enabled, the Register EET action is available on the payment schedule, resp. Cancel EET (see [Payment Methods Settings](http://muj.autocont.cz/docs/cs-cz/d365businesscentral/FinancialPack/multiple-payment-methods-setup.html#nastaven%C3%AD-zp%C5%AFsob%C5%AF-platby)).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Multiple Payment Methods Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Multiple Payment Methods Setup** and then choose the related link.
 2. Verify that the Enable EET registration option is enabled.
 3. Create a new sales invoice according to your conventions.
 4. On the Sales Invoice page, run the issue action and then run the Payment Schedule function.

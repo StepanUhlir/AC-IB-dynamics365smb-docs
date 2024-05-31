@@ -19,7 +19,7 @@ Spooler is used for communication of the Business Central system with external s
 
 To set up a spooler, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Spooler Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Spooler Setup** and then choose the related link.
 1. The **Spooler Setup** page opens, where there are setting and information fields:
    - **Source System**, which refers to the source system - how the system is identified in communication.
    - **Unprocessed In Task** and **Unprocessed Out Task** number of pending taks in In Buffer or Out Buffer.
@@ -45,7 +45,7 @@ To set up a spooler, follow these steps:
 
 To set up spooler agents, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Agents** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Agents** and then choose the related link.
    The **Agents** page opens, where you must fill in the following fields:
    - The **Agent ID and Description** fields are used to differentiate between agents.
    - **Type** distinguishes agents
@@ -77,7 +77,7 @@ The passive agent runs alone on the application server. IN Agent TCP and IN Agen
 
 ## Spooler Tasks
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Spooler Tasks** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Spooler Tasks** and then choose the related link.
 1. On the **Spooler Tasks** page, you can create a row for a new task that contains the following fields:
 
 - The **Task ID** field indicates the spooler job.

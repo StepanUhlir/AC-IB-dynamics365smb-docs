@@ -18,7 +18,7 @@ The exchange rate table imports the exchange rate with the validity date moved f
 
 ## Settings for the date offset
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Curr. Exch. Rate Service** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Curr. Exch. Rate Service** and then choose the related link.
 2. On the **Currency Exchange Rate Services** page for *ECB-EXCHANGE-RATES* open **Data Exchange Definitions**.
 3. On the **Data Exchange Definition** page, choose **Field Mapping**.
 4. In the **SK Date Formula** field enter *1D* o ensure that the date offset works for import.

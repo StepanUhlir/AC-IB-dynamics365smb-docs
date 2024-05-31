@@ -16,7 +16,7 @@ The Helpdesk module is used for centralized entry, registration, processing and 
 After making the necessary settings, you can enter HelpDesk requests. You can make requests manually or through the Wizard. You can define whether to use the wizard in **Help Desk Settings** by selecting the **New Helpdesk with Wizard** check box. For more information about setting up a HelpDesk, visit [HelpDesk - Setup](helpdesk-setup.md).
 
 ### Create a request by using the Request Wizard
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **New Request** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **New Request** and then choose the related link.
 2. The first step in the wizard is to specify **Taskmaster Code** and **Request Priority**. (Both fields are required - you cannot continue without filling in both values.)
 3. The next step is to enter **Request Short Description** (title) and **Request Description** of the request.
 4. Then it is possible to choose settings to predefined categories (1-3). Once you have made a suitable selection, click **Next**.
@@ -26,7 +26,7 @@ After making the necessary settings, you can enter HelpDesk requests. You can ma
 ## Helpdesk Requests
 The list of helpdesk requests can be viewed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Helpdesk Request List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Helpdesk Request List** and then choose the related link.
 2. If you click **Request number** in the list of requests, the appropriate request tab is displayed.
 
 The Helpdesk Request Card displays relevant information related to the selected request. The data in the white fields can be edited (e.g. it is possible to add the priority of the dispatcher, edit the data of the response or solution, or change the classification into categories on the Categories tab).
@@ -103,19 +103,19 @@ One of the most important criteria for deciding on the planning and coordination
 ## Reports
 
 Menu of print reports assigned to the HelpDesk module:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Helpdesk Requests (Reports and Analysis)** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Helpdesk Requests (Reports and Analysis)** and then choose the related link.
 2. According to the specified filters, individual request cards, delayed requests and a list of helpdesk requests are printed.
 
 ## View closed requests
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Helpdesk Closed Request List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Helpdesk Closed Request List** and then choose the related link.
 2. A page will appear that contains a list of already completed helpdesk requests.
 
 - Requests are closed automatically through the Status Control states set after the transition to one of the final states.
 
 ## Export HelpDesk requests
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Export Helpdesk Requests** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Helpdesk Requests** and then choose the related link.
 2. Fill in the report input filters.
    - Number, New Request, Closed Request
 3. Confirm the export of the request with the **OK** button.

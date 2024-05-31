@@ -25,7 +25,7 @@ In order to enter requests into the HelpDesk, it is necessary to make some setti
 
 
 ## HelpDesk settings
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Helpdesk Setup** and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Helpdesk Setup** and then choose the related link.
 
 On the **Helpdesk Settings** page, on the **General** tab, you can choose whether to fill in request categories 1-3, the default priority, and whether you need to enter new requests using the wizard.
 
@@ -34,7 +34,7 @@ On the **Helpdesk Settings** page, on the **General** tab, you can choose whethe
 On the **Numbering** tab, in the **Request Nos.** field, select a number series for newly created Helpdesk requests.
 
 ### Create a number series for HelpDesk requests
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** and then choose the related link.
 2. On the **Number Series** page, click **New** to create a new number series.
 3. Enter the Code, Description, and Starting No. of the number sequence.
 4. Select the Default Nos. for autofilling numbers when entering new requests check box.
@@ -47,7 +47,7 @@ Example of a created number series:
 
 User categories are groups of users. User groups are assigned a certain weight (level of importance), which is one of the factors in the automatic request priority calculation The user category contains the Code, Description, and Weight fields
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **User Categories** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Categories** and then choose the related link.
 2. On the **User Category** page, choose **New** action, and then enter **Code**, **Description**, and **Weight**.
 3. The Weight field can take values ​​0-1 in terms of percentages (0 = 0%, 1 = 100%).
 
@@ -55,7 +55,7 @@ User categories are groups of users. User groups are assigned a certain weight (
 
 For each Authorized Person, the appropriate User Category is selected, according to which the program automatically pre-populates the Request Weight for that person. The pre-filled value of the **Weight** field can be adjusted individually for each person. The program then uses this value to calculate the overall priority of the request.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Entitled Person List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Entitled Person List** and then choose the related link.
 2. A table will appear with all authorized persons entered so far.
 3. On the **Entitled Person List** choose **the New** action and fill in the new authorized person fields as needed.
 
@@ -68,7 +68,7 @@ The **User Change Allowed** field entitles you to change the Authorized Person (
 ## Request Priority Setup
 
 In order to evaluate requirements according to their urgency, it is necessary to fill in **Requirements Priorities**:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Request Priorities** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Request Priorities** and then choose the related link.
 2. On the Request Priorities page, choose **the New** action.
 3. Enter the **Code** and **Description** fields.
 4. Enter the appropriate value in the **Weight** field to calculate the resulting request priority.
@@ -86,7 +86,7 @@ After specifying request priorities, the table can look like this:
 
 To monitor requirements from points of view other than severity, it is possible to define categories of requirements, up to 3 levels for which the tree decay applies (i.e. they are in a hierarchical subordination relationship, i.e. the Category 1 option determines which Category 2 will be offered, which in turn will affect the Category 3 offer).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Request Categories** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Request Categories** and then choose the related link.
 2. On the **Request Categories 1** page, choose the **New** action.
 3. Fill in the appropriate fields in the Category Code (max. 10 characters) and **Description** (max. 50 characters) rows.
 4. To create multiple subcategories (level 2 categories) for a given category, choose **Request Categories 2** action on the **Request Categories 1** page.
@@ -99,7 +99,7 @@ To monitor requirements from points of view other than severity, it is possible 
 
 In this setting, it is possible to define individual ways of solving requests.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Solutions** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Solutions** and then choose the related link.
 2. On the **Solution** page, choose the **New** action.
 3. Fill in the appropriate fields in the Code (max. 10 characters) and **Description** (max. 50 characters) rows.
 
@@ -107,7 +107,7 @@ In this setting, it is possible to define individual ways of solving requests.
 
 To set up a workflow, the **Status Management addon** is required, which you must have installed.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Status Management Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Status Management Templates** and then choose the related link.
 2. On **the Status Management Templates** page, fill in the fields in the **Code**, **Description**, and **Table Number (52068298) rows**.
 3. In the function panels, click **Status Management Statuses** to set each state.
    - For workflow status, you need to define **Code**, **Description**, and **Next status filter**, which determines what other states can be accessed from that state. One of the states must be marked as **Default State** – this is filled in when a new helpdesk request is created. Some states may be referred to as **the Final Status**, from which no further state is continued.

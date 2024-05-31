@@ -105,7 +105,7 @@ The "Number of Packages" field exists to define the number of packages within a 
 
 After posting the shipment, the process of creating a shipment for the customer begins. One way is to create a shipment from a delivery note or a charged invoice. By retrieving the invoice number, the **Create Parcel** form is automatically pre-populated. This step eliminates the need for the user to manually fill out the shipment information.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Create Parcel** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Parcel** and then choose the related link.
 1. Enter the number of the document being charged (posted sales shipment, posted sales invoice) in the **Document Number** field. Or use the Scan Codes function (in case you have a barcode with a receipt number).
 1. The user has the option to enter the number of packages within a shipment.
 1. Select the **Create Shipment and Print Label** function.
@@ -127,7 +127,7 @@ You can edit shipments only if they are in the **New** status. If a shipment is 
 
 After this step, you must notify the shipper that you are deleting or editing the shipment. At this point, the shipment number is removed from the carrier and the label is deleted. Once the data has been edited, the user will use the **For Collection** function and use the **Print Labels** function to print the new label.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels** and then choose the related link.
 2. Choose on the consignment line and use the **Remove from collection** function.
 3. Open the Parcel (it now has a status of **New**).
 4. Add data/values about the shipment (change of carrier, number of packages, weight, dimensions...).
@@ -176,7 +176,7 @@ To verify your account as a test or production account and to list the carriers,
 
 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Shipping Agents** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents** and then choose the related link.
 2. Select one of your carriers and click On **Connection Test** function
 3. After verifying your account, the message *Service connection successful.* will pop up and you'll see information about your account and Active Carriers.
 4. You can then close the window.
@@ -192,7 +192,7 @@ If you create a shipment from a posted sales shipment, you must insert the PDF m
 
 A prerequisite for use is the correct setting of Paperless trade.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels** and then choose the related link.
 2. Use the **Create Shipment**feature in your shipment list.
 3. Enter the number of the posted sales invoice.
 4. The system automatically generates PDF invoices and attaches them to the shipment.
@@ -201,7 +201,7 @@ A prerequisite for use is the correct setting of Paperless trade.
 
 ### Create a shipment from a posted sales shipment
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Parcels** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Parcels** and then choose the related link.
 2. Use the **Create Shipment**feature in your shipment list.
 3. Enter the number of posted sales shipment
 4. The system automatically fills in the data for the shipment.

@@ -19,7 +19,7 @@ To ensure this requirement, the standard functionality of accounting schemes is 
 
 ## Saving the results of accounting schemes for export
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Account Schedule** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule** and then choose the related link.
 2. On the **Account Schedules page**, choose the **Process** action and **Overview** feature.
 3. Enter the filters you want as the Date Filter or other filters, select the **Action** button, and then select the **Results** and **Save Results** feature.
 4. In the **Save Acc. Schedule Result** fill in the fields as needed.
@@ -29,7 +29,7 @@ The results of accounting schemes are stored in a list in the chronological sequ
 
 ## Export to .xml format
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Export Merged Acc. schedule to XML** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Merged Acc. schedule to XML** and then choose the related link.
 2. On the **Exp.Merged Acc.Schedule to XML** page, fill in the required fields. Select Result Code in the Section for Balance Sheet and Profit and Loss.
 3. Confirm with the **OK** button.
 

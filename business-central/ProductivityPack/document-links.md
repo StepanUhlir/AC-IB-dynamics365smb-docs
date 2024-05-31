@@ -30,7 +30,7 @@ The location of saved documents in the library can also be controlled in a simil
 ## Uploading a document to the BC library
 I want to upload a document without binding.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link..
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link..
 2.	On the Document Library page, click the dashed rectangle in the information window labeled Upload Document.
 3.	Select the appropriate file from the file system and confirm by clicking Open.
 4.	Alternatively, you can drag and drop the file with the mouse onto the rectangle in step 2.
@@ -44,7 +44,7 @@ I want to upload a document without binding.
 ## Creating a folder in the BC library
 In addition to uploading a file, it is also possible to create a folder directly in the BC library that is automatically created in SharePoint.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 1.	Select the icon  , type Document Libraries, and then select the associated link.
 2.	Run the Items action to open a list of library items recorded in BC.
 3.	Use the existing folders shortcut to navigate to the desired level in the library (back using the Move Up button).
@@ -59,7 +59,7 @@ In addition to uploading a file, it is also possible to create a folder directly
 ## Documents Links
 If you want to find out to which all entities in BC the document is attached, do the following:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 2.	Run the Items action to open a list of library items registered in BC.
 3.	Navigate to the desired document and run the Item Detail action.
 4.	On the Document Library Item Detail page, run the Document Links action to view all entities in BC to which the selected document is attached.
@@ -73,7 +73,7 @@ If you want to find out to which all entities in BC the document is attached, do
 
 To rename a file or folder, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 2.	Run the Items action to open a list of library items registered in BC.
 3.	Navigate to the desired document and run the Item Detail action.
 4.	On the Document Library Item Detail page, run the Rename Item action, enter a new item name, and confirm by pressing OK.
@@ -85,7 +85,7 @@ To rename a file or folder, follow these steps:
 ## Delete a file from the library
 If you want to remove a file from the library, there are several ways to do so. One is to remove it directly from the document library items.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 2.	Run the Items action to open a list of library items recorded in BC.
 3.	Navigate to the desired document and run the Delete action.
 4.	Confirm the query that appears if the file is attached to at least one entity in BC.
@@ -93,7 +93,7 @@ If you want to remove a file from the library, there are several ways to do so. 
 
 In normal use, it is possible to delete a document directly from individual parts of the BC.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Navigate to the record with the selected customer.
 3.	In the Document Links facts window, navigate to the row with the attached file and run the Document Detail function.
 4.	On the Document Library Item Detail page, click Delete at the top.
@@ -102,7 +102,7 @@ In normal use, it is possible to delete a document directly from individual part
 ## To upload a file and attach it to a specific entity in BC
 In the vast majority of files, this is how you add files, that is, saving a new file with a link to a specific record in BC. This is how it is added to the customer's card (see Adding Attached Documents to Selected BC Functionality).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Navigate to the record with the selected customer.
 3.	In the Document Links facts window, click the window title and run the Upload Document action.
 4.	Select the appropriate file from the file system and confirm by clicking Open.
@@ -115,7 +115,7 @@ In the vast majority of files, this is how you add files, that is, saving a new 
 ## Connect an existing file to another entity in BC
 Sometimes a single file relates to multiple records (e.g. a framework agreement with a holding company relates to multiple customers). In this case, it is advisable to upload the file to the first record and just create a link to the others.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Navigate to the record with the selected customer.
 3.	In the Document Links facts window, click the title of the window and run the Link Document action.
 4.	On the Document Library Items page, select the desired document and confirm OK.
@@ -128,7 +128,7 @@ Sometimes a single file relates to multiple records (e.g. a framework agreement 
 ## Unlinking a file to an entity in BC
 The following procedure only unlinks the file to the entity in BC, the file still remains stored in the library. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2.	Navigate to the record with the selected customer.
 3.	In the Document Links facts window, navigate to the row with the attached file and run the *Delete Row action*.
 

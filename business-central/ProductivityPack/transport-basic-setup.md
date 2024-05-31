@@ -15,7 +15,7 @@ ms.author: v-makune
 ## Transport Setup
 
 For basic transport addon settings, do the following:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Transport Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transport Setup** and then choose the related link.
 2. There are several settings fields on the Traffic Settings page:
    - **Vehicle Nos.** – a number series for creating vehicles.
    - **Drivers Nos.** – a number series for creating drivers.

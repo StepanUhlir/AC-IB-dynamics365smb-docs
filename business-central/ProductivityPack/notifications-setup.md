@@ -18,7 +18,7 @@ The **Notifications** module enables **system notifications** for data and proce
 
 To create a new tracked event, you need to create and define it on the **Overview page of Event Templates List**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Event Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Event Templates** and then choose the related link.
 2. On the **Event Templates List** page, create a new event by choosing the **New** button
 3. A new event tab opens with some generic pre-filled fields.
 4. In the **Table No.** field, select the table above which we want to perform tracking and then select the **field No.** from the table – according to this field, the given stage is evaluated. **Helping Field No.** is used only for a closer resolution of the event.

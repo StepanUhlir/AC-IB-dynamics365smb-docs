@@ -28,7 +28,7 @@ The assignment is made on the relevant Item cars, choose Actions/Item/**Packing 
 For each item and its unit of measure, you can assign any number of elements of packaging reports (include items in several statements). Packing Elements Assignment is bound to **Statement Code** and **Movement Type**. The combination of these values is complemented by **Code** that determines the position in the report. The **Base Unit Weight** field is related to the unit of measure on the report line.
 
 ## Report generating
-Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Packing Statement Basis** and then choose the related link.
+Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Packing Statement Basis** and then choose the related link.
 It serves as a basis for the report on packaging production for EKO-KOM, a. s. This report displays the basis for completing the Packaging Statements.
 
 If you want to mark items as reported, it is necessary to check the **Mark Entries** field for the option of unreported items and fill in the **Statement no.** field.  

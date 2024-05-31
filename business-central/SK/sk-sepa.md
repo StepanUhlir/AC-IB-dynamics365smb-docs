@@ -17,7 +17,7 @@ For the processing of a payment order or statement in SEPA format, the standard 
 
 ## SEPA payment settings:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Bank Export/Import Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Export/Import Setup** and then choose the related link.
 2. A page will appear, which may contain a list of already set imports and exports.
 3. If you want to properly set up import and export in SEPA format, this page must contain the lines shown in the image below.
 

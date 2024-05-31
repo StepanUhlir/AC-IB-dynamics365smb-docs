@@ -20,7 +20,7 @@ The **General Parameters** add-on module allows you to add an unlimited number o
 
 To view a list of saved general parameters for a given record (in this case, fixed assets) with a filter on a given entity, do the following:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Fixed Assets** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets** and then choose the related link.
 2. In the overview, select the specific fixed asset for which you want to view parameters.
 3. In the Related section, in the **Fixed assets** group, select **General Parameters** function.
 4. A window will open where you can see the name of the template.
@@ -36,7 +36,7 @@ To insert general parameters to an item or fixed asset, the **Insert General Par
 
 To insert or edit general parameters, do the following:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Fixed Assets** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets** and then choose the related link.
 2. On the list in the Actions section, use the **Insert General Parameters**function.
 3. The Insertion Wizard starts.
 
@@ -57,7 +57,7 @@ The functionality of general parameters can be used to search for "similar" reco
 
 To search by parameters for fixed assets, continue as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Fixed Assets** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets** and then choose the related link.
 2. In the overview, in the Actions section, select **Filter by General Parameters** function.
 3. A window will open where in the first step you will select **Parameter Template**.
 4. The next step is to select by which parameters the system will filter. To do this, click on the **three dots** in the line next to the General Parameters Filter.

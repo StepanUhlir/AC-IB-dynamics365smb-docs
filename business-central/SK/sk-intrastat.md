@@ -21,7 +21,7 @@ To activate Slovak functionality, these settings are needed, use the following p
 
 ## General Ledger Setup
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. On the **General Ledger Setup** page you must select**SK** in **Legislation**field.
 3. Confirm with the **OK** button.
 
@@ -29,7 +29,7 @@ To activate Slovak functionality, these settings are needed, use the following p
 
 The settings are used to map fields in the application to nodes .xml. This table is part of the supplied configuration package.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Intrastat File Mapping** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat File Mapping** and then choose the related link.
 2. On the **Intrastat File Mapping** review or complete the settings.
 3. Confirm with the **OK** button.
 
@@ -37,7 +37,7 @@ The settings are used to map fields in the application to nodes .xml. This table
 
 ## Export a file for Intrastat
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Intrastat Journals** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals** and then choose the related link.
 2. Insert journal lines with the **Suggest Lines...** feature.
 3. Export using the function **Export**, it is necessary to fill in *Contact person*, *Type*, *Serial number of the statement*
 4. Confirm with the **OK** button.

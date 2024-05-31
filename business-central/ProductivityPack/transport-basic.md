@@ -18,7 +18,7 @@ The Transport add-on solves the issue of vehicle registration, vehicle maintenan
 The driver card defines the monitored person and the information linked to it.
 
 To create a new driver, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Driver List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Driver List** and then choose the related link.
 2. In the overview, select **New**.
 3. Na kartě řidiče vyplňte potřebné informace.
 
@@ -32,7 +32,7 @@ It is possible to store "**Competencies**" to the driver - i.e. things related t
 Vehicles are defined for consumption monitoring and maintenance needs. It is possible to record information about the vehicle as its own, as well as a link to the assigned payment card (for the purpose of importing the drawdown), the assigned (default driver) and links to other records (Property, source....)
 
 To create a vehicle card, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Vehicle List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vehicle List** and then choose the related link.
 2. In the overview, select **New**.
 3. Na kartě vozidla vyplňte potřebné informace.
 
@@ -50,7 +50,7 @@ The "Refuelling Statement" is used to enter the fuel consumption for vehicles. T
 
 
 To create a Refuelling Statement, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Refuelling Statement** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Refuelling Statement** and then choose the related link.
 2. In the overview, select **New**.
 3. Fill in the necessary information on the card.
 4. Fill in the individual lines and issue the document.
@@ -69,7 +69,7 @@ Refuelling Statement List
 It is used to record the operation of the vehicle, it is entered via the Drive Journal
 
 To fill in the Drive Journal, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Drive Journal** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Drive Journal** and then choose the related link.
 2. Fill in the lines as needed.
    - Drive Type, Vehicle No., Description, Driver No., Opeation Type Code and more.
 3. Post the journal.
@@ -85,7 +85,7 @@ This section is part of the extended version of  **Transportation – Planning**
 As part of the planning, the so-called **Transport request**, which is a record of the anticipated transport, these requests can be created from **Sales order**, **Purchase order**, **Transfer order** using the **Create shipping request** function.
 
 To create a request from a purchase order, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Purchase Order** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order** and then choose the related link.
 2. Open an existing order or create a new one.
 3. Use the **Create Transport Request**feature to create a shipping request.
 4. Complete the Shipping Request Wizard.

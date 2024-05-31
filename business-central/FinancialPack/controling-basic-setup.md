@@ -16,7 +16,7 @@ ms.author: AC MartinKunes
 ## Nastavení kontroly CREDITCHECK
 ### CreditCheck settings
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **CreditCheck Settings** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CreditCheck Settings** and then choose the related link.
 2. Start the **Set Default Web Service** feature, which populates the service URL.
 3. Use the **Enabled** button to start the service.
 
@@ -29,7 +29,7 @@ ms.author: AC MartinKunes
 You can update manually as needed or let the system update at regular intervals.
 
 To set up automatically, follow these steps:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **CreditCheck Settings** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CreditCheck Settings** and then choose the related link.
 2. Set the **Automatic Update** flag.
 
 > [!NOTE]
@@ -37,7 +37,7 @@ To set up automatically, follow these steps:
 
 To perform a manual update, use the CreditCheck Status Update feature as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **CreditCheck Status Update** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CreditCheck Status Update** and then choose the related link.
 2. Press Ok to start the service.
 
 ### User setup
@@ -48,7 +48,7 @@ In the user settings on the General tab, there is a new boolean **Allow change o
 
 In the CreditCheck settings, it is possible to turn on the update of web feed creation for all contacts with a completed ID.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **CreditCheck Settings** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CreditCheck Settings** and then choose the related link.
 2. Choose **Auto flag. web resource updates**.
 
 > [!NOTE]
@@ -68,7 +68,7 @@ Starting with version BC 22 (or BC 18 if you have "Feature Update: New Sales Pri
 
 
 ### Sales and receivables setup (up to version 21.0)
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales & Receivables Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** and then choose the related link.
 > [!TIP]
 > The settings depend on the version you are using. In BC17, select **<Hierarchical pricing enabled** to enable it.
 
@@ -81,13 +81,13 @@ Starting with version BC 22 (or BC 18 if you have "Feature Update: New Sales Pri
 ## Payment cumulation settings
 ### Vendor settings for payment accumulation
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Vendors** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** and then choose the related link.
 2. Open the vendor card for which you want to allow payment cumulation.
 3. On the Vendor Card page, on the Payments tab, set **Cumulate Payments**.
 
 Setting the accumulation parameters on the bank account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Banks** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Banks** and then choose the related link.
 2. Open the bank account tab for which you want to set up payment cumulation.
 3. On the Bank Account Card page, in the Payment Orders / Bank Statements tab, set the cumulation of payments as required.
 
@@ -105,7 +105,7 @@ Setting the accumulation parameters on the bank account
 
 In General ledger setup, a date formula is entered that the system uses (in relation to the work date) to define the period in which it notifies the user of outdated VAT registration information. If the VAT ID Check Date Formula field on documents is not filled in, notification is turned off.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. On the General ledger setup page, on the Other tab, set the **VAT ID check date formula field on documents**.
 
 ## Exchange rate controls settings
@@ -113,7 +113,7 @@ In General ledger setup, a date formula is entered that the system uses (in rela
 
 The upper and lower limits of the value in the local currency can be set for each foreign currency defined in the system. This is especially advantageous for less used currencies, where there is an even greater risk of user error when entering the exchange rate on the document, etc. If the field with the currency limit is empty, the check is not performed.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Currencies** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies** and then choose the related link.
 2. Run the **Edit** action.
 3. On the Currency tab page, on the General tab, set the **Rel.Exch.Rate Amt.  Upper Limit** and **Rel.Exch.Rate Amt. Lower Limit** fields.
 
@@ -122,7 +122,7 @@ The upper and lower limits of the value in the local currency can be set for eac
 
 In the Finance settings, you enter the date formula that the system will use (in relation to the settlement date) to define the period in which it notifies the user that there is no entry in the exchange rate table.  If the Ex.Rate Check DateForm. on Doc is not fulfiled, the notification is turned off.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. Run the **Edit** action.
 3. On the Finance Settings page, set the **Ex.Rate Check DateForm. on Doc** field.
 
@@ -134,7 +134,7 @@ In the Finance settings, you enter the date formula that the system will use (in
 
 Specific types of recovery can be set using the Enforcement Methods:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Enforcement Methods** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Enforcement Methods** and then choose the related link.
 2. On the Enforcement Methods page, enter the code for the new record (eg "FACTORING" to distinguish the reason for the claim). You can also add a more detailed description in the Description field.
 
 ## Setup of number series extensions
@@ -142,7 +142,7 @@ Specific types of recovery can be set using the Enforcement Methods:
 
 A new field for the number series mask structure has been added to the number series table, where the user defines the positional structure of the number generated in this number series. This feature makes it easier to create new number series for a new fiscal year and reduces errors.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** and then choose the related link.
 2. In the **Mask**, set the combination of fixed and wildcards in the format "**XXrrcccc**".
    - XX - fixed part of the number; must be in capital letters, length is not limited (only the total length of the final number).
    - yyyy (or yyyy) - year designation, which is completed by the generator from the specified start date.
@@ -155,7 +155,7 @@ A new field for the number series mask structure has been added to the number se
 
 A new No. Series Link table has been added.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **No. Series** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series** and then choose the related link.
 2. Select the **Links** action.
 3. Fill in one of the columns according to the number series:
 
@@ -177,7 +177,7 @@ Rounding settings are made differently depending on the currency, as is the case
 
 **Local currency setup**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. Select the Invoice Rounding Settings action.
 3. On the Invoice Rounding Setup page, define the rounding settings for all payment methods that should be set differently than the default from General ledger Setup.
 
@@ -186,7 +186,7 @@ Rounding settings are made differently depending on the currency, as is the case
 
 **Foreign currency setup**
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Payment Method** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Method** and then choose the related link.
 2. Select the Invoice Rounding Settings action.
 3. On the Invoice Rounding Settings page, define the rounding settings for foreign currencies in combination with the selected payment method, for which the settings should be different from the default on the Currency Card.
 
@@ -194,7 +194,7 @@ Rounding settings are made differently depending on the currency, as is the case
 ## VAT deduct reduction setting
 ### VAT Posting Setup
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Posting Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup** and then choose the related link.
 
 For combinations of VAT account groups, where the reduction of the input VAT coefficient will be solved, it must be set (among other things):
 - VAT Coeff. Posting Type
@@ -212,7 +212,7 @@ The following must be set for these combinations (among other things):
 
 ### VAT Advance Coefficient
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. In the VAT Advance Coefficient field on the VAT tab, set the percentage value valid for the current accounting period.
 
 
@@ -220,14 +220,14 @@ The following must be set for these combinations (among other things):
 
 ### More VAT registration numbers of customers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 2. Select the Registration Country action.
 3. Enter the country code and VAT registration number.
 4. Next, add VAT Bus.Posting Group to be used in the event of a sale to a customer in that country.
 
 ### More VAT registration numbers of customers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Vendors** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors** and then choose the related link.
 2. Select the Registration Country action.
 3. Enter the country code and VAT registration number.
 4. Next, add VAT Bus.Posting Group to be used in the event of a sale to a customer in that country.
@@ -236,7 +236,7 @@ The following must be set for these combinations (among other things):
 
 The basic setting consists in the recording of VAT registration numbers in individual countries and setting how the system should change the VAT Bus. Posting Group in documents for the correct processing of VAT entries when concluding VAT and for the correct creation of documentation (most often for accounting offices in these countries).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Company Information** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** and then choose the related link.
 2. Select the Registration Country action.
 3. On the Registration Country/Region page, enter the country code and VAT reg. number of the company registered in this country. For the created record, fill in the Currency Code (local) specifying the currency in which the VAT return is filed in the selected country.
 4. Close the Registration Country/Region page.
@@ -245,7 +245,7 @@ The basic setting consists in the recording of VAT registration numbers in indiv
 
 In the case of using a currency other than the local currency in the country of registration, it is necessary to maintain exchange rates between the currency of the document and the local currency of the country of registration.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Currencies** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies** and then choose the related link.
 2. Select the Registration Country Exch. Rates action.
 3. Enter the date and exchange rate on the Reg. Country Curr. Exch. Rate page.
 
@@ -254,7 +254,7 @@ In the case of using a currency other than the local currency in the country of 
 
 ### OSS – EU regime
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. In the OSS - EU Registration field on the VAT tab, confirm that your company is registered for OSS mode.
 3. In the Currency code for OSS field on the VAT tab, select the currency code corresponding to the Euro currency.
 4. Select the VAT Settings for OSS action (Related -> VAT Posting).
@@ -268,7 +268,7 @@ In the case of using a currency other than the local currency in the country of 
 
 The described automation when posting the final invoice is turned on in the VAT posting settings for selected combinations of posting groups. If this behavior is appropriate only for certain cases, you need a specific VAT group (item) defined for them.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Posting Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup** and then choose the related link.
 
 On the VAT posting setup page, find the record for which you want to turn it on and choose the Edit feature.
 

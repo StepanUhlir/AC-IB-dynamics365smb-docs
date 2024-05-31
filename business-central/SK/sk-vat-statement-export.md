@@ -16,7 +16,7 @@ The standard functionality of the VAT Statement is used for the processing of th
 
 To export a VAT statement, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Statements** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements** and then choose the related link.
 2. In the **Name** field select the vat statement name that you want.
 3. Then choose the **Export SK** function.
 4. Fill in the required fields and choose the **OK** function, which will create a .xml file.

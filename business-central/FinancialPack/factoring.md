@@ -19,7 +19,7 @@ The functionality of the add-on module is integrated with the add-on module Conn
 
 ## Setting up of a factoring document
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Factoring List** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Factoring List** and then choose the related link.
 2. On the list, click **New**.
 3. Fill in the **Customer** and **Posting date** information in the header on the Factoring document tab.
 4. You can select the specific items/payables to be undertaken by using **Item type** and **Item number** fields. If it is regressive factoring, the factor can return the receivable/payables, the **Regression factoring** field on the document line must be checked.
@@ -51,7 +51,7 @@ If  **Orig. Entry Advanced Posting**, is turned on in Factoring Settings, a new 
 ## Return of factoring receivable
 If it is regression factoring (the factor can return the receivable), the document must be posted with the Regression factoring field checked on the document line.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Posted Factoring list** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Factoring list** and then choose the related link.
 2. Select the posted document that you want to process.
 3. On the page Posted Factoring List use the function **Return Factoring Receivable**
    ![Refund factoring](media/faktoring_reverse.png)

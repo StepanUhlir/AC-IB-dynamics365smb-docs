@@ -18,7 +18,7 @@ ms.author: v-makune
 
 To create a code list of general parameters, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Parameters** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Parameters** and then choose the related link.
 2. In the overview, select **New**.
 3. Enter the **Code** for the parameter, **Description**, **Data Type** and **Input Method**.
 
@@ -32,7 +32,7 @@ To create a code list of general parameters, proceed as follows:
 
 To define parameter values, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Parameters** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Parameters** and then choose the related link.
 2. In the overview, select the parameter for which you want to set values.
 3. In the Related section, select the **Values** function in the **Parameter** group.
 4. A window for entering the values of the selected parameter will open, where you will fill in the rows as needed.
@@ -48,7 +48,7 @@ Setting parameter values is necessary especially for parameters with **Input met
 
 To define parameter translations, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Parameters** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Parameters** and then choose the related link.
 2. In the report, select the parameter you want to set up translations for.
 3. In the Related section, in the **Parameter** group select **Translations**.
 4. A window will open for entering translations of the selected parameter, where you will fill in the **Language Code** and **Descriptionpis** as needed.
@@ -60,7 +60,7 @@ To define parameter translations, follow these steps:
 
 To define translations of parameter values, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Parameters** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Parameters** and then choose the related link.
 2. In the report, select the parameter you want to set up translations for.
 3. In the Related section, in the **Value** group, and select **Translations**.
 4. A window for entering translations of the values of the selected parameter will open, where you will fill in **the Language Code** and **Description** as needed.
@@ -71,7 +71,7 @@ To define translations of parameter values, follow these steps:
 
 To set up general parameter templates for use on selected entities, proceed as follows:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Parameter Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Parameter Templates** and then choose the related link.
 2. In the overview, select **New**.
 3. Enter **Name**, **Description**, and **Table ID**.
 
@@ -79,7 +79,7 @@ To set up general parameter templates for use on selected entities, proceed as f
 
 ### Enter parameters for the selected template
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Parameter Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Parameter Templates** and then choose the related link.
 2. In the list of templates, select the template for which you want to enter parameters.
 3. In the Related section, in **Template** group, select **Parameters**.
 4. The selected template window opens, where you can add parameters. Additionally, you can set the parameters to be the default template, mandatory, or you can specify a priority.

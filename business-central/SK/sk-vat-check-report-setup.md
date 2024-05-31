@@ -19,7 +19,7 @@ To ensure proper functionality, you need to set up several areas below
 
 To activate Slovak functionality, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. On the **General Ledger Setup** page you must select**SK** in **Legislation**field.
 3. Confirm with the **OK** button.
 
@@ -27,7 +27,7 @@ To activate Slovak functionality, follow these steps:
 
 The XML schema for the VAT Control Report must be imported into the application into the XML schemas.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **XML Schemas** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas** and then choose the related link.
 2. On the **XML Schemas** page choose **Load Schema** action
 3. An import window will open where you select the appropriate XML file.
 4. After import, a new line appears on **XML Schemas** page.
@@ -40,7 +40,7 @@ The XML schema for the VAT Control Report must be imported into the application 
 
 To ensure the correct reporting of the VAT Control Report, it is necessary to set the fields in the lines of the VAT report:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Statements** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements** and then choose the related link.
 2. For each line in the sales tax statement, define the following fields:
 
 - Source Code filter
@@ -57,7 +57,7 @@ To ensure the correct reporting of the VAT Control Report, it is necessary to se
 
 Use the following procedure to set up:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Check Report Section** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Check Report Section** and then choose the related link.
 2. Set up section codes according to applicable reporting regulations.
 3. To report received simplified invoices, you need to set the **Section Code Below Limit** and **Section Code Above Limit**. The fields **VAT Amount Limit** and **Limit Valid From** are filled in at the same time.
 
@@ -67,7 +67,7 @@ Use the following procedure to set up:
 
 It is necessary to set columns for individual sections, which will be exported to an xml file.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **VAT Check Report Section** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Check Report Section** and then choose the related link.
 2. Select the row for which you want to set columns, and then choose **Action** -> **Section** -> **Column Selection Setup**.
 3. Enter the codes according to the valid reporting regulation. In the **Assigned Field field in the report line**, you can set from which system field the value will be populated into the Control Report.
 

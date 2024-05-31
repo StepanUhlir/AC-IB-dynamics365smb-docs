@@ -35,7 +35,7 @@ The use itself consists in correctly setting up and starting the synchronization
 Synchronization either takes place automatically when changes are made to the defined data tables or you can start it manually.
 
 To start manually, follow the procedure below:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Central Database Tabble Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Central Database Tabble Setup** and then choose the related link.
 1. The **Central Database Settings** page opens, where you can choose **Actions** and **Synchronize** feature.
 
 When you synchronize manually, you can use filters to specify exactly what tables, where and where to sync them. This option is used mainly when synchronizing existing data into new systems (migration and parameterization).

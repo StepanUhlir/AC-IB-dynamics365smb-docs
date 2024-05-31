@@ -62,7 +62,7 @@ For the case of saving under an application account, you need to add the followi
 > Perform the initial setup using assisted setup, which guides you through the SharePoint Azure AD Apps setup and also adds other useful settings (such as transformation rules, see below).
 
 For each SharePoint site that you will connect to Business Central, you need to define a connection:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sharepoint Azure AD Apps** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sharepoint Azure AD Apps** and then choose the related link.
 2.	On the Sharepoint Azure AD App page, enter a Code and Description for the new record.
 3.	In the **Application/Client ID** field, enter the application ID from the previous chapter.
 4.	In the **Client Secret** field, type the key from the previous chapter.
@@ -76,7 +76,7 @@ For each SharePoint site that you will connect to Business Central, you need to 
 
 ## Document Links setup
 You must enable the module functionality globally:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Setup** and then choose the related link.
 2.	Activate the **Enabled** flag.
 3.	**BC onlin**e: If the system does not find an active (or terminated) subscription for this module, it prompts the user to create a trial subscription (see AC Monetization documentation).
 **BC OnPrem**: Read the Third Party Terms and Conditions and confirm your acceptance with the Accept button.
@@ -84,7 +84,7 @@ You must enable the module functionality globally:
 
 
 ## Document libraries
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 2.	On the Document Libraries page, run the *New action*.
 3.	On the Document Library page, enter the Code and Name of the new library. 
 4.	In the **Library Type** field, select the SharePoint value.
@@ -131,14 +131,14 @@ A "DocumentLinksFactBox_ach" must be added to all pages where the functionality 
 
 ### Step 2 - Basic Document Links Template Setup
 The following setup is for the Customer entity, where the Customers and Customer Card pages are basically supplemented with the necessary facts window.
-1.	Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1.	Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	On the Document Links Templates page, run the New action.
 3.	On the Document Links Template page, enter the Code and Description for the new template.
 4.	In the **Table ID** field, type 18.
 5.	In the **Library Code** field, select the SharePoint library.
 6.	Switch the **Enabled** flag to Yes.
 7.	Close the page.
-8.	Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Customers** and then choose the related link.
+8.	Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers** and then choose the related link.
 9.	Run the Customize action.
 10.	Locate the facts window labeled Document Links, left-click, and select View.
 11.	For any customer, run the View action.
@@ -152,7 +152,7 @@ If you need to have a template defined only for certain records, or different te
 Example - template for domestic customers:
 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	Create a new document links template by following the procedure for basic setup.
 3.	Expand AssistEdit next to the Table Filter field (visible by clicking Show More).
 4.	On the Edit - Table Filter page, enter "21" in the Field Number field and "TUZ*" in the Filter field.
@@ -167,7 +167,7 @@ Example - template for domestic customers:
 You can flexibly set up file storage rules on the template when connecting to entities.
 
 ### **Example - customer contracts are stored in a specified subfolder:**
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	Create a new document links template for customer contracts following the procedure for basic setup.
 3.	Next, on the Document Links Template page, click AssistEdit next to the **Default Folder** field.
 4.	On the Folder Selection page, select an existing folder or create a new folder using the New Folder (or New Subfolder) function, and then confirm the selection by clicking OK.
@@ -176,7 +176,7 @@ You can flexibly set up file storage rules on the template when connecting to en
 
 
 ### Example - each customer automatically has its own folder and in it a subfolder for contracts:**
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	Create a new document links template for customer contracts following the procedure for basic setup.
 3.	Run the *Template Parameters action*. 
 4.	On the Document Links Template Parameters page, create a new row for the parameter corresponding to the customer number (Parameter code = CISLO-ZAK; Description = Customer number; Data source = Source Table Field; Source Table Field No. = 1).
@@ -192,7 +192,7 @@ You can flexibly set up file storage rules on the template when connecting to en
 > In addition to the predefined data sources for the template parameters, you can have a custom function create the required string. This is the Custom Function data source, for which you then assign the number of the prepared codeunity in the **Custom Function ID** field.
 
 ### Example - files are saved with a generated filename:**
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	Create a new document links template for customer contracts following the procedure for basic setup.
 3.	Run the Template Parameters action. 
 4.	On the Document Links Template Parameters page, create a new row for the parameter corresponding to the number in the number series (Parameter Code = CISLO-CR; Description = Document Number; Data Source = Number Series; in the Number Series field, select as desired).
@@ -205,7 +205,7 @@ You can flexibly set up file storage rules on the template when connecting to en
 
 ## Advanced permission settings
 In some cases, you need to restrict user access to templates. There is an option to define nominally the users who should have access:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	Select the template and run the User Permissions action.
 3.	On the Document Links Template Users page, select the user with access.
 4.	Close the page.
@@ -213,7 +213,7 @@ In some cases, you need to restrict user access to templates. There is an option
 ## Document Library attributes setup
 Most often, the attributes functionality in BC is used to add metadata (columns) to a file stored in a SharePoint library, either automatically or manually (see Create a column in a list or library - Microsoft Support).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 2.	On the Document Libraries page, select the library and run the Document Attributes action.
 3.	On the Document Library Attributes page, run the Add SharePoint column action.
 4.	On the Select SharePoint Library Column page, select the SharePoint library column that you want to maintain through BC.
@@ -225,7 +225,7 @@ Most often, the attributes functionality in BC is used to add metadata (columns)
 > If the SharePoint column value definitions (primarily the Option type) are modified over time, you must reflect these changes manually in the BC. 
 
 Je-li požadován atribut pro využití pouze na úrovni BC, je možné jej definovat. Následující příklad popisuje jeden povinný atribut pro evidenci jména prodejce
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Libraries** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Libraries** and then choose the related link.
 2.	On the Document Libraries page, select the library and run the Document Attributes action.
 3.	On the Document Library Attributes page, create a new row for the attribute recording the customer rating (Name = Salesperson; Data Type = Text; Mandatory = Yes).
 4.	On the Document Library Attributes page, create a new row for the attribute recording the customer rating (Name = Rating; Data Type = Option; Mandatory = No).
@@ -240,7 +240,7 @@ Je-li požadován atribut pro využití pouze na úrovni BC, je možné jej defi
 ## Autocompletion of document library attributes setup
 The following scenario builds on the previous chapter, that is, we will automatically populate one of the defined document library attributes when we upload a file.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Document Links Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Links Templates** and then choose the related link.
 2.	Select a template for connecting documents to customers.
 3.	Run the Template Parameters action. 
 4.	On the Document Links Template Parameters page, create a new row for the parameter corresponding to the salesperson name defined on the customer card (Parameter Code = SPERSON; Description = Salesperson’s Name; Data Source = Related Table Field; Related Table ID = 13; Related Table Field No. = 1; in the Table Relation field, define Code = Salesperson Code).

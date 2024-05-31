@@ -21,7 +21,7 @@ The difference compared to the standard functionality is in the structure of the
 
 To activate Slovak functionality, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Ledger Setup** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** and then choose the related link.
 2. On the **General Ledger Setup** page you must select**SK** in **Legislation**field.
 3. Confirm with the **OK** button.
 
@@ -29,7 +29,7 @@ To activate Slovak functionality, follow these steps:
 
 Import the current XML schema template into the XML schemas by following these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **XML Schemas** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas** and then choose the related link.
 2. On the **XML Schemas** page, in the **Actions** section, select the **Load Schema**action.
 3. An import window will open where you select the appropriate XML file.
 4. After import, a new line appears on the **XML Schemas**.

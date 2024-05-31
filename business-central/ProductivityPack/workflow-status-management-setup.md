@@ -15,7 +15,7 @@ ms.date: 07/18/2023
 
 ## Set up a Status Management Template
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Status Management Templates** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Status Management Templates** and then choose the related link.
 2. On the **Status Management Templates** page choose **New** action.
 3. Fill in the **Code**, **Description**, and **Table No.** fields (for which the template will be set).
 4. If you want changes to be automatically logged, select the **Log changes** check box.

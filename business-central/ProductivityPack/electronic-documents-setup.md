@@ -78,6 +78,49 @@ To use the ISDOC format, it is necessary to set the mapping of the payment metho
 3.	Enter 10 in the ISDOC Method Code column.
 4.	Repeat for the other payment methods used (42 - Bank transfer, 48 - Card payment,... see more at [isdoc.cz/6.0.2/xsd/isdoc-invoice-6.0.2.xsd](https://isdoc.cz/6.0.2/xsd/isdoc-invoice-6.0.2.xsd))
 
+## General emails - settings
+### Basic setup
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Email Sending Setup List** , and then choose the related link.
+2.	On the General Email Sending Setup List page, run the *New* action.
+3.	On the General Email Sending Setup card, select *Type* and *Language Code*, which are the determining combinations for finding the correct email template. A blank language code is valid for all languages unless a setting for a specific code is found.
+4.	In the *Email Scenario* field, select the method of sending the email.
+5.	In the *Subject* field, you can define the subject text of the email (optional).
+6.	In *CC Emails* and *BCC Emails*, enter the recipients' emails to be sent beyond the defined recipients passed in the function call (not required).
+7.	In the *Body Table ID* field, select the table from whose data the actual email will be created.
+8.	In the *Body Report ID* field, select the report that defines the body of the email. 
+9.	Then, in the *Body Layout Code* field, select the specific layout you want to use to create the email (e.g., a different language).
+10. When the settings are complete, turn on the *Active* flag and close the card.
+
+> [!NOTE]
+> For the Status Management addon, there is an Action (codeunit 52067906 SMActionSendEMail_ach) that you can use to trigger the creation and sending of a generic email when the state changes.
+> Description of the action parameters: 1 = Type, 2 = Email, 3 = Language Code (Optional), 4 = Subject (Optional), 5 = CC Emails (Optional), 6 = BCC Emails (Optional)
+
+### E-mail attachments
+You can also have attachments inserted into the email by running the report over any table. However, when calling the function, you must pass a link to the appropriate table record and the functionality will find all attachment settings for the same table and create a PDF attachment. 
+To set it up, do the following:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **General Email Sending Setup List** , and then choose the related link.
+2. On the General Email Sending Setup List page,  run the *Edit* action on the selected row.
+3. On the General Email Sending Setup card, create the new line on Gen. Email Sending Setup Attachments tab.
+4. In the *Attachment Name* field, enter the name of the file you want it to have when you insert it into the email. You can take a value from any field in the table, e.g. the definition "Order No. [3].pdf" will name the file "Order No. 101123.pdf".
+5. In the *Attachment table number* field, select the table from whose data the attachment is to be created.
+6. In the *Attachment Report No.* field, select the report to create the email attachment.
+7. If you need to set specific report parameters, run the Fill Parameters action and define them in the open report page.
+8. Close the card.
+
+### Example of a function to create an email
+The following code illustrates the function call that first creates the email, then passes the function call to create attachments over the record from which the email itself is created. The next function creates the email session. The last function is to queue the email for sending.
+{
+...
+    EMailManagement.InitEMail(EmailTypeEnum, LanguageCode, SrcRecordRef, Recipients, Subject, CC, BCC);
+    EMailManagement.AddEMailAttachments(SrcRecordRef);
+    IF AddEPrimaryEmailRelation THEN
+        EMailManagement.AddEMailPrimaryRelation(SrcRecordRef);
+    IF AddRelatedEmailRelation THEN
+        EMailManagement.AddEMailRelatedRelation(SrcRecordRef);
+    EMailManagement.EnqueueEMail();
+...
+}
+
 ## Optional - Sending via Spooler
 If you have the Spooler module enabled, you can send documents through it. It is not recommended for sending emails, but rather to cover customer requests with the need for logged communication.
 

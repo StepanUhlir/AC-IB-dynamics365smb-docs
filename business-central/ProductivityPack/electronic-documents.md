@@ -27,6 +27,8 @@ The XML format supplied with the module can be used for the exchange of document
 
 Last but not least, the functionality extends (in combination with other addons from AUTOCONT) the possibilities of sending documents. In case of a requirement for logged communication, the [Spooler](https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/ProductivityPack/spooler.html) addon can be used.
 
+The module also includes support for sending emails in connection with customer processes. A typical example is notifying customers about the status of their order. However, a programmatic modification is required in the form of a function call, which is described in the [module settings](https://www.aricoma.com/docs/cs-cz/dynamics365/business-central/ProductivityPack/electronic-documents-setup.html).
+
 ## BC OnPrem only
 In cooperation with the [Data boxes](https://muj.autocont.cz/docs/en-us/dynamics365/business-central/ProductivityPack/data-boxes.html) module, documents can also be sent via this communication channel. Data boxes work on a similar principle to a regular e-mail box, but the technical solution itself ensures the trustworthiness of the delivery of data messages, each one being provided with an electronic mark (e-stamp) and a time stamp (qualified time stamp). For more information, visit the [official website](https://info.mojedatovaschranka.cz/).
 
@@ -60,8 +62,8 @@ Pro správnou funkčnost odloženého odesílání je třeba mít nastaveno spou
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), icon, enter **Sales Invoices** and then choose the related link.
 2.	Create a new Sales Invoice per your customer and verify that the Document Sending Profile field is populated on the Electronic Documents tab.
-3.	On the Sales Invoice page, run the *Post action*.
-4.	When you see information about the number of the posted invoice, select Open Invoice and verify that the *El.Document No.* Sent field on the posted invoice increases after the defined period of triggering automatic posting.
+3.	On the Sales Invoice page, run the *Post* action.
+4.	When you see information about the number of the posted invoice, select Open Invoice and verify that the *El.Document No. Sent* field on the posted invoice increases after the defined period of triggering automatic posting.
 
 
 > [!NOTE]
@@ -76,7 +78,7 @@ If you subsequently need to send in a different way than normal, this can be don
 3.	On the Electronic Documents tab, select the desired method in the *Document Sending Profile* field.
 4.	If it is an *email*, enter the required email address (or more, separated by semicolons) in the *Email* field.
 5.	On the Sales Invoice page, launch the Send function.
-6.	Verify that the value in the *El.Document No.* Sent field has increased and the value in the El.Document Last Sent Time field has changed.
+6.	Verify that the value in the *El.Document No.* Sent field has increased and the value in the *El.Document Last Sent Time* field has changed.
 
 
 > [!NOTE]

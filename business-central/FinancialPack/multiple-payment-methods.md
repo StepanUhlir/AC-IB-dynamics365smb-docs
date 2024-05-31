@@ -70,7 +70,7 @@ In case the customer wants to settle the document when charging by one method on
 
 ## Records of payment – simplified mode with substitution of payment method
 
-It is a relatively common practice that the preferred or allowed payment method (typically cash payment) is defined on customer cards. However, when there are more than one such code (due to record keeping requirements), it is necessary to ensure that the document is posted with the code appropriate to the user posting the document. If "Check payment method on sales document" is enabled, the system will make the change automatically (see [Setting up Payment Methods](http://muj.autocont.cz/docs/cs-cz/d365businesscentral/FinancialPack/multiple-payment-methods-setup.html#nastaven%C3%AD-zp%C5%AFsob%C5%AF-platby)).
+It is a relatively common practice that the preferred or allowed payment method (typically cash payment) is defined on customer cards. However, when there are more than one such code (due to record keeping requirements), it is necessary to ensure that the document is posted with the code appropriate to the user posting the document. If "Check payment method on sales document" is enabled, the system will make the change automatically (see [Setting up Payment Methods](http://www.aricoma.com/docs/cs-cz/d365businesscentral/FinancialPack/multiple-payment-methods-setup.html#nastaven%C3%AD-zp%C5%AFsob%C5%AF-platby)).
 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Multiple Payment Methods Setup** and then choose the related link.
@@ -91,7 +91,7 @@ It is a relatively common practice that the preferred or allowed payment method 
 
 In some cases, it is required to create a register of EET (legislation in the Czech Republic) already on the payment schedule, i.e. before the document is posted (e.g. for printing documents for the implementation of cash on delivery, etc.).
 
-If Enable EET registration is enabled, the Register EET action is available on the payment schedule, resp. Cancel EET (see [Payment Methods Settings](http://muj.autocont.cz/docs/cs-cz/d365businesscentral/FinancialPack/multiple-payment-methods-setup.html#nastaven%C3%AD-zp%C5%AFsob%C5%AF-platby)).
+If Enable EET registration is enabled, the Register EET action is available on the payment schedule, resp. Cancel EET (see [Payment Methods Settings](http://www.aricoma.com/docs/cs-cz/d365businesscentral/FinancialPack/multiple-payment-methods-setup.html#nastaven%C3%AD-zp%C5%AFsob%C5%AF-platby)).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Multiple Payment Methods Setup** and then choose the related link.
 2. Verify that the Enable EET registration option is enabled.

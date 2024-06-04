@@ -61,4 +61,4 @@ You can check and edit the imported data in this way. After checking, select the
 
 **See also**
 
-[Working with Item Attributes](https://learn.microsoft.com/cs-cz/dynamics365/business-central/inventory-how-work-item-attributes)
+[Working with Item Attributes](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-work-item-attributes)

@@ -56,9 +56,9 @@ As in the previous scenario, the Document Sending Profile on a specific document
 > The Email field is on the Electronic Documents tab for better visibility, but it is the same field as on the General tab.
 
 
-### Zaúčtování prodejního dokladu s odloženým odesláním
+### Posting a sales note with postponed sending
 
-Pro správnou funkčnost odloženého odesílání je třeba mít nastaveno spouštění úlohy ve Frontě úloh viz Automatické odesílání dokladů.
+For the correct functionality of the postponed sending, you need to have a job set up to run in the Job Queue, see [Automatic sending of documents] (https://www.aricoma.com/docs/en-us/dynamics365/business-central/ProductivityPack/electronic-documents-setup.html#automatic-sending-of-documents).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices** and then choose the related link.
 2.	Create a new Sales Invoice per your customer and verify that the Document Sending Profile field is populated on the Electronic Documents tab.
@@ -94,7 +94,7 @@ Sending sales quotes or sales order confirmations via email is often part of the
 
 
 ### Sending an unposted purchase document
-Součástí obchodních procesů bývá odesílání nákupních poptávek či nákupních objednávek e-mailem.
+Sending purchase quotes or purchase orders by e-mail is often part of the business process.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** and then choose the related link.
 2.	Create a new purchase order to a vendor and verify that the *Document Sending Profile* field is filled in on the Electronic Documents tab.
 3.	On the Purchase Order page, run the *Send* action.

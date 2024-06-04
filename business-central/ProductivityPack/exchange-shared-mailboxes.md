@@ -4,7 +4,7 @@ Description: Slouží k importu příloh e-mailů z sdílené e-mailové schrán
 Author: Ondřej.Slavík
 Date: 23/03/2023
 Product: dynamics365-business-central
-Contentlocale: cs-cz
+Contentlocale: en-us
 ms.search.keywords: Exchange, Shared, Mailbox, IN Buffer, Agent, E-Mail, Azure
 ---
 

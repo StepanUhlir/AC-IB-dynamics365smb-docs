@@ -20,7 +20,7 @@ If your company uses more than one way to send documents to customers or vendors
 
 ![Document sending profiles](media/elect_dom_set1.png)
 
-For more information, see [Set Up Document Sending Profile](https://docs.microsoft.com/cs-cz/dynamics365/business-central/sales-how-setup-document-send-profiles).
+For more information, see [Set Up Document Sending Profile](https://docs.microsoft.com/en-us/dynamics365/business-central/sales-how-setup-document-send-profiles).
 
 > [!NOTE]
 > You must create as many sending profiles as the number of different sending combinations the company will use (e.g., if you are sending invoices via email in XML or PEPPOL format, you must have 2 sending profiles).
@@ -141,7 +141,7 @@ Then, for each customer, you need to set specific parameters for sending via Spo
 4.	Close the page.
 
 
-For more information, see the [Spooler](https://muj.autocont.cz/docs/cs-cz/dynamics365/business-central/ProductivityPack/spooler.html).
+For more information, see the [Spooler](https://muj.autocont.cz/docs/en-us/dynamics365/business-central/ProductivityPack/spooler.html).
 
 ## OnPrem - Sending via Data Box
 

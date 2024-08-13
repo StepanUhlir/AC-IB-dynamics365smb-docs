@@ -269,10 +269,8 @@ In the case of using a currency other than the local currency in the country of 
 The described automation when posting the final invoice is turned on in the VAT posting settings for selected combinations of posting groups. If this behavior is appropriate only for certain cases, you need a specific VAT group (item) defined for them.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup** and then choose the related link.
-
-On the VAT posting setup page, find the record for which you want to turn it on and choose the Edit feature.
-
-Set the flag in the Intended to return the deposit field on the advance tab.
+2. On the VAT posting setup page, find the record for which you want to turn it on and choose the Edit feature.
+3. On the VAT Posting Setup Card page, set the Intended to return the deposit flag.
 
 
 ## See also

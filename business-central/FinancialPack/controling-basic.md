@@ -419,21 +419,26 @@ The system includes a Calculate and Account for VAT OSS Settlement function that
 Thus, both modes are processed simultaneously as part of the activities related to the production of the VAT statement.
 
 ## Accounting purchase of purchase advances
-
-> [!NOTE]
-> The functionality described below will be part of the module only up to version BC14.
-
 In connection with the introduction of the Control Report from 1 January 2016, there was a need to address the overpayment of the purchase deposit under one document number, the same date and the same exchange rate.
 
 The whole procedure can be performed manually.  However, due to its complexity, functionality was added to the system, where the overpayment of the advance payment is re-billed within the final billing invoice.
 
 ### Purchase advance overpayment refund
+After the final purchase invoice is created, you can insert another line with the amount of the overpayment and the flag Intended for advance refund (the flag is also on the line of the posted invoice). This line on the invoice must be charged in the VAT-exclusive mode. Advances must be allocated to the invoice in amounts containing the overpayment charged.
+
+The posting of such an invoice will also result in the amount of the overpayment being recharged from the advance to the Vendor's non-advance ledger entry ready for refund.
+
+> [!NOTE]
+> Neither the posting of assigned advances nor the posting of additional advances can be applied to a posted invoice that contains at least one line item charged as an overpayment.
+
+### Purchase advance overpayment refund (BC14 and older)
 
 After creating the final purchase invoice and assigning the paid purchase deposit, in case of an over-payment on the deposit, it is possible to insert another line with the overpayment amount and the Intended for return refund flag (the flag is also on the posted invoice line).
 
 By posting the invoice, an item of the Vendor type is created for each such line with overpayment. The return of the money by the supplier (Refund) is then settled by the user with these created items.
 
-Note: When using the Derecognize assigned down payment function (from the Down Payment Docu-ment tab), these overpayment settlements will be derecognized by analogy.
+> [!NOTE]
+> When using the Derecognize assigned down payment function (from the Down Payment Document tab), these overpayment settlements will be derecognized by analogy.
 
 ## See also
 

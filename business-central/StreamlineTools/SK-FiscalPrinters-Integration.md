@@ -22,4 +22,4 @@ With this integration, companies can significantly simplify their administrative
 For technical information from VAROS, see [Manuals](http://www.varos.sk/manualy.php).
 
 > [!NOTE]
-> The module requires the "Core Localization Pack for Czech". To meet other Slovak legislative requirements, choose the [SK legislative package](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.pas_2021_3%7CPAPPID.6faf8513-1781-444c-8c20-032a6f1efe06?tab=Overview) and the [SK language package](https://appsource.microsoft.com/en-us/product/project-madeira/PUBID.autocontas%7CAID.pas_2021_5%7CPAPPID.a90b83b0-d99d-4156-9c65-526b37fe3497) from Aricoma.
+> The module requires the "Core Localization Pack for Czech". To meet other Slovak legislative requirements, choose the [SK Legislative Pack](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.pas_2021_3%7CPAPPID.6faf8513-1781-444c-8c20-032a6f1efe06?tab=Overview) and the [SK Language Pack](https://appsource.microsoft.com/en-us/product/project-madeira/PUBID.autocontas%7CAID.pas_2021_5%7CPAPPID.a90b83b0-d99d-4156-9c65-526b37fe3497) from Aricoma.

@@ -18,7 +18,7 @@ ms.author: martinkunes
 |-|-| 
 |The **Attribute Tool** module is an extension for bulk work with product attributes so that the user does not have to enter product attributes for individual products, but can add, edit or delete them for all products on one page.|[Attribute Tool](attribute-tool.md)|
 |**Business Pack** integrates frequently used fields and fact boxes directly into your pages.|[Business Pack](business-pack.md)|
-|**GP Tom Integration** extends the functionality of Dynamics 365 Business Central with the ability to integrate with the Tom payment system from Global Payments.|[GP Tom Integration](GPTom-Integrationk.md)|
+|**GP Tom Integration** extends the functionality of Dynamics 365 Business Central with the ability to integrate with the Tom payment system from Global Payments.|[GP Tom Integration](GPTom-Integration.md)|
 |**SK Fiscal Printers Integration** is an extension for the Microsoft Dynamics 365 Business Central information system that provides direct integration with fiscal printers from VAROS.|[SK Fiscal Printers Integration](SK-FiscalPrinters-Integration.md)|
 
 

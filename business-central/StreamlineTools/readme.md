@@ -1,5 +1,7 @@
 Streamline Tools
 
 - Attribute Tool
-- Platební terminály GP Tom 
+- Business Pack
+- GP Tom Integration
+- SK Fiscal Pronters Integration 
  

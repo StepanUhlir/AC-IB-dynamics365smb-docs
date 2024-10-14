@@ -27,14 +27,20 @@ In this case, this is the standard BC functionality where the user uses the Post
 4.	On the **Register Payment** page, in the Amount field, enter a value for the terminal payment.
 5.	Run the *Pay* action.
 6.	The "Attach Card" dialog will appear on the terminal.
-![Attach Card](media/GPtom_toPay.webp)
+
+    <img src="media/GPtom_toPay.webp" alt="Attach Card" width="50%" height="50%">
+
 7.	After successful payment, a dialog will appear where the operator will send the receipt of payment (or he can also Finish the process)
-![Successful payment](media/GPtom_succPayment.webp)
+
+    <img src="media/GPtom_succPayment.webp" alt="Successful payment" width="50%" height="50%">
+
 8.	In the dialog for sending the receipt, the sending method set for the respective terminal is pre-filled
-![Sending receipt](media/GPtom_printReceipt.webp)
+
+    <img src="media/GPtom_printReceipt.webp" alt="Sending receipt" width="50%" height="50%">
+
 9.	After the payment process is completed on the terminal, a notification with the result of the operation will appear on the Register Payment page, including the Open Entry option to display an entry with details of the ongoing communication with the terminal.
 
-> [!NOTE]
+> [!TIP]
 > When using the Pay and Close action in step 5, the **Register Payment** page will close after the transaction.
 
 ### Payment registration on a terminal with specific settings

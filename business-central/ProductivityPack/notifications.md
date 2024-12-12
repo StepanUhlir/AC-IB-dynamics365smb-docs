@@ -1,21 +1,22 @@
 ---
-title: Notificaitons
+title: Notifications
 description: Event Notifications
 author: janousek
 date: 11/30/2024
 reviewer: janousek
 ms.service: dynamics-365-business-central
-ms.search.keywords: Czech, Notification, additional functions, power automate, business events 
+ms.search.keywords: Notifications, power automate, business events 
 ---
 # Notifications
 
 The Event Notifications module in Dynamics 365 Business Central allows users to easily create alerts for various tables and fields without the need for programming. With the ability to filter records, users can monitor only relevant items and define event phases to track their progress over time. Alerts are typically generated as User Tasks and can also be sent via email. Email notifications can either have a fixed, simple structure or dynamic content created through the Word Layout functionality.
 
-:::image type="content" source="media/notification-events.png" alt-text="Události upozornění":::
+![Event Notifications](media/notification-events.png)
 
 For advanced notifications, the module generates business events, enabling connections with external systems such as Power Automate, Dataverse, and others. These systems can respond to events and perform additional actions, such as creating notifications in Teams or records in SharePoint. Alerts can be created manually or automatically through the Job Queue, ensuring flexibility and efficiency in process management.
 
-:::image type="content" source="media/notification-pa-business-event.png" alt-text="Power Automate - Business Events":::
+![Power Automate - Business Event](media/notification-pa-business-event.png)
+
 
 ## Key Features
 

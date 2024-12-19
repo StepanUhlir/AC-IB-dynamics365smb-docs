@@ -71,14 +71,14 @@ Abychom vám usnadnili práci, přinášíme přehled nejčastějších scénár
 ### Příjem nástrojů
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete udělat") a do vyhledávače zadejte **Deník nástrojů** a poté vyberte související odkaz.
-2.	Zvolte šablonu, která nejlépe odpovídá vaším potřebám.
-3.	Do příslušného pole zadejte **číslo externího dokladu**.
-4.	Pro **Typ položky** zvolte možnost **Příjem** a vyberte nástroj, který chcete zaevidovat.
-5.	Vyplňte pole **Číslo zaměstnance** pro osobu, která je zodpovědná za příjem nástrojů.
-6.	Uveďte požadované hodnoty do polí **Množství** a **Cena**.
-7.	Zadejte **Evidenční číslo** nástroje, aby bylo možné jednotlivé nástroje jednoznačně identifikovat při budoucích operacích.
-8.	Pokud používáte čtečky čárových kódů, je možné zadat také **EAN kód**.
-9.	Klikněte na tlačítko **Účtovat** pro uložení položky do evidence.
+2. Zvolte šablonu, která nejlépe odpovídá vaším potřebám.
+3. Do příslušného pole zadejte **číslo externího dokladu**.
+4. Pro **Typ položky** zvolte možnost **Příjem** a vyberte nástroj, který chcete zaevidovat.
+5. Vyplňte pole **Číslo zaměstnance** pro osobu, která je zodpovědná za příjem nástrojů.
+6. Uveďte požadované hodnoty do polí **Množství** a **Cena**.
+7. Zadejte **Evidenční číslo** nástroje, aby bylo možné jednotlivé nástroje jednoznačně identifikovat při budoucích operacích.
+8. Pokud používáte čtečky čárových kódů, je možné zadat také **EAN kód**.
+9. Klikněte na tlačítko **Účtovat** pro uložení položky do evidence.
 10. Všechny vytvořené položky je možné sledovat na stránce **položky evidence nástrojů**.
 
 **Ukázka pomocí obrázků:**
@@ -109,7 +109,6 @@ Abychom vám usnadnili práci, přinášíme přehled nejčastějších scénár
 > [!IMPORTANT]  
 > Povinná pole pro **Typ položky** **Zapůjčit**: **Číslo zaměstnance**, **Evidenční číslo**.
 
-
 ### Vrácení nástrojů
 
 1. Vyberte ikonu ![Žárovky, která otevře funkci řekněte mi](media/ui-search/search_small.png "Řekněte mi, co chcete udělat") a do vyhledávače zadejte **Deník nástrojů** a poté vyberte související odkaz.
@@ -130,7 +129,6 @@ Abychom vám usnadnili práci, přinášíme přehled nejčastějších scénár
 
 > [!IMPORTANT]  
 > Povinná pole pro **Typ položky** **Vrátit**: **Číslo zaměstnance**, **Kód poškození**, **Evidenční číslo**.
-
 
 ### Výdej nástrojů
 
@@ -174,6 +172,5 @@ Připravili jsme si pro vás jednoduché schéma, které vám graficky přiblí�
 
 [Evidence nářadí a pomůcek - nastavení](production-tools-setup.md)  
 [Productivity Pack](productivity-pack.md)
-
 
 [def]: media/production-tools-tool-card.png

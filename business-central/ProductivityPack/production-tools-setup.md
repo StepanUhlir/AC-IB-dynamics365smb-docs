@@ -12,7 +12,7 @@ ms.search.keywords: pack tracking, production tools, productivity pack
 
  Modul **Evidence nářadí a pomůcek** řeší problematiku evidence nářadí, pomůcek, nástrojů, forem a jiných potřeb obvykle evidovaných pomocí skladové evidence systému. Tento modul je postaven nad základy evidence majetku, s ohledem na sjednocení evidence pro potřeby sledování dlouhodobého majetku a výrobní evidence, tj. půjčování nářadí a pomůcek.
 
- V tomhle článku vám ukážeme, jak tento modul nastavit. 
+ V tomhle článku vám ukážeme, jak tento modul nastavit.
 
 ### Šablony deníku evidence nástrojů
 
@@ -21,8 +21,8 @@ ms.search.keywords: pack tracking, production tools, productivity pack
 3. Klikněte na tlačítko **+ Nový** pro vytvoření **nové šablony**.
 4. Do pole **Název šablony** zadejte název, který nejlépe vystihuje účel této šablony.
 5. V poli **Výchozí typ položky vyberte typ položky**, například **Zapůjčit**, pokud chcete, aby šablona sloužila pouze k evidenci zápůjček. 
-1. Do pole **Číselná řada dokladů** zadejte nebo vyberte číselnou řadu, která bude použita k evidenci pohybů.
-1. Uložte šablonu kliknutím na tlačítko **Uložit**
+6. Do pole **Číselná řada dokladů** zadejte nebo vyberte číselnou řadu, která bude použita k evidenci pohybů.
+7. Uložte šablonu kliknutím na tlačítko **Uložit**
 
 ![Evidence nářadí - nastavení šablony](media/production-tools-tool-journal-template.png)
 

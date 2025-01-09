@@ -12,7 +12,7 @@ ms.search.keywords: pack tracking, production tools, productivity pack
 
  Modul **Evidence nářadí a pomůcek** řeší problematiku evidence nářadí, pomůcek, nástrojů, forem a jiných potřeb obvykle evidovaných pomocí skladové evidence systému. Tento modul je postaven nad základy evidence majetku, s ohledem na sjednocení evidence pro potřeby sledování dlouhodobého majetku a výrobní evidence, tj. půjčování nářadí a pomůcek.
 
- V tomhle článku vám ukážeme, jak tento modul nastavit.
+ Pro plnohodnotné používání modulu je nutné je nastavit dle potřeb konkrétní společnosti. Níže jsou popsáný jednotlivé části nastavení.
 
 ### Šablony deníku evidence nástrojů
 

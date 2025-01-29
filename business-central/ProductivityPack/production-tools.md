@@ -10,7 +10,7 @@ ms.search.keywords: tool evidence, production tools, productivity pack
 # Evidence nástrojů a pomůcek
 > Aktualizace: 01.12.2024
 
-Získejte plnou kontrolu nad vašemi nástroji a vybavením díky chytrému řešení, pomocí našeho modulu integrovaného přímo do systému Business Central. Sledujte pohyb nářadí, minimalizujte ztráty a prodlužte jeho životnost díky snadnému přehledu o evidenci, zápůjčkách, kontrolách a údržbě. Modul Evidence nástrojů a pomůcek řeší problematiku evidence nářadí, pomůcek, nástrojů, forem a jiných potřeb obvykle evidovaných pomocí skladové evidence systému. Tento modul je postaven nad základy evidence majetku, s ohledem na sjednocení evidence pro potřeby sledování dlouhodobého majetku a výrobní evidence, tj. půjčování nářadí a pomůcek.
+Získejte plnou kontrolu nad vašemi nástroji a vybavením díky chytrému řešení, pomocí našeho modulu integrovaného přímo do systému Business Central. Sledujte pohyb nástrojů, minimalizujte ztráty a prodlužte jeho životnost díky snadnému přehledu o evidenci, zápůjčkách, kontrolách a údržbě. Modul Evidence nástrojů a pomůcek řeší problematiku evidence nástrojů, pomůcek a forem a jiných potřeb obvykle evidovaných pomocí skladové evidence systému. Tento modul je postaven nad základy evidence majetku, s ohledem na sjednocení evidence pro potřeby sledování dlouhodobého majetku a výrobní evidence, tj. půjčování nástrojů a pomůcek.
 
 ![Karta nástrojů](media/production-tools-tool-card.png)
 
@@ -26,7 +26,6 @@ Získejte plnou kontrolu nad vašemi nástroji a vybavením díky chytrému ře�
 Používání nástrojů probíhá dle následujícího schématu:
 
 ![Evidence nástrojů a pomůcek - schéma](media/tools-process_720.png)
-
 
 ## Scénáře použití Evidence nástrojů a pomůcek
 
@@ -62,12 +61,12 @@ Abychom vám usnadnili práci, přinášíme přehled nejčastějších scénár
 **Z karty je dále možnost s pomocí akce Související v sekci Dlouhodobý majetek**
 
 - **Přehled** : Zobrazí souhrnný pohled na aktuálně vybraný dlouhodobý majetek. Tento přehled zahrnuje klíčové informace, jako je popis majetku, jeho účetní kategorie, aktuální zůstatky, a další relevantní údaje.
-- **Knihy odpisů** : Poskytuje přístup k přehledu odpisových knih spojených s daným majetkem. Uživatelé zde mohou sledovat historii odpisů, použité odpisové metody a další informace o účetních pohybechmajetku
-- **Poznámky** : Slouží k přidávání a správě poznámek souvisejících s konkrétním dlouhodobým majetkem. Umožňuje například zaznamenat specifické detaily, které nejsou standardně evidovány v jiných částech systému.y
+- **Knihy odpisů** : Poskytuje přístup k přehledu odpisových knih spojených s daným majetkem(nástrojem). Zde můžete sledovat historii odpisů, použité odpisové metody a další informace o účetních pohybech majetku
+- **Poznámky** : Slouží k přidávání a správě poznámek souvisejících s konkrétním dlouhodobým majetkem. Umožňuje například zaznamenat specifické detaily, které nejsou standardně evidovány v jiných částech systému.
 - **Obrázek** : Tato funkce umožňuje připojit nebo zobrazit obrázky spojené s dlouhodobým majetkem. Obrázky mohou být užitečné například pro vizuální identifikaci majetku nebo dokumentaci.
 - **Evidence údržby** : Přístup k záznamům o údržbě pro daný dlouhodobý majetek. Tato funkce je určena pro sledování servisních zásahů, oprav a dalších údržbových aktivit. Pomáhá zajistit, že majetek je udržován v provozuschopném stavu
 - **Komponenty hl majetku** : Zobrazuje přehled komponent, které tvoří hlavní majetek. Tato funkce je relevantní zejména pro složený majetek, který zahrnuje více dílčích částí.
-- **Kopírovat DM** : Umožňuje vytvořit kopii aktuálního záznamu dlouhodobého majetku. Tato funkce šetří čas při zakládání nového majetku s podobnými parametry jako již existující položka.
+- **Kopírovat DM** : Umožňuje vytvořit kopii aktuálního záznamu dlouhodobého majetku. Tato funkce šetří čas při zakládání nového majetku s podobnými parametry které má již existující položka.
 - **Statistika hlavního majetku** : Poskytuje statistický pohled na dlouhodobý majetek, zahrnující například přehled o hodnotě majetku, odpisy a zůstatky. Tato data jsou užitečná pro finanční analýzy a plánování.
 - **Přehled typů účtování majetku**: Tato funkce zobrazuje přehled všech typů účtování, které byly použity pro daný dlouhodobý majetek. Umožňuje rychlou kontrolu, jakým způsobem je majetek účetně zpracováván.
 - **Celková pojištěná částka** : Poskytuje informaci o celkové hodnotě pojištění, která se vztahuje na daný majetek. Tato funkce pomáhá ověřit, zda je majetek dostatečně pojištěn. 
